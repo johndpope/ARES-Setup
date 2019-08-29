@@ -18,7 +18,7 @@ rp_module_section="sa"
 rp_module_flags=""
 
 function install_bin_drastic() {
-    downloadAndExtract "$ __binary_url/drastic.tar.gz" "$md_inst" 1
+    downloadAndExtract "$__binary_url/drastic.tar.gz" "$md_inst" 1
     patchVendorGraphics "$md_inst/drastic"
 }
 
