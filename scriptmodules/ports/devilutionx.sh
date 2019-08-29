@@ -19,7 +19,7 @@ rp_module_section="prt"
 rp_module_flags="!odroid-xu !odroid-n2"
 
 function install_bin_devilutionx() {
-    downloadAndExtract "$ __binary_url/devilutionx.tar.gz" "$md_inst" 1
+    downloadAndExtract "$__binary_url/devilutionx.tar.gz" "$md_inst" 1
 }
 
 function configure_devilutionx() {
