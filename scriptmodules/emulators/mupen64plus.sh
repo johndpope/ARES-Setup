@@ -124,7 +124,7 @@ function build_mupen64plus() {
     params=("-DMUPENPLUSAPI=On" "-DVEC4_OPT=On" "-DUSE_SYSTEM_LIBS=On")
     isPlatform "neon" && params+=("-DNEON_OPT=On")
     isPlatform "mali" && params+=( "-DODROID=ON" "-DGLES2=ON" "-DEGL=ON")
-    lif isPlatform "rpi3"; then
+    if isPlatform "rpi3"; then
         params+=("-DCRC_ARMV8=On")
     elif isPlatform "vero4k"; then
         params+=("-DVERO4K=On" "-DCRC_OPT=On" "-DEGL=On")
