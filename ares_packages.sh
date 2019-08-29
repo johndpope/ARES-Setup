@@ -9,7 +9,7 @@
 # at https://raw.githubusercontent.com/Retro-Arena/RetroArena-Setup/master/LICENSE.md
 #
 # Core script functionality is based upon The RetroPie Project https://ares.org.uk Script Modules
-#
+##
 
 __version="4.5.1"
 
