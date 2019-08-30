@@ -19,12 +19,12 @@ rp_module_section="prt"
 rp_module_flags="!odroid-xu !odroid-n2"
 
 function install_bin_devilutionx() {
-    downloadAndExtract "$__binary_url/devilutionx.tar.gz" "$md_inst" 1
+    downloadAndExtract "https://github.com/Retro-Arena/ARES-Binaries/raw/master/stretch/odroid-xu/ports/devilutionx.tar.gz" "$md_inst" --strip-components 1
 }
 
 function configure_devilutionx() {
     mkRomDir "ports/$md_id"
-    ln -sfn /home/pigaming/RetroArena/roms/ports/devilutionx/diabdat.mpq "$md_inst/diabdat.mpq"
+    ln -sfn /home/pigaming/ARES/roms/ports/devilutionx/diabdat.mpq "$md_inst/diabdat.mpq"
     addPort "$md_id" "devilutionx" "devilutionx" "$md_inst/devilutionx"
     chown -R $user:$user "$md_inst"
     chmod -R 755 "$md_inst"
