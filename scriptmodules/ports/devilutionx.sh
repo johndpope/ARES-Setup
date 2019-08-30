@@ -16,7 +16,7 @@ rp_module_desc="devilutionx a Diablo 1 engine"
 rp_module_help="Place your diabdat.mpq inside the /home/pigaming/RetroArena/roms/ports/devilutionx folder"
 rp_module_licence="The UNlicense https://raw.githubusercontent.com/diasurgical/devilutionX/master/LICENSE"
 rp_module_section="prt"
-rp_module_flags="!odroid-xu !odroid-n2"
+rp_module_flags="!odroid-n2"
 
 function install_bin_devilutionx() {
     downloadAndExtract "https://github.com/Retro-Arena/ARES-Binaries/raw/master/stretch/odroid-xu/ports/devilutionx.tar.gz" "$md_inst" --strip-components 1
