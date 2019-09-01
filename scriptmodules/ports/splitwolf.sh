@@ -22,8 +22,7 @@ function depends_splitwolf() {
 }
 
 function sources_splitwolf() {
-    gitPullOrClone "$md_build" https://bitbucket.org/linuxwolf6/splitwolf.git
-}
+    gitPullOrClone "$md_build" https://bitbucket.org/linuxwolf6/splitwolf.git scrubbed
 
 function _get_opts_splitwolf() {
     echo 'splitwolf-wolf3d VERSION_WOLF3D_SHAREWARE=y' # shareware v1.4
