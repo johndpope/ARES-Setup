@@ -18,7 +18,7 @@ rp_module_section="sa"
 rp_module_flags=""
 
 function install_bin_drastic() {
-    downloadAndExtract "$https://github.com/Retro-Arena/ARES-Binaries/raw/master/stretch/odroid-xu/emulators/drastic.tar.gz" "$md_inst" 
+    downloadAndExtract "$https://github.com/Retro-Arena/ARES-Binaries/raw/master/stretch/odroid-xu/emulators/drastic.tar.gz" "$md_inst" --strip-components 1
     patchVendorGraphics "$md_inst/drastic"
 }
 
