@@ -23,7 +23,7 @@ function depends_piegalaxy() {
 
 function install_bin_piegalaxy() {
 	local innoversion="1.8-dev-2019-01-13"
-	gitPullOrClone "$md_inst" https://github.com/sigboe/pie-galaxy.git master
+	gitPullOrClone "$md_inst" https://github.com/Retro-Arena/pie-galaxy.git master
 	isPlatform "x86" && (cd "$md_inst" && curl -o wyvern -O https://demenses.net/wyvern-nightly)
 	isPlatform "arm" && (cd "$md_inst" && curl -o wyvern -O https://demenses.net/wyvern-arm-nightly)
 	isPlatform "x86" && downloadAndExtract "http://constexpr.org/innoextract/files/snapshots/innoextract-${innoversion}/innoextract-${innoversion}-linux.tar.xz" "$md_inst" --strip-components 3 innoextract-${innoversion}-linux/bin/amd64/innoextract
