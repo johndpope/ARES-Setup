@@ -50,6 +50,7 @@ function configure_settingsmenu()
 	
 	 # add the gameslist / icons
     local files=(
+        "audioswitch"
         "bezelproject"
         "bgmtoggle"
         "bluetooth"
@@ -75,6 +76,7 @@ function configure_settingsmenu()
     )
 
     local names=(
+        "Sound: Audio Switch"
         "Media: Bezel Project"
         "Sound: BGM Toggle"
         "Network: Bluetooth"
@@ -101,6 +103,7 @@ function configure_settingsmenu()
     )
     
     local descs=(
+        "Switch between HDMI and USB Audio."
         "Downloader for RetroArach system bezel packs to be used for various systems"
         "Enable or disable the background music feature."
         "Register and connect to bluetooth devices. Unregister and remove devices, and display registered and connected devices."
@@ -138,6 +141,7 @@ NOTE: Always make a backup copy of your SD card and your roms and media files be
     
     local hiddens=(
         "true"
+        "true"
         "false"
         "true"
         "true"
@@ -167,6 +171,7 @@ NOTE: Always make a backup copy of your SD card and your roms and media files be
             "caseconfig"
             "audioswitch"
             "fancontrol"
+            "fruitbox"
             "odroidconfig"
         )
         
@@ -174,6 +179,7 @@ NOTE: Always make a backup copy of your SD card and your roms and media files be
             "Media: Case Config for OGST"
             "System: Audio Switch"
             "System: Fan Control"
+            "Media: Jukebox Config"
             "System: Odroid-Config"
         )
         
@@ -181,6 +187,7 @@ NOTE: Always make a backup copy of your SD card and your roms and media files be
             "Install themes for the OGST Case when 'Console System' is selected. In addition, upon game launch, choose different types of scraped images displayed such as boxart, cartart, snap, wheel, screenshot, marquee, or console system (default). There is also an option to completely disable the display."
             "Switch between HDMI and USB Audio."
             "Change the fan settings to control cooling and fan noise."
+            "Configure the default skin and gamepad for Fruitbox jukebox."
             "Expand filesystem, configure network, boot, localisation, SSH, etc.
             
 NOTE: This menu is EXPERIMENTAL. Use at your own risk and be sure to backup your image!"
