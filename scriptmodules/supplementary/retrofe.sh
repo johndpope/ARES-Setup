@@ -208,31 +208,49 @@ function install_ares_collection_retrofe() {
 	[[ -f "$rpcolldir" ]] && return 0
 
 	su -c "$md_inst/retrofe -createcollection $rpcollname" $user
+	echo "sudo $scriptdir/ares_packages.sh settingsmenu launch $datadir/settingsmenu/audioswitch.rp" >> "$rpcolldir/roms/Audio Switch.sh"
+	echo "sudo $scriptdir/ares_packages.sh settingsmenu launch $datadir/settingsmenu/bezelproject.rp" >> "$rpcolldir/roms/Bezel Project.sh"
 	echo "sudo $scriptdir/ares_packages.sh settingsmenu launch $datadir/settingsmenu/bluetooth.rp" >> "$rpcolldir/roms/Bluetooth.sh"
+	echo "sudo $scriptdir/ares_packages.sh settingsmenu launch $datadir/settingsmenu/caseconfig.rp" >> "$rpcolldir/roms/Case Config.sh"
 	echo "sudo $scriptdir/ares_packages.sh settingsmenu launch $datadir/settingsmenu/configedit.rp" >> "$rpcolldir/roms/Configuration Editor.sh"
+	echo "sudo $scriptdir/ares_packages.sh settingsmenu launch $datadir/settingsmenu/controlreset.rp" >> "$rpcolldir/roms/Controller Reset.sh"
+	echo "sudo $scriptdir/ares_packages.sh settingsmenu launch $datadir/settingsmenu/fancontrol.rp" >> "$rpcolldir/roms/Fan Control.sh"
 	echo "sudo $scriptdir/ares_packages.sh settingsmenu launch $datadir/settingsmenu/filemanager.rp" >> "$rpcolldir/roms/File Manager.sh"
+	echo "sudo $scriptdir/ares_packages.sh settingsmenu launch $datadir/settingsmenu/fruitbox.rp" >> "$rpcolldir/roms/Fruit Box.sh"
+	echo "sudo $scriptdir/ares_packages.sh settingsmenu launch $datadir/settingsmenu/launchingvideos.rp" >> "$rpcolldir/roms/Launching Videos.sh"
 	echo "sudo $scriptdir/ares_packages.sh settingsmenu launch $datadir/settingsmenu/retroarch.rp" >> "$rpcolldir/roms/RetroArch Setup.sh"
 	echo "sudo $scriptdir/ares_packages.sh settingsmenu launch $datadir/settingsmenu/retronetplay.rp" >> "$rpcolldir/roms/RetroArch Netplay.sh"
 	echo "sudo $scriptdir/ares_packages.sh settingsmenu launch $datadir/settingsmenu/rpsetup.rp" >> "$rpcolldir/roms/ARES Setup.sh"
 	echo "sudo $scriptdir/ares_packages.sh settingsmenu launch $datadir/settingsmenu/runcommand.rp" >> "$rpcolldir/roms/RunCommand.sh"
 	echo "sudo $scriptdir/ares_packages.sh settingsmenu launch $datadir/settingsmenu/showip.rp" >> "$rpcolldir/roms/Show IP Address.sh"
+	echo "sudo $scriptdir/ares_packages.sh settingsmenu launch $datadir/settingsmenu/softreboot.rp" >> "$rpcolldir/roms/Soft Reboot.sh"
+	echo "sudo $scriptdir/ares_packages.sh settingsmenu launch $datadir/settingsmenu/splashscreen.rp" >> "$rpcolldir/roms/Splash Screen.sh"
+	echo "sudo $scriptdir/ares_packages.sh settingsmenu launch $datadir/settingsmenu/systeminfo.rp" >> "$rpcolldir/roms/System Info.sh" 
+	echo "sudo $scriptdir/ares_packages.sh settingsmenu launch $datadir/settingsmenu/wifi.rp" >> "$rpcolldir/roms/Configure Wifi.sh"
 	echo "sudo reboot" >> "$rpcolldir/roms/Reboot.sh"
 	echo "sudo poweroff" >> "$rpcolldir/roms/Shutdown.sh"
 
     # RaspberryPi-specific tools
     if isPlatform "rpi"; then
 	    echo "sudo $scriptdir/ares_packages.sh settingsmenu launch $datadir/settingsmenu/audiosettings.rp" >> "$rpcolldir/roms/Audio Settings.sh"
-	    echo "sudo $scriptdir/ares_packages.sh settingsmenu launch $datadir/settingsmenu/wifi.rp" >> "$rpcolldir/roms/Configure Wifi.sh"
+	    
 	    echo "sudo $scriptdir/ares_packages.sh settingsmenu launch $datadir/settingsmenu/raspiconfig.rp" >> "$rpcolldir/roms/Raspberry Pi Setup.sh"
-	    echo "sudo $scriptdir/ares_packages.sh settingsmenu launch $datadir/settingsmenu/splashscreen.rp" >> "$rpcolldir/roms/Splash Screen.sh"    
+	     
     fi
 
 	chmod +x "$rpcolldir/roms/"*.sh
 
 	for artdir in "screenshot" "logo"; do
-		cp "$datadir/settingsmenu/icons/audiosettings.png" "$rpcolldir/medium_artwork/$artdir/Audio Settings.png"
+		cp "$datadir/settingsmenu/icons/audiosettings.png" "$rpcolldir/medium_artwork/$artdir/Audio Switch.png"
+		cp "$datadir/settingsmenu/icons/audioswitch.png" "$rpcolldir/medium_artwork/$artdir/Audio Settings.png"
+		cp "$datadir/settingsmenu/icons/bezelproject.png" "$rpcolldir/medium_artwork/$artdir/Bezel Project.png"
 		cp "$datadir/settingsmenu/icons/bluetooth.png" "$rpcolldir/medium_artwork/$artdir/Bluetooth.png"
+		cp "$datadir/settingsmenu/icons/caseconfig.png" "$rpcolldir/medium_artwork/$artdir/Case Config.png"
 		cp "$datadir/settingsmenu/icons/configedit.png" "$rpcolldir/medium_artwork/$artdir/Configuration Editor.png"
+		cp "$datadir/settingsmenu/icons/controlreset.png" "$rpcolldir/medium_artwork/$artdir/Controller Reset.png"
+		cp "$datadir/settingsmenu/icons/fancontrol.png" "$rpcolldir/medium_artwork/$artdir/Fan Control.png"
+		cp "$datadir/settingsmenu/icons/fruitbox.png" "$rpcolldir/medium_artwork/$artdir/Fruit Box.png"
+		cp "$datadir/settingsmenu/icons/launchingvideos.png" "$rpcolldir/medium_artwork/$artdir/Launching Videos.png"
 		cp "$datadir/settingsmenu/icons/wifi.png" "$rpcolldir/medium_artwork/$artdir/Configure Wifi.png"
 		cp "$datadir/settingsmenu/icons/filemanager.png" "$rpcolldir/medium_artwork/$artdir/File Manager.png"
 		cp "$datadir/settingsmenu/icons/raspiconfig.png" "$rpcolldir/medium_artwork/$artdir/Raspberry Pi Setup.png"
@@ -242,6 +260,8 @@ function install_ares_collection_retrofe() {
 		cp "$datadir/settingsmenu/icons/runcommand.png" "$rpcolldir/medium_artwork/$artdir/RunCommand.png"
 		cp "$datadir/settingsmenu/icons/showip.png" "$rpcolldir/medium_artwork/$artdir/Show IP Address.png"
 		cp "$datadir/settingsmenu/icons/splashscreen.png" "$rpcolldir/medium_artwork/$artdir/Splash Screen.png"
+		cp "$datadir/settingsmenu/icons/softreboot.png" "$rpcolldir/medium_artwork/$artdir/Soft Reboot.png"
+		cp "$datadir/settingsmenu/icons/systeminfo.png" "$rpcolldir/medium_artwork/$artdir/System Info.png"
 	done
 
 	convert -background none "/etc/emulationstation/themes/carbon/ares/art/system.svg" "$rpcolldir/system_artwork/logo.png"
