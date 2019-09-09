@@ -210,7 +210,7 @@ function main_menu() {
 function clean_gamelist() {
   dialog --infobox "...processing..." 3 20 ; sleep 2
   system=$1
-  gamelist_dir="/home/pigaming/ARES/roms/${system}"
+  gamelist_dir="/home/aresuser/ARES/roms/${system}"
   original_gamelist="${gamelist_dir}/gamelist.xml"
   clean_gamelist="${gamelist_dir}/gamelist.xml-clean"
 

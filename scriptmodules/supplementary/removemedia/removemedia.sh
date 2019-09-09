@@ -221,7 +221,7 @@ function main_menu() {
 function remove_media() {
 dialog --infobox "...processing..." 3 20 ; sleep 2
 choice=$1
-directory="/home/pigaming/ARES/roms/${choice}"
+directory="/home/aresuser/ARES/roms/${choice}"
 
 ls "${directory}/boxart" | sed -e 's/\.jpg$//' | sed -e 's/\.png$//' > /tmp/boxart.txt
 ls "${directory}/cartart" | sed -e 's/\.jpg$//' | sed -e 's/\.png$//' > /tmp/cartart.txt
@@ -278,8 +278,8 @@ rm /tmp/remove_media.sh
 function remove_media_arcade() {
 dialog --infobox "...processing..." 3 20 ; sleep 2
 choice=$1
-arcade="/home/pigaming/ARES/roms/arcade"
-directory="/home/pigaming/ARES/roms/${choice}"
+arcade="/home/aresuser/ARES/roms/arcade"
+directory="/home/aresuser/ARES/roms/${choice}"
 
 ls "${arcade}/boxart" | sed -e 's/\.jpg$//' | sed -e 's/\.png$//' > /tmp/boxart.txt
 ls "${arcade}/cartart" | sed -e 's/\.jpg$//' | sed -e 's/\.png$//' > /tmp/cartart.txt

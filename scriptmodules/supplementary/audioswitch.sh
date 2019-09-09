@@ -27,7 +27,7 @@ function remove_audioswitch() {
 
 function enable_audioswitch() {
     sleep 1
-	sudo su -l pigaming audioswitch
+	sudo su -l aresuser audioswitch
 }
 
 function gui_audioswitch() {

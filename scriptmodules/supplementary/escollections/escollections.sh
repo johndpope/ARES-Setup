@@ -234,49 +234,49 @@ while read gname romfolder
 do
 
   if [[ $romfolder = "arcade" ]]; then
-    ifexist=`ls /home/pigaming/ARES/roms/${romfolder} |grep -w "${gname}.zip"`
-    if [[ -f "/home/pigaming/ARES/roms/${romfolder}/$ifexist" ]]; then
-      echo "/home/pigaming/ARES/roms/${romfolder}/${ifexist}" >> /tmp/tempfile.cfg
+    ifexist=`ls /home/aresuser/ARES/roms/${romfolder} |grep -w "${gname}.zip"`
+    if [[ -f "/home/aresuser/ARES/roms/${romfolder}/$ifexist" ]]; then
+      echo "/home/aresuser/ARES/roms/${romfolder}/${ifexist}" >> /tmp/tempfile.cfg
     else
       :
     fi
   elif [[ $romfolder = "fba" ]]; then
-    ifexist=`ls /home/pigaming/ARES/roms/${romfolder} |grep -w "${gname}.zip"`
-    if [[ -f "/home/pigaming/ARES/roms/${romfolder}/$ifexist" ]]; then
-      echo "/home/pigaming/ARES/roms/${romfolder}/${ifexist}" >> /tmp/tempfile.cfg
+    ifexist=`ls /home/aresuser/ARES/roms/${romfolder} |grep -w "${gname}.zip"`
+    if [[ -f "/home/aresuser/ARES/roms/${romfolder}/$ifexist" ]]; then
+      echo "/home/aresuser/ARES/roms/${romfolder}/${ifexist}" >> /tmp/tempfile.cfg
      else
       :
     fi
   elif [[ $romfolder = "mame-advmame" ]]; then
-    ifexist=`ls /home/pigaming/ARES/roms/${romfolder} |grep -w "${gname}.zip"`
-    if [[ -f "/home/pigaming/ARES/roms/${romfolder}/$ifexist" ]]; then
-      echo "/home/pigaming/ARES/roms/${romfolder}/${ifexist}" >> /tmp/tempfile.cfg
+    ifexist=`ls /home/aresuser/ARES/roms/${romfolder} |grep -w "${gname}.zip"`
+    if [[ -f "/home/aresuser/ARES/roms/${romfolder}/$ifexist" ]]; then
+      echo "/home/aresuser/ARES/roms/${romfolder}/${ifexist}" >> /tmp/tempfile.cfg
      else
       :
     fi
   elif [[ $romfolder = "mame-libretro" ]]; then
-    ifexist=`ls /home/pigaming/ARES/roms/${romfolder} |grep -w "${gname}.zip"`
-    if [[ -f "/home/pigaming/ARES/roms/${romfolder}/$ifexist" ]]; then
-      echo "/home/pigaming/ARES/roms/${romfolder}/${ifexist}" >> /tmp/tempfile.cfg
+    ifexist=`ls /home/aresuser/ARES/roms/${romfolder} |grep -w "${gname}.zip"`
+    if [[ -f "/home/aresuser/ARES/roms/${romfolder}/$ifexist" ]]; then
+      echo "/home/aresuser/ARES/roms/${romfolder}/${ifexist}" >> /tmp/tempfile.cfg
      else
       :
     fi
   elif [[ $romfolder = "mame-mame4all" ]]; then
-    ifexist=`ls /home/pigaming/ARES/roms/${romfolder} |grep -w "${gname}.zip"`
-    if [[ -f "/home/pigaming/ARES/roms/${romfolder}/$ifexist" ]]; then
-      echo "/home/pigaming/ARES/roms/${romfolder}/${ifexist}" >> /tmp/tempfile.cfg
+    ifexist=`ls /home/aresuser/ARES/roms/${romfolder} |grep -w "${gname}.zip"`
+    if [[ -f "/home/aresuser/ARES/roms/${romfolder}/$ifexist" ]]; then
+      echo "/home/aresuser/ARES/roms/${romfolder}/${ifexist}" >> /tmp/tempfile.cfg
      else
       :
     fi
   else
-    ifexist=`ls /home/pigaming/ARES/roms/${romfolder} |grep -w "${gname}"`
-    if [[ -f "/home/pigaming/ARES/roms/${romfolder}/$ifexist" ]]; then
-      echo "/home/pigaming/ARES/roms/${romfolder}/${ifexist}" >> /tmp/tempfile.cfg
+    ifexist=`ls /home/aresuser/ARES/roms/${romfolder} |grep -w "${gname}"`
+    if [[ -f "/home/aresuser/ARES/roms/${romfolder}/$ifexist" ]]; then
+      echo "/home/aresuser/ARES/roms/${romfolder}/${ifexist}" >> /tmp/tempfile.cfg
      else
       :
     fi
   fi
-done < /home/pigaming/ARES-Setup/scriptmodules/supplementary/escollections/escollections/${filename}
+done < /home/aresuser/ARES-Setup/scriptmodules/supplementary/escollections/escollections/${filename}
 
 cat /tmp/tempfile.cfg |sort -u > /tmp/custom-${choice}.cfg
 cp /tmp/custom-${choice}.cfg /opt/ares/configs/all/emulationstation/collections

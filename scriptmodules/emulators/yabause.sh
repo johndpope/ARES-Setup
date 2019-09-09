@@ -52,15 +52,12 @@ function install_yabause() {
     )
 }
 
-function install_bin_yabause() {
-    downloadAndExtract "$__gitbins_url/yabause.tar.gz" "$md_inst" 1
-}
 
 function configure_yabause() {
     mkRomDir "saturn"
     addEmulator 0 "${md_id}-720p" "saturn" "$md_inst/yabasanshiro -a -nf -r 4 -i %ROM%"
     addEmulator 1 "${md_id}-720p-frameskip" "saturn" "$md_inst/yabasanshiro -a -r 4 -i %ROM%"
-    addEmulator 0 "${md_id}-720p-bios" "saturn" "$md_inst/yabasanshiro -a -nf -r 4 -b /home/pigaming/RetroArena/BIOS/saturn_bios.bin -i %ROM%"
-    addEmulator 0 "${md_id}-720p-bios-frameskip" "saturn" "$md_inst/yabasanshiro -a -r 4 -b /home/pigaming/RetroArena/BIOS/saturn_bios.bin -i %ROM%"
+    addEmulator 0 "${md_id}-720p-bios" "saturn" "$md_inst/yabasanshiro -a -nf -r 4 -b /home/aresuser/RetroArena/BIOS/saturn_bios.bin -i %ROM%"
+    addEmulator 0 "${md_id}-720p-bios-frameskip" "saturn" "$md_inst/yabasanshiro -a -r 4 -b /home/aresuser/RetroArena/BIOS/saturn_bios.bin -i %ROM%"
     addSystem "saturn"
 }

@@ -90,8 +90,8 @@ function chroot_build_builder() {
 
         if [[ ! -d "$md_build/$dist" ]]; then
             rp_callModule image create_chroot "$dist" "$md_build/$dist"
-            git clone "$home/ARES-Setup" "$md_build/$dist/home/pigaming/ARES-Setup"
-            cat > "$md_build/$dist/home/pigaming/install.sh" <<_EOF_
+            git clone "$home/ARES-Setup" "$md_build/$dist/home/aresuser/ARES-Setup"
+            cat > "$md_build/$dist/home/aresuser/install.sh" <<_EOF_
 #!/bin/bash
 cd
 sudo apt-get update
@@ -101,9 +101,9 @@ if [[ "$use_distcc" -eq 1 ]]; then
     sudo sed -i s/\+zeroconf/$ip/ /etc/distcc/hosts;
 fi
 _EOF_
-            rp_callModule image chroot "$md_build/$dist" bash /home/pigaming/install.sh
+            rp_callModule image chroot "$md_build/$dist" bash /home/aresuser/install.sh
         else
-            git -C "$md_build/$dist/home/pigaming/ARES-Setup" pull
+            git -C "$md_build/$dist/home/aresuser/ARES-Setup" pull
         fi
 
         for sys in rpi1 rpi2; do
@@ -112,9 +112,9 @@ _EOF_
                 PATH="/usr/lib/distcc:$PATH" \
                 MAKEFLAGS="-j4 PATH=/usr/lib/distcc:$PATH" \
                 __platform="$sys" \
-                /home/pigaming/ARES-Setup/ares_packages.sh builder "$@"
+                /home/aresuser/ARES-Setup/ares_packages.sh builder "$@"
         done
 
-        rsync -av "$md_build/$dist/home/pigaming/ARES-Setup/tmp/archives/" "$scriptdir/tmp/archives/"
+        rsync -av "$md_build/$dist/home/aresuser/ARES-Setup/tmp/archives/" "$scriptdir/tmp/archives/"
     done
 }

@@ -18,14 +18,14 @@ rp_module_section="config"
 function toggle_autoupdate() {
     if [[ -e "$home/.config/autoupdate" ]]; then
         sudo systemctl stop cron.service
-        crontab -u pigaming -r
+        crontab -u aresuser -r
         rm -rf "$home/.config/autoupdate"
         rm -rf "$home/.config/retrohub"
         rm -rf "$home/.config/setupscript"
         printMsgs "dialog" "Disabled AutoUpdate Service"
     else
         sudo systemctl start cron.service
-        crontab -u pigaming "$scriptdir/scriptmodules/supplementary/autoupdate/autoupdate"
+        crontab -u aresuser "$scriptdir/scriptmodules/supplementary/autoupdate/autoupdate"
         touch "$home/.config/autoupdate"
         printMsgs "dialog" "Enabled AutoUpdate Service"
     fi

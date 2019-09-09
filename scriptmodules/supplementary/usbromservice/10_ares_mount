@@ -10,7 +10,7 @@
 #
 
 ## config / defaults
-user="pigaming"
+user="aresuser"
 
 home="$(eval echo ~$user)"
 retroarena_path="$home/RetroArena/roms"

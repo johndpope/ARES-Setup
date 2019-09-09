@@ -29,7 +29,7 @@ function gui_controlreset() {
                 cp $scriptdir/scriptmodules/supplementary/emulationstation/es_input_reset.cfg $home/.emulationstation/es_input.cfg
                 dos2unix $home/.emulationstation/es_input.cfg
                 chmod a+x $home/.emulationstation/es_input.cfg
-                chown pigaming:pigaming $home/.emulationstation/es_input.cfg
+                chown aresuser:aresuser $home/.emulationstation/es_input.cfg
                 reboot
                 ;;
         esac

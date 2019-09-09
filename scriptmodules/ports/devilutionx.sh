@@ -13,7 +13,7 @@
 
 rp_module_id="devilutionx"
 rp_module_desc="devilutionx a Diablo 1 engine"
-rp_module_help="Place your diabdat.mpq inside the /home/pigaming/RetroArena/roms/ports/devilutionx folder"
+rp_module_help="Place your diabdat.mpq inside the /home/aresuser/RetroArena/roms/ports/devilutionx folder"
 rp_module_licence="The UNlicense https://raw.githubusercontent.com/diasurgical/devilutionX/master/LICENSE"
 rp_module_section="prt"
 rp_module_flags="!odroid-n2"
@@ -24,7 +24,7 @@ function install_bin_devilutionx() {
 
 function configure_devilutionx() {
     mkRomDir "ports/$md_id"
-    ln -sfn /home/pigaming/ARES/roms/ports/devilutionx/diabdat.mpq "$md_inst/diabdat.mpq"
+    ln -sfn /home/aresuser/ARES/roms/ports/devilutionx/diabdat.mpq "$md_inst/diabdat.mpq"
     addPort "$md_id" "devilutionx" "devilutionx" "$md_inst/devilutionx"
     chown -R $user:$user "$md_inst"
     chmod -R 755 "$md_inst"
