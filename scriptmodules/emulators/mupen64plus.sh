@@ -26,6 +26,7 @@ function depends_mupen64plus() {
     isPlatform "vero4k" && depends+=(vero3-userland-dev-osmc libboost-all-dev)
 	isPlatform "rockpro64" && depends+=(libboost-all-dev)
     getDepends "${depends[@]}"
+	)
 	
 function sources_mupen64plus() {
     local commit
@@ -164,7 +165,6 @@ function build_mupen64plus() {
     elif isPlatform "kms"; then
         md_ret_require+=(
              'mupen64plus-video-rice/projects/unix/mupen64plus-video-rice.so'
-
             'mupen64plus-video-glide64mk2/projects/unix/mupen64plus-video-glide64mk2.so'
             'mupen64plus-rsp-z64/projects/unix/mupen64plus-rsp-z64.so'
 			#'mupen64plus-rsp-cxd4/projects/unix/mupen64plus-rsp-cxd4.so'
@@ -186,7 +186,7 @@ function build_mupen64plus() {
             md_ret_require+=('mupen64plus-rsp-cxd4/projects/unix/mupen64plus-rsp-cxd4.so')
         fi
     fi
-}	
+}
 
 function install_mupen64plus() {
     for source in *; do
@@ -223,7 +223,6 @@ function configure_mupen64plus() {
             [[ "$res" == "640x480" ]] && name="-highres"
             addEmulator 0 "${md_id}-GLideN64$name" "n64" "$md_inst/bin/mupen64plus.sh mupen64plus-video-GLideN64 %ROM% $res"
             addEmulator 0 "${md_id}-gles2rice$name" "n64" "$md_inst/bin/mupen64plus.sh mupen64plus-video-rice %ROM% $res"
-
         done
         addEmulator 0 "${md_id}-gles2n64" "n64" "$md_inst/bin/mupen64plus.sh mupen64plus-video-n64 %ROM%"
         addEmulator 1 "${md_id}-auto" "n64" "$md_inst/bin/mupen64plus.sh AUTO %ROM%"
@@ -302,7 +301,6 @@ function configure_mupen64plus() {
         iniSet "fontColor" "1F1F1F"
         # Enable Threaded GL calls
         iniSet "ThreadedVideo" "True"
-
         # Disable gles2n64 autores feature and use dispmanx upscaling
         iniConfig "=" "" "$md_conf_root/n64/gles2n64.conf"
         iniSet "auto resolution" "0"
@@ -319,4 +317,4 @@ function configure_mupen64plus() {
 
     chown -R $user:$user "$md_conf_root/n64"
 
-}
+	}
