@@ -54,6 +54,7 @@ function gui_esthemes() {
         'Retro-Arena insert-rom-detailed'
         'Retro-Arena megaman'
         'Retro-Arena retroarena'
+	'Retro-Arena rad'
         'Retro-Arena rick-and-morty'
         'Retro-Arena showcase'
         'Retro-Arena unified'

@@ -25,7 +25,9 @@ function depends_openmsx() {
 }
 
 function sources_openmsx() {
-    gitPullOrClone "$md_build" https://github.com/openMSX/openMSX.git
+    local branch"master"
+    local commit="77b336886adac24737818e5e95557624019cc146"
+    gitPullOrClone "$md_build" https://github.com/openMSX/openMSX.git  "$branch" "$commit"
     sed -i "s|INSTALL_BASE:=/opt/openMSX|INSTALL_BASE:=$md_inst|" build/custom.mk
     sed -i "s|SYMLINK_FOR_BINARY:=true|SYMLINK_FOR_BINARY:=false|" build/custom.mk
 }
