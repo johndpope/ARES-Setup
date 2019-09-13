@@ -26,7 +26,7 @@ function depends_mupen64plus() {
     isPlatform "vero4k" && depends+=(vero3-userland-dev-osmc libboost-all-dev)
 	isPlatform "rockpro64" && depends+=(libboost-all-dev)
     getDepends "${depends[@]}"
-	)
+	}
 	
 function sources_mupen64plus() {
     local commit
