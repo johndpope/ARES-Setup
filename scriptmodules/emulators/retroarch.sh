@@ -12,7 +12,7 @@
 #
 
 rp_module_id="retroarch"
-rp_module_desc="RetroArch v1.7.6 - frontend to the libretro emulator cores - required by all lr-* emulators"
+rp_module_desc="RetroArch v1.7.8.3 - stable branch"
 rp_module_licence="GPL3 https://raw.githubusercontent.com/libretro/RetroArch/master/COPYING"
 rp_module_section="core"
 
@@ -43,7 +43,7 @@ function depends_retroarch() {
 
 function sources_retroarch() {
     if [ "$md_id" == "retroarch" ]; then
-        gitPullOrClone "$md_build" https://github.com/libretro/RetroArch.git v1.7.6
+        gitPullOrClone "$md_build" https://github.com/libretro/RetroArch.git v1.7.8.3
         applyPatch "$md_data/01_hotkey_hack.diff"
         applyPatch "$md_data/02_disable_search.diff"
         applyPatch "$md_data/03_disable_udev_sort.diff"
@@ -174,9 +174,9 @@ function configure_retroarch() {
     iniSet "video_aspect_ratio_auto" "true"
     iniSet "video_smooth" "false"
 
-    if ! isPlatform "x86"; then
-        iniSet "video_threaded" "true"
-    fi
+    #if ! isPlatform "x86"; then
+     #   iniSet "video_threaded" "true"
+    #fi
 
     iniSet "video_font_size" "12"
     iniSet "core_options_path" "$configdir/all/retroarch-core-options.cfg"
