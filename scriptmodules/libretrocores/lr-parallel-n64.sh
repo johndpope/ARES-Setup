@@ -25,7 +25,7 @@ function depends_lr-parallel-n64() {
 }
 
 function sources_lr-parallel-n64() {
-    local branch"master"
+    local branch="master"
     local commit=""
     # build from ab155da1 due to https://github.com/libretro/parallel-n64/issues/544
     isPlatform "arm" && commit="ab155da1"
