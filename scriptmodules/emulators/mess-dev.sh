@@ -17,11 +17,11 @@ rp_module_licence="GPL2 https://github.com/mamedev/mame/blob/master/LICENSE.md"
 rp_module_section="sa"
 rp_module_flags="!armv6"
 
-function _latest_ver_mame() {
+function _latest_ver_mess() {
     wget -qO- https://api.github.com/repos/mamedev/mame/releases/latest | grep -m 1 tag_name | cut -d\" -f4
 }
 
-function _get_binary_name_mame() {
+function _get_binary_name_mess() {
     # The MAME executable on 64-bit systems is called mame64 instead of mame. Rename it back to mame.
     if isPlatform "64bit"; then
         echo 'mess64'
@@ -30,7 +30,7 @@ function _get_binary_name_mame() {
     fi
 }
 
-function depends_mame() {
+function depends_mess() {
     if compareVersions $__gcc_version lt 6.0.0; then
         md_ret_errors+=("Sorry, you need an OS with gcc 6.0 or newer to compile mame")
         return 1
@@ -43,11 +43,11 @@ function depends_mame() {
     getDepends libfontconfig1-dev qt5-default libsdl2-ttf-dev libxinerama-dev
 }
 
-function sources_mame() {
-    gitPullOrClone "$md_build" https://github.com/mamedev/mame.git "$(_latest_ver_mame)"
+function sources_mess() {
+    gitPullOrClone "$md_build" https://github.com/mamedev/mame.git "$(_latest_ver_mess)"
 }
 
-function build_mame() {
+function build_mess() {
     # More memory is required for x86 platforms
     if isPlatform "x86"; then
         rpSwap on 8192
@@ -68,7 +68,7 @@ function build_mame() {
     md_ret_require="$md_build/$(_get_binary_name_${md_id})"
 }
 
-function install_mame() {
+function install_mess() {
     md_ret_files=(
         'artwork'
         'bgfx'
@@ -88,7 +88,7 @@ function install_mame() {
     )
 }
 
-function configure_mame() {
+function configure_mess() {
     local system="mame"
     mkRomDir "arcade"
     mkRomDir "$system"
