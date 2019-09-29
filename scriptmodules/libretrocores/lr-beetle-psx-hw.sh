@@ -12,19 +12,19 @@
 #
 
 rp_module_id="lr-beetle-psx-hw"
-rp_module_desc="PlayStation emulator - Mednafen PSX Port for libretro Hardware acc"
+rp_module_desc="PlayStation emulator - Mednafen PSX Port for libretro with lightrec"
 rp_module_help="ROM Extensions: .bin .cue .cbn .img .iso .m3u .mdf .pbp .toc .z .znx\n\nCopy your PlayStation roms to $romdir/psx\n\nCopy the required BIOS files\n\nscph5500.bin and\nscph5501.bin and\nscph5502.bin to\n\n$biosdir"
 rp_module_licence="GPL2 https://raw.githubusercontent.com/libretro/beetle-psx-libretro/master/COPYING"
 rp_module_section="lr"
 rp_module_flags=""
 
-function depends_lr-beetle-psx() {
+function depends_lr-beetle-psx-hw() {
     local depends=(libgl1-mesa-dev)
     getDepends "${depends[@]}"
 }
 
 function sources_lr-beetle-psx-hw() {
-    gitPullOrClone "$md_build" https://github.com/libretro/beetle-psx-libretro.git
+    gitPullOrClone "$md_build" https://github.com/ZachCook/beetle-psx-libretro.git lightrec
 }
 
 function build_lr-beetle-psx-hw() {
@@ -40,7 +40,6 @@ function install_lr-beetle-psx-hw() {
         'mednafen_psx_hw_libretro.so'
     )
 }
-
 function configure_lr-beetle-psx-hw() {
     mkRomDir "psx"
     ensureSystemretroconfig "psx"

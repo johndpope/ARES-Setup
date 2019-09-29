@@ -22,7 +22,7 @@ function depends_srb2() {
 
 function sources_srb2() {
     gitPullOrClone "$md_build" https://github.com/STJr/SRB2.git
-    downloadAndExtract "$__archive_url/srb2-assets.tar.gz" "$md_build"
+    downloadAndExtract "https://github.com/Retro-Arena/binaries/raw/master/common/srb2-assets.tar.gz" "$md_build"
 }
 
 function build_srb2() {
@@ -37,12 +37,12 @@ function install_srb2() {
     # copy and dereference, so we get a srb2 binary rather than a symlink to srb2-version
     cp -L 'build/bin/srb2' "$md_inst/srb2"
     md_ret_files=(
-        'assets/music.dta'
-        'assets/patch.dta'
-        'assets/player.dta'
-        'assets/rings.dta'
-        'assets/zones.dta'
-        'assets/srb2.srb'
+        'assets/installer/music.dta'
+        'assets/installer/patch.dta'
+        'assets/installer/player.dta'
+        'assets/installer/rings.dta'
+        'assets/installer/zones.dta'
+        'assets/installer/srb2.srb'
     )
 }
 

@@ -30,7 +30,7 @@ function install_theme_esthemes() {
         repo="Retro-Arena"
     fi
     if [[ -z "$theme" ]]; then
-        theme="ghc"
+        theme="rad"
         repo="Retro-Arena"
     fi
     mkdir -p "/etc/emulationstation/themes"

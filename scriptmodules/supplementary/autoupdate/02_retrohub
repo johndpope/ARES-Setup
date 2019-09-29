@@ -1,7 +1,7 @@
 SHELL=/bin/sh
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
-if [ -f /home/aresuser/.config/retrohub ]; then
+if [ -f /home/aresuser/.config/au_retrohub ]; then
     cd /home/aresuser/ARES/retrohub
     sudo git pull https://github.com/Retro-Arena/retrohub.git
     sudo chown -R aresuser:aresuser /home/aresuser/ARES/retrohub

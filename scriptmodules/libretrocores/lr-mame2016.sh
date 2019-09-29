@@ -22,10 +22,10 @@ function sources_lr-mame2016() {
 }
 
 function build_lr-mame2016() {
-    rpSwap on 1200
+    rpSwap on 2000
     local params=($(_get_params_lr-mame) SUBTARGET=arcade)
     make -f Makefile.libretro clean
-    make -f Makefile.libretro "${params[@]}"
+    make -f Makefile.libretro "${params[@]}" -j1
     rpSwap off
     md_ret_require="$md_build/mamearcade2016_libretro.so"
 }
@@ -38,10 +38,11 @@ function install_lr-mame2016() {
 
 function configure_lr-mame2016() {
     local system
-    for system in arcade mame-libretro; do
+    for system in arcade mame-libretro daphne; do
         mkRomDir "$system"
         ensureSystemretroconfig "$system"
         addEmulator 0 "$md_id" "$system" "$md_inst/mamearcade2016_libretro.so"
         addSystem "$system"
     done
+setRetroArchCoreOption "${dir_name}mame2016_throttle" "enabled"
 }

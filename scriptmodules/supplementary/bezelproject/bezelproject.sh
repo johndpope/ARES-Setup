@@ -110,7 +110,12 @@ function removebezelproject() {
     hide_bezel coleco
     hide_bezel n64
     hide_bezel sfc
-
+    hide_bezel gb
+    hide_bezel gbc
+    hide_bezel gba
+    hide_bezel dreamcast
+    hide_bezel naomi
+    hide_bezel atomiswave
     rm -rf /opt/ares/configs/all/retroarch/overlay/GameBezels
     rm -rf /opt/ares/configs/all/retroarch/overlay/ArcadeBezels
 }
@@ -122,6 +127,8 @@ function download_bezel() {
         'thebezelproject Atari5200'
         'thebezelproject Atari7800'
         'thebezelproject ColecoVision'
+        'thebezelproject GB'
+        'thebezelproject GBC'
         'thebezelproject GCEVectrex'
         'thebezelproject MasterSystem'
         'thebezelproject MegaDrive'
@@ -136,6 +143,9 @@ function download_bezel() {
         'thebezelproject PSX'
         'thebezelproject TG16'
         'thebezelproject TG-CD'
+        'thebezelproject Dreamcast'
+        'thebezelproject Naomi'
+        'thebezelproject Atomiswave'
     )
     while true; do
         local theme
@@ -219,6 +229,11 @@ clear
             19 "ColecoVision" \
             20 "Nintendo 64" \
             21 "Super Famicom" \
+            22 "Game Boy" \
+            23 "Game Boy Color" \
+            24 "Sega Dreamcast" \
+            25 "Sega Naomi" \
+            26 "Sammy Atomiswave" \
             2>&1 > /dev/tty)
 
         case "$choice" in
@@ -243,6 +258,12 @@ clear
             19) hide_bezel coleco ;;
             20) hide_bezel n64 ;;
             21) hide_bezel sfc ;;
+            22) hide_bezel gb ;;
+            23) hide_bezel gbc ;;
+            24) hide_bezel gba ;;
+            25) hide_bezel dreamcast ;;
+            26) hide_bezel naomi ;;
+            27) hide_bezel atomiswave ;;
             *)  break ;;
         esac
     done
@@ -277,6 +298,11 @@ clear
             19 "ColecoVision" \
             20 "Nintendo 64" \
             21 "Super Famicom" \
+            22 "Game Boy" \
+            23 "Game Boy Color" \
+            24 "Sega Dreamcast" \
+            25 "Sega Naomi" \
+            26 "Sammy Atomiswave" \
             2>&1 > /dev/tty)
 
         case "$choice" in
@@ -301,6 +327,12 @@ clear
             19) show_bezel coleco ;;
             20) show_bezel n64 ;;
             21) show_bezel sfc ;;
+            22) show_bezel gb ;;
+            23) show_bezel gbc ;;
+            24) show_bezel gba ;;
+            25) show_bezel dreamcast ;;
+            26) show_bezel naomi ;;
+            27) show_bezel atomiswave ;;
             *)  break ;;
         esac
     done
@@ -457,6 +489,21 @@ atari7800)
     sed -i '3i input_overlay_opacity = "1.000000"' /opt/ares/configs/atari7800/retroarch.cfg
   fi
   ;;
+atomiswave)
+  ifexist=`cat /opt/ares/configs/atomiswave/retroarch.cfg |grep "input_overlay" |wc -l`
+  if [[ ${ifexist} > 0 ]]
+  then
+    cp /opt/ares/configs/atomiswave/retroarch.cfg /opt/ares/configs/atomiswave/retroarch.cfg.bkp
+    cat /opt/ares/configs/atomiswave/retroarch.cfg |grep -v input_overlay |grep -v aspect_ratio |grep -v custom_viewport > /tmp/retroarch.cfg
+    cp /tmp/retroarch.cfg /opt/ares/configs/atomiswave/retroarch.cfg
+    sed -i '2i input_overlay = "/opt/ares/configs/all/retroarch/overlay/Atomiswave.cfg"' /opt/ares/configs/atomiswave/retroarch.cfg
+    sed -i '3i input_overlay_opacity = "1.000000"' /opt/ares/configs/atomiswave/retroarch.cfg
+  else
+    cp /opt/ares/configs/atomiswave/retroarch.cfg /opt/ares/configs/atomiswave/retroarch.cfg.bkp
+    sed -i '2i input_overlay = "/opt/ares/configs/all/retroarch/overlay/Atomiswave.cfg"' /opt/ares/configs/atomiswave/retroarch.cfg
+    sed -i '3i input_overlay_opacity = "1.000000"' /opt/ares/configs/atomiswave/retroarch.cfg
+  fi
+  ;;
 coleco)
   ifexist=`cat /opt/ares/configs/coleco/retroarch.cfg |grep "input_overlay" |wc -l`
   if [[ ${ifexist} > 0 ]]
@@ -470,6 +517,21 @@ coleco)
     cp /opt/ares/configs/coleco/retroarch.cfg /opt/ares/configs/coleco/retroarch.cfg.bkp
     sed -i '2i input_overlay = "/opt/ares/configs/all/retroarch/overlay/Colecovision.cfg"' /opt/ares/configs/coleco/retroarch.cfg
     sed -i '3i input_overlay_opacity = "1.000000"' /opt/ares/configs/coleco/retroarch.cfg
+  fi
+  ;;
+dreamcast)
+  ifexist=`cat /opt/ares/configs/dreamcast/retroarch.cfg |grep "input_overlay" |wc -l`
+  if [[ ${ifexist} > 0 ]]
+  then
+    cp /opt/ares/configs/dreamcast/retroarch.cfg /opt/ares/configs/dreamcast/retroarch.cfg.bkp
+    cat /opt/ares/configs/dreamcast/retroarch.cfg |grep -v input_overlay |grep -v aspect_ratio |grep -v custom_viewport > /tmp/retroarch.cfg
+    cp /tmp/retroarch.cfg /opt/ares/configs/dreamcast/retroarch.cfg
+    sed -i '2i input_overlay = "/opt/ares/configs/all/retroarch/overlay/Dreamcast.cfg"' /opt/ares/configs/dreamcast/retroarch.cfg
+    sed -i '3i input_overlay_opacity = "1.000000"' /opt/ares/configs/dreamcast/retroarch.cfg
+  else
+    cp /opt/ares/configs/dreamcast/retroarch.cfg /opt/ares/configs/dreamcast/retroarch.cfg.bkp
+    sed -i '2i input_overlay = "/opt/ares/configs/all/retroarch/overlay/Dreamcast.cfg"' /opt/ares/configs/dreamcast/retroarch.cfg
+    sed -i '3i input_overlay_opacity = "1.000000"' /opt/ares/configs/dreamcast/retroarch.cfg
   fi
   ;;
 famicom)
@@ -560,6 +622,21 @@ n64)
     cp /opt/ares/configs/n64/retroarch.cfg /opt/ares/configs/n64/retroarch.cfg.bkp
     sed -i '2i input_overlay = "/opt/ares/configs/all/retroarch/overlay/Nintendo-64.cfg"' /opt/ares/configs/n64/retroarch.cfg
     sed -i '3i input_overlay_opacity = "1.000000"' /opt/ares/configs/n64/retroarch.cfg
+  fi
+  ;;
+naomi)
+  ifexist=`cat /opt/ares/configs/naomi/retroarch.cfg |grep "input_overlay" |wc -l`
+  if [[ ${ifexist} > 0 ]]
+  then
+    cp /opt/ares/configs/naomi/retroarch.cfg /opt/ares/configs/naomi/retroarch.cfg.bkp
+    cat /opt/ares/configs/naomi/retroarch.cfg |grep -v input_overlay |grep -v aspect_ratio |grep -v custom_viewport > /tmp/retroarch.cfg
+    cp /tmp/retroarch.cfg /opt/ares/configs/naomi/retroarch.cfg
+    sed -i '2i input_overlay = "/opt/ares/configs/all/retroarch/overlay/Naomi.cfg"' /opt/ares/configs/naomi/retroarch.cfg
+    sed -i '3i input_overlay_opacity = "1.000000"' /opt/ares/configs/naomi/retroarch.cfg
+  else
+    cp /opt/ares/configs/naomi/retroarch.cfg /opt/ares/configs/naomi/retroarch.cfg.bkp
+    sed -i '2i input_overlay = "/opt/ares/configs/all/retroarch/overlay/Naomi.cfg"' /opt/ares/configs/naomi/retroarch.cfg
+    sed -i '3i input_overlay_opacity = "1.000000"' /opt/ares/configs/naomi/retroarch.cfg
   fi
   ;;
 neogeo)
@@ -1860,6 +1937,7 @@ echo "Atari 5200                                      lr-atari800" >> /tmp/bezel
 echo "Atari 7800                                      lr-prosystem" >> /tmp/bezelprojectinfo.txt
 echo "ColecoVision                                    lr-bluemsx" >> /tmp/bezelprojectinfo.txt
 echo "GCE Vectrex                                     lr-vecx" >> /tmp/bezelprojectinfo.txt
+echo "MAME                                            lr-various" >> /tmp/bezelprojectinfo.txt
 echo "NEC PC Engine CD                                lr-beetle-pce-fast" >> /tmp/bezelprojectinfo.txt
 echo "NEC PC Engine                                   lr-beetle-pce-fast" >> /tmp/bezelprojectinfo.txt
 echo "NEC SuperGrafx                                  lr-beetle-supergrafx" >> /tmp/bezelprojectinfo.txt
@@ -1869,13 +1947,19 @@ echo "Nintendo 64                                     lr-Mupen64plus" >> /tmp/be
 echo "Nintendo Entertainment System                   lr-fceumm, lr-nestopia" >> /tmp/bezelprojectinfo.txt
 echo "Nintendo Famicom Disk System                    lr-fceumm, lr-nestopia" >> /tmp/bezelprojectinfo.txt
 echo "Nintendo Famicom                                lr-fceumm, lr-nestopia" >> /tmp/bezelprojectinfo.txt
+echo "Nintendo Game Boy                               lr-gambatte" >> /tmp/bezelprojectinfo.txt
+echo "Nintendo Game Boy Color                         lr-gambatte" >> /tmp/bezelprojectinfo.txt
+echo "Nintendo Game Boy Advance 
 echo "Nintendo Super Famicom                          lr-snes9x, lr-snes9x2010" >> /tmp/bezelprojectinfo.txt
+echo "Sammy Atomiswave
 echo "Sega 32X                                        lr-picodrive, lr-genesis-plus-gx" >> /tmp/bezelprojectinfo.txt
 echo "Sega CD                                         lr-picodrive, lr-genesis-plus-gx" >> /tmp/bezelprojectinfo.txt
+echo "Sega Dreamcast 
 echo "Sega Genesis                                    lr-picodrive, lr-genesis-plus-gx" >> /tmp/bezelprojectinfo.txt
 echo "Sega Master System                              lr-picodrive, lr-genesis-plus-gx" >> /tmp/bezelprojectinfo.txt
 echo "Sega Mega Drive                                 lr-picodrive, lr-genesis-plus-gx" >> /tmp/bezelprojectinfo.txt
 echo "Sega Mega Drive Japan                           lr-picodrive, lr-genesis-plus-gx" >> /tmp/bezelprojectinfo.txt
+echo "Sega Naomi
 echo "Sega SG-1000                                    lr-genesis-plus-gx" >> /tmp/bezelprojectinfo.txt
 echo "Sony PlayStation                                lr-pcsx-rearmed" >> /tmp/bezelprojectinfo.txt
 echo "Super Nintendo Entertainment System             lr-snes9x, lr-snes9x2010" >> /tmp/bezelprojectinfo.txt
