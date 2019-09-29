@@ -41,22 +41,26 @@ function install_sdltrs() {
 }
 
 function configure_sdltrs() {
-    mkRomDir "trs-80"
+    mkRomDir "trs-80-1"
+	mkRomDir "trs-80-3"
+	mkRomDir "trs-80-4"
 
     local rom
     for rom in level2.rom level3.rom level4.rom level4p.rom; do
         ln -sf "$biosdir/$rom" "$md_inst/$rom"
     done
     if isPlatform "rpi"; then
-    addEmulator 1 "$md_id-model1" "trs-80" "$md_inst/sdltrs -model 1 -romfile $biosdir/level2.rom -showled -diskdir $romdir/trs-80 -disk0 %ROM%"
-    addEmulator 0 "$md_id-model3" "trs-80" "$md_inst/sdltrs -model 3 -romfile3 $biosdir/level3.rom -showled -diskdir $romdir/trs-80 -disk0 %ROM%"
-    addEmulator 0 "$md_id-model4" "trs-80" "$md_inst/sdltrs -model 4 -romfile3 $biosdir/level4.rom -showled -diskdir $romdir/trs-80 -disk0 %ROM%"
-    addEmulator 0 "$md_id-model4p" "trs-80" "$md_inst/sdltrs -model 4p -romfile4p $biosdir/level4p.rom -showled -diskdir $romdir/trs-80 -disk0 %ROM%"
+    addEmulator 1 "$md_id-model1" "trs-80-1" "$md_inst/sdltrs -model 1 -romfile $biosdir/level2.rom -showled -diskdir $romdir/trs-80 -disk0 %ROM%"
+    addEmulator 1 "$md_id-model3" "trs-80-3" "$md_inst/sdltrs -model 3 -romfile3 $biosdir/level3.rom -showled -diskdir $romdir/trs-80 -disk0 %ROM%"
+    addEmulator 1 "$md_id-model4" "trs-80-4" "$md_inst/sdltrs -model 4 -romfile3 $biosdir/level4.rom -showled -diskdir $romdir/trs-80 -disk0 %ROM%"
+    addEmulator 0 "$md_id-model4p" "trs-80-4" "$md_inst/sdltrs -model 4p -romfile4p $biosdir/level4p.rom -showled -diskdir $romdir/trs-80 -disk0 %ROM%"
 	elif isPlatform "rockpro64" || isPlatform "odroid-xu"; then
-	addEmulator 1 "$md_id-model1" "trs-80" "xinit $md_inst/sdltrs -model 1 -romfile $biosdir/level2.rom -showled -diskdir $romdir/trs-80 -disk0 %ROM%"
-    addEmulator 0 "$md_id-model3" "trs-80" "xinit $md_inst/sdltrs -model 3 -romfile3 $biosdir/level3.rom -showled -diskdir $romdir/trs-80 -disk0 %ROM%"
-    addEmulator 0 "$md_id-model4" "trs-80" "xinit $md_inst/sdltrs -model 4 -romfile3 $biosdir/level4.rom -showled -diskdir $romdir/trs-80 -disk0 %ROM%"
-    addEmulator 0 "$md_id-model4p" "trs-80" "xinit $md_inst/sdltrs -model 4p -romfile4p $biosdir/level4p.rom -showled -diskdir $romdir/trs-80 -disk0 %ROM%"
+	addEmulator 1 "$md_id-model1" "trs-80-1" "xinit $md_inst/sdltrs -model 1 -romfile $biosdir/level2.rom -showled -diskdir $romdir/trs-80 -disk0 %ROM%"
+    addEmulator 1 "$md_id-model3" "trs-80-3" "xinit $md_inst/sdltrs -model 3 -romfile3 $biosdir/level3.rom -showled -diskdir $romdir/trs-80 -disk0 %ROM%"
+    addEmulator 1 "$md_id-model4" "trs-80-4" "xinit $md_inst/sdltrs -model 4 -romfile3 $biosdir/level4.rom -showled -diskdir $romdir/trs-80 -disk0 %ROM%"
+    addEmulator 0 "$md_id-model4p" "trs-80-4" "xinit $md_inst/sdltrs -model 4p -romfile4p $biosdir/level4p.rom -showled -diskdir $romdir/trs-80 -disk0 %ROM%"
 	fi
-    addSystem "trs-80"
+    addSystem "trs-80-1"
+	addSystem "trs-80-3"
+	addSystem "trs-80-4"
 }

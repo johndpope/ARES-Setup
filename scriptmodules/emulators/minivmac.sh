@@ -38,10 +38,10 @@ function install_minivmac() {
 }
 
 function configure_minivmac() {
-    mkRomDir "macintosh"
+    mkRomDir "macplus"
 
     ln -sf "$biosdir/vMac.ROM" "$md_inst/vMac.ROM"
 
-    addEmulator 1 "$md_id" "macintosh" "pushd $md_inst; $md_inst/minivmac $romdir/macintosh/System\ Tools.dsk %ROM%; popd"
-    addSystem "macintosh"
+    addEmulator 1 "$md_id" "macintosh" "pushd $md_inst; $md_inst/minivmac $romdir/macplus/System\ Tools.dsk %ROM%; popd"
+    addSystem "macplus"
 }
