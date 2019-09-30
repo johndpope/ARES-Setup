@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env bash
 
 # This file is part of ARES by The RetroArena
 #
@@ -9,7 +9,6 @@
 # at https://raw.githubusercontent.com/Retro-Arena/RetroArena-Setup/master/LICENSE.md
 #
 # Core script functionality is based upon The RetroPie Project https://retropie.org.uk Script Modules
-#
 
 import os, sys, struct, time, fcntl, termios, signal
 import curses, errno, re
@@ -168,8 +167,7 @@ def open_devices():
         try:
             fds.append(os.open(dev, os.O_RDONLY | os.O_NONBLOCK ))
             js_button_codes[fds[-1]] = get_button_codes(dev)
-        except (OSError, ValueError):
-
+        except:
             pass
 
     return devs, fds
@@ -229,7 +227,6 @@ tty_fd = []
 
 
 signal.signal(signal.SIGINT, signal_handler)
-signal.signal(signal.SIGTERM, signal_handler)
 
 # daemonize when signal handlers are registered
 if os.fork():
