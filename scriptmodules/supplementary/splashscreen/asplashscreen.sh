@@ -40,7 +40,7 @@ do_start () {
         elif grep -q "RockPro64" /sys/firmware/devicetree/base/model 2>/dev/null; then
             mpv -vo sdl -fs "$line"    
         else
-            mplayer -vo sdl -fs "$line"
+            ffplay -fs -autoexit "$line"
         fi
     elif $(echo "$line" | grep -q "$REGEX_IMAGE"); then
         if [ "$RANDOMIZE" = "disabled" ]; then
