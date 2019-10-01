@@ -45,6 +45,8 @@ function install_uae4arm() {
 
 function configure_uae4arm() {
     mkRomDir "amiga"
+    mkRomDir "amigacd32"
+    mkRomDir "amigacdtv"
 
     if [[ "$md_mode" == "install" ]]; then
         mkUserDir "$md_conf_root/amiga"
