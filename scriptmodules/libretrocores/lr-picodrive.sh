@@ -45,7 +45,7 @@ function install_lr-picodrive() {
 
 function configure_lr-picodrive() {
     local system
-    for system in genesis megadrive megadrive-japan mastersystem segacd sc-3000 markiii sega32x; do
+    for system in genesis megadrive megadrive-japan mastersystem segacd sc-3000 markiii sega32x pico; do
         mkRomDir "$system"
         ensureSystemretroconfig "$system"
         addEmulator 1 "$md_id" "$system" "$md_inst/picodrive_libretro.so"

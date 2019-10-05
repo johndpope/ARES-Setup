@@ -38,7 +38,7 @@ function install_lr-bluemsx() {
 
 function configure_lr-bluemsx() {
     local system
-    for system in msx msx2 coleco; do
+    for system in msx msx2 msx2p msxtr spectravideo coleco; do
         mkRomDir "$system"
         ensureSystemretroconfig "$system"
         addEmulator 1 "$md_id" "$system" "$md_inst/bluemsx_libretro.so"
