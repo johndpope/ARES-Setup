@@ -36,8 +36,12 @@ function install_lr-o2em() {
 
 function configure_lr-o2em() {
     mkRomDir "videopac"
+    mkRomDir "odyssey2"
     ensureSystemretroconfig "videopac"
+    ensureSystemretroconfig "odyssey2"
 
     addEmulator 1 "$md_id" "videopac" "$md_inst/o2em_libretro.so"
     addSystem "videopac"
+    addEmulator 1 "$md_id" "odyssey2" "$md_inst/o2em_libretro.so"
+    addSystem "odyssey2"
 }
