@@ -43,7 +43,7 @@ function build_lr-mupen64plus-next() {
     elif isPlatform "mali"; then
         params+=(platform="odroid")
     else
-        isPlatform "odroid-xu" && params+=(platform=odroid BOARD=ODROID-XU)
+        isPlatform "odroid-xu" && params+=(HAVE_LTCG=1 platform=odroid BOARD=ODROID-XU)
 		isPlatform "odroid-n2" && params+=(platform=odroid64 BOARD=N2)
 		isPlatform "rockpro64" && params+=(platform=RK3399)
 		isPlatform "arm" && params+=(WITH_DYNAREC=arm)
