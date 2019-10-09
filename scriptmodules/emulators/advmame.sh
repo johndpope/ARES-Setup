@@ -42,7 +42,7 @@ function sources_advmame() {
 
 function build_advmame() {
     ./autogen.sh
-    ./configure CFLAGS="$CFLAGS -fno-stack-protector" --prefix="$md_inst"
+    ./configure CFLAGS="$CFLAGS -fno-stack-protector --enable-sdl --disable-sdl2" --prefix="$md_inst"
     make clean
     make
     md_ret_require="$md_build/advmame"
