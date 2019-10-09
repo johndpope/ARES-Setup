@@ -59,9 +59,9 @@ function configure_linapple() {
         done
     fi
     if isPlatform "rpi" || isPlatform "odroid-xu"; then
-    addEmulator 1 "$md_id" "apple2" "pushd $romdir/apple2; $md_inst/linapple -1 %ROM%; popd"
+    addEmulator 1 "$md_id" "apple2" "pushd $romdir/apple2; $md_inst/linapple -1 -f -r %ROM%; popd"
 	elif isPlatform "rockpro64"; then
-	 addEmulator 1 "$md_id" "apple2" "pushd $romdir/apple2; $sudo xinit md_inst/linapple -1 %ROM%; popd"
+	 addEmulator 1 "$md_id" "apple2" "pushd $romdir/apple2; $sudo xinit md_inst/linapple -f -r -1 %ROM%; popd"
 	 fi
     addSystem "apple2"
 }
