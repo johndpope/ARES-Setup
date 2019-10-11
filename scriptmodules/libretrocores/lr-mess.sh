@@ -47,7 +47,7 @@ function configure_lr-mess() {
     [[ -z "$module" ]] && module="mess_libretro.so"
 
     local system
-    for system in arcadia cdimono1 crvision coleco gb neocdz nes scv pegasus atom bbcmicro electron apf clynx pv1000 adam colorgenie epochgpc exl100 sorcerer fmtowns superacan gp32 hrx vc4000 pc01 alice aquarius microvision vg5000 86rkm vmu mz2500 pocketstation sordm5 gamecom ttutor v06c socrates  bsv8000 abk01 hgmaster  ; do
+    for system in arcadia cdimono1 crvision coleco scv pegasus atom bbcmicro electron apfimag lynx128k pv1000 adam cgenie gamepock exl100 sorcerer fmtowns supracan gp32 hec2hrx_ vc4000 lviv alice aquarius microvsn vg5k radio86 svmu mz2500 pockstat m5 gamecom tutor vector06 socrates  sv8000 apogee gmaster  ; do
         mkRomDir "$system"
         ensureSystemretroconfig "$system"
         addEmulator 0 "$md_id" "$system" "$md_inst/$module"
