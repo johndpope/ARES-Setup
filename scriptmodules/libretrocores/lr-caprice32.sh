@@ -13,7 +13,7 @@
 
 rp_module_id="lr-caprice32"
 rp_module_desc="Amstrad CPC emu - Caprice32 port for libretro"
-rp_module_help="ROM Extensions: .cdt .cpc .dsk\n\nCopy your Amstrad CPC games to $romdir/amstradcpc"
+rp_module_help="ROM Extensions: .cdt .cpc .dsk .m3u\n\nCopy your Amstrad CPC games to $romdir/amstradcpc"
 rp_module_licence="GPL2 https://raw.githubusercontent.com/libretro/libretro-cap32/master/cap32/COPYING.txt"
 rp_module_section="lr"
 
@@ -35,7 +35,9 @@ function install_lr-caprice32() {
 
 function configure_lr-caprice32() {
     mkRomDir "amstradcpc"
+    mkRomDir "amstradgx4000"
     ensureSystemretroconfig "amstradcpc"
+    ensureSystemretroconfig "amstradgx4000"
 
     setRetroArchCoreOption "cap32_autorun" "enabled"
     setRetroArchCoreOption "cap32_Model" "6128"
@@ -44,4 +46,6 @@ function configure_lr-caprice32() {
 
     addEmulator 1 "$md_id" "amstradcpc" "$md_inst/cap32_libretro.so"
     addSystem "amstradcpc"
+    addEmulator 1 "$md_id" "amstradgx4000" "$md_inst/cap32_libretro.so"
+    addSystem "amstradgx4000"
 }
