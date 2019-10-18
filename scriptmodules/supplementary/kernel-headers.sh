@@ -18,7 +18,7 @@ rp_module_flags="!x86"
 
 function sources_kernel-headers() {
     if isPlatform "odroid-xu"; then
-	gitPullOrClone "$md_build"  https://github.com/Retro-Arena/linux.git odroidxu3-3.10.y
+	gitPullOrClone "$md_build"  https://github.com/Retro-Arena/linux.git odroidxu3-4.14.y
 	elif isPlatform "rockpro64"; then
 	gitPullOrClone "$md_build" https://github.com/mrfixit2001/rockchip-kernel.git
 	elif isPlatform "odroid-n2"; then 
