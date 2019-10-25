@@ -47,5 +47,9 @@ function configure_lr-beetle-wswan() {
     addEmulator 1 "$md_id" "wonderswan" "$md_inst/mednafen_wswan_libretro.so"
     addEmulator 1 "$md_id" "wonderswancolor" "$md_inst/mednafen_wswan_libretro.so"
     addSystem "wonderswan"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/wonderswan/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/wonderswan/"
     addSystem "wonderswancolor"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/wonderswancolor/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/wonderswancolor/"
 }

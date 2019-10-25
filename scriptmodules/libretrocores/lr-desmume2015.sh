@@ -42,4 +42,6 @@ function configure_lr-desmume2015() {
 
     addEmulator 0 "$md_id" "nds" "$md_inst/desmume2015_libretro.so"
     addSystem "nds"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

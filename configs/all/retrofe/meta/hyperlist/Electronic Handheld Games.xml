@@ -1,0 +1,599 @@
+<?xml version="1.0"?>
+<menu>
+	<header>
+		<listname>Electronic Handheld Games</listname>
+		<lastlistupdate>08/22/2017</lastlistupdate>
+		<listversion>2.0</listversion>
+		<exporterversion>HyperList XML Exporter Version 1.3 Copywrite (c) 2009-2011 William Strong</exporterversion>
+	</header>
+	<game name="Armor Battle (Mattel Electronics)" index="true" image="a">
+		<description>Armor Battle</description>
+		<cloneof></cloneof>
+		<crc>F5A068FE</crc>
+		<manufacturer>Mattel Electronics</manufacturer>
+		<year>1978</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Banana (VTech, Time &amp; Fun)" index="true" image="b">
+		<description>Banana (Time &amp; Fun)</description>
+		<cloneof></cloneof>
+		<crc>C4AD698D</crc>
+		<manufacturer>VTech</manufacturer>
+		<year>1981</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Baseball (VTech, Explorer Time &amp; Fun)" index="" image="">
+		<description>Baseball (Explorer Time &amp; Fun)</description>
+		<cloneof></cloneof>
+		<crc>4C94D684</crc>
+		<manufacturer>VTech</manufacturer>
+		<year>1984</year>
+		<genre>Sports/Baseball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Bomb Fight (VTech, Mini Time &amp; Fun)" index="" image="">
+		<description>Bomb Fight (Mini Time &amp; Fun)</description>
+		<cloneof></cloneof>
+		<crc>CCE90B0B</crc>
+		<manufacturer>VTech</manufacturer>
+		<year>1982</year>
+		<genre>Shoot-&apos;Em-Up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Caccia al Ladro (VTech, Mini Time &amp; Fun)" index="true" image="c">
+		<description>Caccia al Ladro (Mini Time &amp; Fun)</description>
+		<cloneof></cloneof>
+		<crc>95F87601</crc>
+		<manufacturer>VTech</manufacturer>
+		<year>1984</year>
+		<genre>Shoot-&apos;Em-Up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Cessate il Fuoco (VTech, Mini Time &amp; Fun)" index="" image="">
+		<description>Cessate il Fuoco (Mini Time &amp; Fun)</description>
+		<cloneof></cloneof>
+		<crc>51FFF67D</crc>
+		<manufacturer>VTech</manufacturer>
+		<year>1984</year>
+		<genre>Shoot-&apos;Em-Up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Chicky Woggy (VTech, Arcade Time &amp; Fun)" index="" image="">
+		<description>Chicky Woggy (Arcade Time &amp; Fun)</description>
+		<cloneof></cloneof>
+		<crc>8ECD63A1</crc>
+		<manufacturer>VTech</manufacturer>
+		<year>1982</year>
+		<genre>Maze</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Chicky Woggy (VTech, Electronic Tini-Arcade)" index="" image="">
+		<description>Chicky Woggy (Electronic Tini-Arcade)</description>
+		<cloneof></cloneof>
+		<crc>E957B4B7</crc>
+		<manufacturer>VTech</manufacturer>
+		<year>1982</year>
+		<genre>Maze</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Condor (VTech, Time &amp; Fun)" index="" image="">
+		<description>Condor (Time &amp; Fun)</description>
+		<cloneof></cloneof>
+		<crc>8C7D3759</crc>
+		<manufacturer>VTech</manufacturer>
+		<year>1981</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Crazy Chewy (VTech, Electronic Tini-Arcade)" index="" image="">
+		<description>Crazy Chewy (Electronic Tini-Arcade)</description>
+		<cloneof></cloneof>
+		<crc>B9F2958F</crc>
+		<manufacturer>VTech</manufacturer>
+		<year>1982</year>
+		<genre>Maze</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Defendo (VTech, Explorer Time &amp; Fun)" index="true" image="d">
+		<description>Defendo (Explorer Time &amp; Fun)</description>
+		<cloneof></cloneof>
+		<crc>E6B4CD42</crc>
+		<manufacturer>VTech</manufacturer>
+		<year>1984</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Donkey Angler (Gakken, LCD Card Game)" index="" image="">
+		<description>Donkey Angler (LCD Card Game)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Gakken</manufacturer>
+		<year>1983</year>
+		<genre>Sports/Fishing</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Donkey Kong (Coleco)" index="" image="">
+		<description>Donkey Kong</description>
+		<cloneof></cloneof>
+		<crc>E1027DE</crc>
+		<manufacturer>Coleco</manufacturer>
+		<year>1982</year>
+		<genre>Platform</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Donkey Kong (Nintendo, Multi Screen)" index="" image="">
+		<description>Donkey Kong (Multi Screen)</description>
+		<cloneof></cloneof>
+		<crc>57216830</crc>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1982</year>
+		<genre>Platform</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Donkey Kong Circus (Nintendo, Panorama Screen)" index="" image="">
+		<description>Donkey Kong Circus (Panorama Screen)</description>
+		<cloneof></cloneof>
+		<crc>4C61471C</crc>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1984</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Donkey Kong II (Nintendo, Multi Screen)" index="" image="">
+		<description>Donkey Kong II (Multi Screen)</description>
+		<cloneof></cloneof>
+		<crc>BDC080B</crc>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1983</year>
+		<genre>Platform</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Donkey Kong Jr. (Coleco)" index="" image="">
+		<description>Donkey Kong Jr.</description>
+		<cloneof></cloneof>
+		<crc>447593F0</crc>
+		<manufacturer>Coleco</manufacturer>
+		<year>1983</year>
+		<genre>Platform</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Donkey Kong Jr. (Nintendo, Panorama Screen)" index="" image="">
+		<description>Donkey Kong Jr. (Panorama Screen)</description>
+		<cloneof></cloneof>
+		<crc>54DC17C3</crc>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1983</year>
+		<genre>Platform</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Donkey Kong Jr. (Nintendo, Table Top)" index="" image="">
+		<description>Donkey Kong Jr. (Table Top)</description>
+		<cloneof></cloneof>
+		<crc>261421BF</crc>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1983</year>
+		<genre>Platform</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Dungeons &amp; Dragons Computer Fantasy Game (Mattel Electronics, Arcade Action Series)" index="" image="">
+		<description>Dungeons &amp; Dragons Computer Fantasy Game (Arcade Action Series)</description>
+		<cloneof></cloneof>
+		<crc>1F67F58B</crc>
+		<manufacturer>Mattel Electronics</manufacturer>
+		<year>1981</year>
+		<genre>Role-Playing</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Egg (Nintendo, Wide Screen)" index="true" image="e">
+		<description>Egg (Wide Screen)</description>
+		<cloneof></cloneof>
+		<crc>6F066CA5</crc>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1981</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Engine Room (VTech, Explorer Time &amp; Fun)" index="" image="">
+		<description>Engine Room (Explorer Time &amp; Fun)</description>
+		<cloneof></cloneof>
+		<crc>32FB691D</crc>
+		<manufacturer>VTech</manufacturer>
+		<year>1984</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Escape (VTech, Time &amp; Fun)" index="" image="">
+		<description>Escape (Time &amp; Fun)</description>
+		<cloneof></cloneof>
+		<crc>E18B8363</crc>
+		<manufacturer>VTech</manufacturer>
+		<year>1981</year>
+		<genre>Strategy</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Explorers of Space (Elektronika)" index="" image="">
+		<description>Explorers of Space</description>
+		<cloneof></cloneof>
+		<crc>55F28DFA</crc>
+		<manufacturer>Elektronika</manufacturer>
+		<year>1989</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Fowling (Elektronika)" index="true" image="f">
+		<description>Fowling</description>
+		<cloneof></cloneof>
+		<crc>23429686</crc>
+		<manufacturer>Elektronika</manufacturer>
+		<year>1989</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Frog Boaster (Elektronika)" index="" image="">
+		<description>Frog Boaster</description>
+		<cloneof></cloneof>
+		<crc>131EDD9C</crc>
+		<manufacturer>Elektronika</manufacturer>
+		<year>1989</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Galaxy II (Epoch)" index="true" image="g">
+		<description>Galaxy II</description>
+		<cloneof></cloneof>
+		<crc>1270ED83</crc>
+		<manufacturer>Epoch</manufacturer>
+		<year>1981</year>
+		<genre>Shooter</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Grab Man (unknown manufacturer, Game &amp; Time)" index="" image="">
+		<description>Grab Man (Game &amp; Time)</description>
+		<cloneof></cloneof>
+		<crc>5249DE08</crc>
+		<manufacturer>Unknown</manufacturer>
+		<year>198?</year>
+		<genre>Maze</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Hippo Teeth (VTech, Mini Time &amp; Fun)" index="true" image="h">
+		<description>Hippo Teeth (Mini Time &amp; Fun)</description>
+		<cloneof></cloneof>
+		<crc>6802A569</crc>
+		<manufacturer>VTech</manufacturer>
+		<year>1982</year>
+		<genre>Shoot-&apos;Em-Up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Hippo Teeth (VTech, Sporty Time &amp; Fun)" index="" image="">
+		<description>Hippo Teeth (Sporty Time &amp; Fun)</description>
+		<cloneof></cloneof>
+		<crc>EBE52E6</crc>
+		<manufacturer>VTech</manufacturer>
+		<year>1982</year>
+		<genre>Shoot-&apos;Em-Up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Hot Line (VTech, Mini Time &amp; Fun)" index="" image="">
+		<description>Hot Line (Mini Time &amp; Fun)</description>
+		<cloneof></cloneof>
+		<crc>6819CA95</crc>
+		<manufacturer>VTech</manufacturer>
+		<year>1982</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Hot Line (VTech, Sporty Time &amp; Fun)" index="" image="">
+		<description>Hot Line (Sporty Time &amp; Fun)</description>
+		<cloneof></cloneof>
+		<crc>8E255C8A</crc>
+		<manufacturer>VTech</manufacturer>
+		<year>1982</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Las Vegas (Bandai, LCD Game Digital)" index="true" image="l">
+		<description>Las Vegas (LCD Game Digital)</description>
+		<cloneof></cloneof>
+		<crc>115BF4D</crc>
+		<manufacturer>Bandai</manufacturer>
+		<year>1981</year>
+		<genre>Casino</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Lifeboat (Nintendo, Multi Screen)" index="" image="">
+		<description>Lifeboat (Multi Screen)</description>
+		<cloneof></cloneof>
+		<crc>E549710</crc>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Mario Bros. (Nintendo, Multi Screen)" index="true" image="m">
+		<description>Mario Bros. (Multi Screen)</description>
+		<cloneof></cloneof>
+		<crc>CE179D0</crc>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Mario&apos;s Bombs Away (Nintendo, Panorama Screen)" index="" image="">
+		<description>Mario&apos;s Bombs Away (Panorama Screen)</description>
+		<cloneof></cloneof>
+		<crc>C5416478</crc>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Mickey Mouse (Nintendo, Panorama Screen)" index="" image="">
+		<description>Mickey Mouse (Panorama Screen)</description>
+		<cloneof></cloneof>
+		<crc>FA2D16B4</crc>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1984</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Mickey Mouse (Nintendo, Wide Screen)" index="" image="">
+		<description>Mickey Mouse (Wide Screen)</description>
+		<cloneof></cloneof>
+		<crc>7DE403C0</crc>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1981</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Monkey (VTech, Time &amp; Fun)" index="" image="">
+		<description>Monkey (Time &amp; Fun)</description>
+		<cloneof></cloneof>
+		<crc>5FA44737</crc>
+		<manufacturer>VTech</manufacturer>
+		<year>1981</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Monkey Jump (VTech, Arcade Time &amp; Fun)" index="" image="">
+		<description>Monkey Jump (Arcade Time &amp; Fun)</description>
+		<cloneof></cloneof>
+		<crc>67C79FA2</crc>
+		<manufacturer>VTech</manufacturer>
+		<year>1982</year>
+		<genre>Platform</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Motor Cross (Queentex)" index="" image="">
+		<description>Motor Cross</description>
+		<cloneof></cloneof>
+		<crc>DE815A80</crc>
+		<manufacturer>Queentex</manufacturer>
+		<year>199?</year>
+		<genre>Motorcycle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Pac Man (Tomytronic)" index="true" image="p">
+		<description>Pac Man</description>
+		<cloneof></cloneof>
+		<crc>D0B07FF9</crc>
+		<manufacturer>Tomytronic</manufacturer>
+		<year>1981</year>
+		<genre>Maze</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Pancake (VTech, Time &amp; Fun)" index="" image="">
+		<description>Pancake (Time &amp; Fun)</description>
+		<cloneof></cloneof>
+		<crc>1EED4D98</crc>
+		<manufacturer>VTech</manufacturer>
+		<year>1981</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Parachute (Nintendo, Wide Screen)" index="" image="">
+		<description>Parachute (Wide Screen)</description>
+		<cloneof></cloneof>
+		<crc>A5BD0B4C</crc>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1981</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Penguin Land (Bandai Electronics, LCD Double Play)" index="" image="">
+		<description>Penguin Land (LCD Double Play)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Bandai Electronics</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Pirate (VTech, Time &amp; Fun)" index="" image="">
+		<description>Pirate (Time &amp; Fun)</description>
+		<cloneof></cloneof>
+		<crc>ACC55FAD</crc>
+		<manufacturer>VTech</manufacturer>
+		<year>1981</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Roller Coaster (VTech, Explorer Time &amp; Fun)" index="true" image="r">
+		<description>Roller Coaster (Explorer Time &amp; Fun)</description>
+		<cloneof></cloneof>
+		<crc>5BFA269A</crc>
+		<manufacturer>VTech</manufacturer>
+		<year>1984</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Safari (VTech, Time &amp; Fun)" index="true" image="s">
+		<description>Safari (Time &amp; Fun)</description>
+		<cloneof></cloneof>
+		<crc>A405AC61</crc>
+		<manufacturer>VTech</manufacturer>
+		<year>1981</year>
+		<genre>Strategy</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Sleep Walker (VTech, Time &amp; Fun)" index="" image="">
+		<description>Sleep Walker (Time &amp; Fun)</description>
+		<cloneof></cloneof>
+		<crc>134E0780</crc>
+		<manufacturer>VTech</manufacturer>
+		<year>1981</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Snoopy (Nintendo, Panorama Screen)" index="" image="">
+		<description>Snoopy (Panorama Screen)</description>
+		<cloneof></cloneof>
+		<crc>AA8EC3C5</crc>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1983</year>
+		<genre>Rhythm</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Snoopy (Nintendo, Table Top)" index="" image="">
+		<description>Snoopy (Table Top)</description>
+		<cloneof></cloneof>
+		<crc>65C17BA4</crc>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1983</year>
+		<genre>Rhythm</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Snoopy Tennis (Nintendo, Wide Screen)" index="" image="">
+		<description>Snoopy Tennis (Wide Screen)</description>
+		<cloneof></cloneof>
+		<crc>4FBB53FF</crc>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1982</year>
+		<genre>Sports/Tennis</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Sub Chase (Mattel Electronics)" index="" image="">
+		<description>Sub Chase</description>
+		<cloneof></cloneof>
+		<crc>582431D6</crc>
+		<manufacturer>Mattel Electronics</manufacturer>
+		<year>1978</year>
+		<genre>Strategy</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Tennis Menace (VTech, Sporty Time &amp; Fun)" index="true" image="t">
+		<description>Tennis Menace (Sporty Time &amp; Fun)</description>
+		<cloneof></cloneof>
+		<crc>42504819</crc>
+		<manufacturer>VTech</manufacturer>
+		<year>1982</year>
+		<genre>Sports/Tennis</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Tom &amp; Jerry Popper (Gakken, LCD Card Game)" index="" image="">
+		<description>Tom &amp; Jerry Popper (LCD Card Game)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Gakken</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Towering Rescue (Gakken, LCD Card Game)" index="" image="">
+		<description>Towering Rescue (LCD Card Game)</description>
+		<cloneof></cloneof>
+		<crc>7AA9BBF4</crc>
+		<manufacturer>Gakken</manufacturer>
+		<year>1981</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Tron (Tomytronic)" index="" image="">
+		<description>Tron</description>
+		<cloneof></cloneof>
+		<crc>8D7EE6B3</crc>
+		<manufacturer>Tomytronic</manufacturer>
+		<year>1982</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Turtle Bridge (Nintendo, Wide Screen)" index="" image="">
+		<description>Turtle Bridge (Wide Screen)</description>
+		<cloneof></cloneof>
+		<crc>90B01629</crc>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1982</year>
+		<genre>Platform</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Wild Man Jump (VTech, Electronic Tini-Arcade)" index="true" image="w">
+		<description>Wild Man Jump (Electronic Tini-Arcade)</description>
+		<cloneof></cloneof>
+		<crc>1A25DBB1</crc>
+		<manufacturer>VTech</manufacturer>
+		<year>1981</year>
+		<genre>Platform</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+</menu>

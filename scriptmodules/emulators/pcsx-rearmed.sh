@@ -70,4 +70,6 @@ function configure_pcsx-rearmed() {
 
     addEmulator 0 "$md_id" "psx" "pushd $md_inst; ./pcsx -cdfile %ROM%; popd"
     addSystem "psx"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

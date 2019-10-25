@@ -52,4 +52,6 @@ function configure_fbzx() {
 
     addEmulator 0 "$md_id" "zxspectrum" "pushd $md_inst/share; $md_inst/bin/fbzx %ROM%; popd"
     addSystem "zxspectrum"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

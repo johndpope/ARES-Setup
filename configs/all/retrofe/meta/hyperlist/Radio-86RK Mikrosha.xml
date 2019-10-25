@@ -1,0 +1,649 @@
+<?xml version="1.0"?>
+<menu>
+	<header>
+		<listname>Radio-86RK Mikrosha</listname>
+		<lastlistupdate>03/06/2016</lastlistupdate>
+		<listversion>1.0</listversion>
+		<exporterversion>HyperList XML Exporter Version 1.3 Copywrite (c) 2009-2011 William Strong</exporterversion>
+	</header>
+	<game name="Alien Ambush (USSR)" index="true" image="a">
+		<description>Alien Ambush (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Sedov E.A.</manufacturer>
+		<year>1990</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Ball Game, The (USSR)" index="true" image="b">
+		<description>Ball Game, The (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Sandy Pat Corp</manufacturer>
+		<year>1990</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Barmen (USSR)" index="" image="">
+		<description>Barmen (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>ALG</manufacturer>
+		<year>1988</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Bomber Aircraft (USSR)" index="" image="">
+		<description>Bomber Aircraft (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Jup Corp</manufacturer>
+		<year>1990</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Boulder Dash (USSR)" index="" image="">
+		<description>Boulder Dash (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Clever Hands Software</manufacturer>
+		<year>1988</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Cirk (USSR)" index="true" image="c">
+		<description>Cirk (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Popov S.N.</manufacturer>
+		<year>1986</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Cross Fire (USSR)" index="" image="">
+		<description>Cross Fire (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Zyryanov A.V.</manufacturer>
+		<year>1988</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Desantnik 1 - SOS (USSR)" index="true" image="d">
+		<description>Desantnik 1 - SOS (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>ZD Corp</manufacturer>
+		<year>1989</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Digger (USSR)" index="" image="">
+		<description>Digger (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Timohovcev Yu.L.</manufacturer>
+		<year>1989</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Disassembler Mikras (USSR)" index="" image="">
+		<description>Disassembler Mikras (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Unknown</manufacturer>
+		<year>19xx</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Disassembler Mikron (USSR)" index="" image="">
+		<description>Disassembler Mikron (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Unknown</manufacturer>
+		<year>19xx</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Froggi 15 (USSR)" index="true" image="f">
+		<description>Froggi 15 (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>STF</manufacturer>
+		<year>1989</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Galaktika Kindza-Dza (USSR)" index="true" image="g">
+		<description>Galaktika Kindza-Dza (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Unknown</manufacturer>
+		<year>19xx</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Golubyie Berety 1 - Perelet (USSR)" index="" image="">
+		<description>Golubyie Berety 1 - Perelet (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>IS Corp</manufacturer>
+		<year>1991</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Golubyie Berety 2 - Gonka (USSR)" index="" image="">
+		<description>Golubyie Berety 2 - Gonka (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>IS Corp</manufacturer>
+		<year>1991</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Hokkej (USSR)" index="true" image="h">
+		<description>Hokkej (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>KZ</manufacturer>
+		<year>1988</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Instrukciya Super Calc (USSR)" index="true" image="i">
+		<description>Instrukciya Super Calc (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Zaharov D.A.</manufacturer>
+		<year>19xx</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Klad (USSR)" index="true" image="k">
+		<description>Klad (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Pujsis-Pujshe E.I.</manufacturer>
+		<year>1987</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Kommutator (USSR)" index="" image="">
+		<description>Kommutator (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Unknown</manufacturer>
+		<year>19xx</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Labirint (USSR)" index="true" image="l">
+		<description>Labirint (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Marveev A.A.</manufacturer>
+		<year>1988</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Lestnica-1 (USSR)" index="" image="">
+		<description>Lestnica-1 (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Antonov A.V.</manufacturer>
+		<year>19xx</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Life (USSR)" index="" image="">
+		<description>Life (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>VCP</manufacturer>
+		<year>19xx</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Liquid Sky (USSR)" index="" image="">
+		<description>Liquid Sky (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>M-Sys</manufacturer>
+		<year>1989</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Mach 3 (USSR)" index="true" image="m">
+		<description>Mach 3 (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Aleksandr Nikolskij</manufacturer>
+		<year>1992</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Mars (USSR)" index="" image="">
+		<description>Mars (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Cyvinskij M.M.</manufacturer>
+		<year>19xx</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Mikrosha Basic (USSR)" index="" image="">
+		<description>Mikrosha Basic (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Unknown</manufacturer>
+		<year>19xx</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Othello (USSR)" index="true" image="o">
+		<description>Othello (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Unknown</manufacturer>
+		<year>19xx</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Pacman (USSR)" index="true" image="p">
+		<description>Pacman (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Unknown</manufacturer>
+		<year>19xx</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Pagrabs (USSR)" index="" image="">
+		<description>Pagrabs (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Gatis Tetjushevs</manufacturer>
+		<year>1988</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Paket Igrovyh Programm - Design 1 (USSR)" index="" image="">
+		<description>Paket Igrovyh Programm - Design 1 (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Design</manufacturer>
+		<year>19xx</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Panika (USSR)" index="" image="">
+		<description>Panika (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Sedov E.A.</manufacturer>
+		<year>1989</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Pentis (USSR)" index="" image="">
+		<description>Pentis (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>ZD Corp</manufacturer>
+		<year>1989</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Reversi (Sakachkov) (USSR)" index="true" image="r">
+		<description>Reversi (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Sakachkov A.M.</manufacturer>
+		<year>1989</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Reversi (Suzi R.) (USSR)" index="" image="">
+		<description>Reversi (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Suzi R.</manufacturer>
+		<year>19xx</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Rikoshet (USSR)" index="" image="">
+		<description>Rikoshet (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>MIYEM</manufacturer>
+		<year>1986</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Roscker (USSR)" index="" image="">
+		<description>Roscker (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Unknown</manufacturer>
+		<year>19xx</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Saboteurs (USSR)" index="true" image="s">
+		<description>Saboteurs (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Sterlikov S.A., Zaharov D.A.</manufacturer>
+		<year>1988</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Sad (USSR)" index="" image="">
+		<description>Sad (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Unknown</manufacturer>
+		<year>19xx</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Saratov Best-C Compiler (USSR)" index="" image="">
+		<description>Saratov Best-C Compiler (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Kovalenko D.I.</manufacturer>
+		<year>1989</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Shahmaty (USSR)" index="" image="">
+		<description>Shahmaty (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Unknown</manufacturer>
+		<year>1987</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Shahty (USSR)" index="" image="">
+		<description>Shahty (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Borinskij Yu.N.</manufacturer>
+		<year>1987</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Shturm Kreposti (USSR)" index="" image="">
+		<description>Shturm Kreposti (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Unknown</manufacturer>
+		<year>19xx</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Skachki (Kondakov M.) (USSR)" index="" image="">
+		<description>Skachki (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Kondakov M.</manufacturer>
+		<year>1987</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Skachki (USSR)" index="" image="">
+		<description>Skachki (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Unknown</manufacturer>
+		<year>19xx</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Snakes (USSR)" index="" image="">
+		<description>Snakes (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>VCP</manufacturer>
+		<year>19xx</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Sprint (USSR)" index="" image="">
+		<description>Sprint (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Marveev A.A.</manufacturer>
+		<year>1989</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Stakan (USSR)" index="" image="">
+		<description>Stakan (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Unknown</manufacturer>
+		<year>19xx</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Stakan (ZD Corp) (USSR)" index="" image="">
+		<description>Stakan (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>ZD Corp</manufacturer>
+		<year>19xx</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Stakan (Zharkov) (USSR)" index="" image="">
+		<description>Stakan (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Zharkov</manufacturer>
+		<year>19xx</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Star Riders (USSR)" index="" image="">
+		<description>Star Riders (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Aleksandr Nikolskij</manufacturer>
+		<year>1993</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Star Wars (USSR)" index="" image="">
+		<description>Star Wars (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Unknown</manufacturer>
+		<year>19xx</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Supercalc (USSR)" index="" image="">
+		<description>Supercalc (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Unknown</manufacturer>
+		<year>19xx</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Tennis (USSR)" index="true" image="t">
+		<description>Tennis (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Dmitrij Kukujskij</manufacturer>
+		<year>1991</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Tetris (USSR)" index="" image="">
+		<description>Tetris (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Unknown</manufacturer>
+		<year>19xx</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Torpednaya Ataka (USSR)" index="" image="">
+		<description>Torpednaya Ataka (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Ratnikov A.L.</manufacturer>
+		<year>1990</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Udav (USSR)" index="true" image="u">
+		<description>Udav (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Sedov E.A.</manufacturer>
+		<year>1986</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Volcano (USSR)" index="true" image="v">
+		<description>Volcano (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Design</manufacturer>
+		<year>1987</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Way (USSR)" index="true" image="w">
+		<description>Way (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Volkonovskij M.N.</manufacturer>
+		<year>1988</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Xonix (Sedov E.A.) (USSR)" index="true" image="x">
+		<description>Xonix (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Sedov E.A.</manufacturer>
+		<year>1987</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Xonix (Micron) (USSR)" index="" image="">
+		<description>Xonix (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Micron</manufacturer>
+		<year>19xx</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Z-Stanciya (USSR)" index="true" image="z">
+		<description>Z-Stanciya (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>SNP</manufacturer>
+		<year>1987</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Zhizn (USSR)" index="" image="">
+		<description>Zhizn (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>ZD Corp</manufacturer>
+		<year>1989</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="ZZZ-UNK-Tennis (USSR)" index="" image="">
+		<description>ZZZ-UNK-Tennis (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Unknown</manufacturer>
+		<year>19xx</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="ZZZ-UNK-Trasse (USSR)" index="" image="">
+		<description>ZZZ-UNK-Trasse (USSR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Unknown</manufacturer>
+		<year>19xx</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+</menu>

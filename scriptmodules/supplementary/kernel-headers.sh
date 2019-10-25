@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
-# This file is part of ARES by The RetroArena
-#
-# ARES is the legal property of its developers, whose names are
+# This file is part of the RetroArena Project
+# and is the legal property of its developers, whose names are
 # too numerous to list here. Please refer to the COPYRIGHT.md file distributed with this source.
 #
 # See the LICENSE.md file at the top-level directory of this distribution and
@@ -18,20 +17,22 @@ rp_module_flags="!x86"
 
 function sources_kernel-headers() {
     if isPlatform "odroid-xu"; then
-	gitPullOrClone "$md_build"  https://github.com/Retro-Arena/linux.git odroidxu4-4.14.y
+        gitPullOrClone "$md_build"  https://github.com/Retro-Arena/linux.git odroidxu4-4.14.y
 	elif isPlatform "rockpro64"; then
-	gitPullOrClone "$md_build" https://github.com/mrfixit2001/rockchip-kernel.git
-	elif isPlatform "odroid-n2"; then 
-	gitPullOrClone "$md_build"  https://github.com/Retro-Arena/linux.git odroidn2-4.9.y-upstream
+        gitPullOrClone "$md_build" https://github.com/mrfixit2001/rockchip-kernel.git
+    elif isPlatform "odroid-n2"; then 
+        gitPullOrClone "$md_build"  https://github.com/Retro-Arena/linux.git odroidn2-4.9.y-upstream
 	fi
 }
 function build_kernel-headers() {
-rm -r /lib/modules/$(uname -r)/build
-rm -r /lib/modules/$(uname -r)/source
-make -j5 INSTALL_HDR_PATH=/lib/modules/$(uname -r)/build headers_install
+    rm -r /lib/modules/$(uname -r)/build
+    rm -r /lib/modules/$(uname -r)/source
+    make -j5 INSTALL_HDR_PATH=/usr/src/linux-headers-$(uname -r)/ headers_install
+    
 }
 
 function install_kernel-headers() {
-    md_ret_require= "/lib/modules/$(uname -r)/source/linux/.install"
-   
+    mv  -T "$md_build" /usr/src/linux-$(uname -r)/
+    ln -sfn /usr/src/linux-$(uname -r) /lib/modules/$(uname -r)/build
+    ln -sfn /usr/src/linux-$(uname -r) /lib/modules/$(uname -r)/source
 }

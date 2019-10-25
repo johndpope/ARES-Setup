@@ -64,4 +64,6 @@ function configure_linapple() {
 	 addEmulator 1 "$md_id" "apple2" "pushd $romdir/apple2; $sudo xinit md_inst/linapple -f -r -1 %ROM%; popd"
 	 fi
     addSystem "apple2"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

@@ -45,5 +45,9 @@ function configure_lr-tgbdual() {
     addEmulator 0 "$md_id" "gb" "$md_inst/tgbdual_libretro.so"
     addEmulator 0 "$md_id" "gbc" "$md_inst/tgbdual_libretro.so"
     addSystem "gb"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/gb/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/gb/"
     addSystem "gbc"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/gbc/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/gbc/"
 }

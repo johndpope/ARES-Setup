@@ -49,4 +49,6 @@ function configure_lr-dosbox() {
 
     addEmulator 0 "$md_id" "pc" "$md_inst/dosbox_libretro.so"
     addSystem "pc"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

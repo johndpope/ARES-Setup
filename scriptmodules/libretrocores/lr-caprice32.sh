@@ -46,6 +46,10 @@ function configure_lr-caprice32() {
 
     addEmulator 1 "$md_id" "amstradcpc" "$md_inst/cap32_libretro.so"
     addSystem "amstradcpc"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/amstradcpc/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/amstradcpc/"
     addEmulator 1 "$md_id" "amstradgx4000" "$md_inst/cap32_libretro.so"
     addSystem "amstradgx4000"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/amstradgx4000/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/amstradgx4000/"
 }

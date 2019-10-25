@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<menu>
+	<header>
+		<listname>Sord M5</listname>
+		<lastlistupdate>03/06/2016</lastlistupdate>
+		<listversion>1.0</listversion>
+		<exporterversion>HyperList XML Exporter Version 1.3 Copywrite (c) 2009-2011 William Strong</exporterversion>
+	</header>
+	<game name="Dragon Attack (1983)(Takara)(Jp)" index="true" image="d">
+		<description>Dragon Attack</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Takara</manufacturer>
+		<year>1983</year>
+		<genre>shoot-em up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Eskimon (1984)(Takara)(Jp)" index="true" image="e">
+		<description>Eskimoh</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Takara</manufacturer>
+		<year>1984</year>
+		<genre>action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Fruit Search (1983)(Takara)(Jp)" index="true" image="f">
+		<description>Fruit Search</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Takara</manufacturer>
+		<year>1983</year>
+		<genre>puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Funny Mouse (1983)(Takara)(Jp)" index="" image="">
+		<description>Funny Mouse</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Takara</manufacturer>
+		<year>1983</year>
+		<genre>platform</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Heavy Boxing (1983)(Takara)(Jp)" index="true" image="h">
+		<description>Heavy Boxing</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Takara</manufacturer>
+		<year>1983</year>
+		<genre>boxing</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Pooyan (1982)(Konami)(Jp)" index="true" image="p">
+		<description>Pooyan</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Konami</manufacturer>
+		<year>1982</year>
+		<genre>action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Real Tennis (1983)(Takara)(Jp)" index="true" image="r">
+		<description>Real Tennis</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Takara</manufacturer>
+		<year>1983</year>
+		<genre>tennis</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Step Up (1983)(Takara)(Jp)" index="true" image="s">
+		<description>Step Up</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Takara</manufacturer>
+		<year>1983</year>
+		<genre>platform</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Super Cobra (1981)(Konami)(Jp)" index="" image="">
+		<description>Super Cobra</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Konami</manufacturer>
+		<year>1981</year>
+		<genre>shoot-em up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Word Maze (19xx)(Sord)(Jp)" index="true" image="w">
+		<description>Word Maze</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Sord</manufacturer>
+		<year>198x</year>
+		<genre>puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Zac Banic (19xx)(-)" index="true" image="z">
+		<description>Zac Banic</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Sord</manufacturer>
+		<year>198x</year>
+		<genre>shoot-em up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+</menu>

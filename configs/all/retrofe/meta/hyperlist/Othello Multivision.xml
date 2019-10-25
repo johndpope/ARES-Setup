@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<menu>
+	<header>
+		<listname>Othello Multivision</listname>
+		<lastlistupdate>08/22/2017</lastlistupdate>
+		<listversion>2.0</listversion>
+		<exporterversion>HyperList XML Exporter Version 1.3 Copywrite (c) 2009-2011 William Strong</exporterversion>
+	</header>
+	<game name="007 James Bond (Japan)" index="true" image="0">
+		<description>007 James Bond (Japan)</description>
+		<cloneof></cloneof>
+		<crc>90160849</crc>
+		<manufacturer>Tsukuda Original</manufacturer>
+		<year>1984</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Challenge Derby (Japan)" index="true" image="c">
+		<description>Challenge Derby (Japan)</description>
+		<cloneof></cloneof>
+		<crc>C91551DA</crc>
+		<manufacturer>Tsukuda Original</manufacturer>
+		<year>1984</year>
+		<genre>Sports/Horse Racing</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Guzzler (Japan)" index="true" image="g">
+		<description>Guzzler (Japan)</description>
+		<cloneof></cloneof>
+		<crc>61FA9EA0</crc>
+		<manufacturer>Tsukuda Original</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Okamoto Ayako no Match Play Golf (Japan)" index="true" image="o">
+		<description>Okamoto Ayako no Match Play Golf (Japan)</description>
+		<cloneof></cloneof>
+		<crc>547DD7FD</crc>
+		<manufacturer>Tsukuda Original</manufacturer>
+		<year>1984</year>
+		<genre>Sports/Golf</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Othello (Japan)" index="" image="">
+		<description>Othello (Japan)</description>
+		<cloneof></cloneof>
+		<crc>C5A67B95</crc>
+		<manufacturer>Tsukuda Original</manufacturer>
+		<year>1983</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Q-bert (Japan)" index="true" image="q">
+		<description>Q*bert (Japan)</description>
+		<cloneof></cloneof>
+		<crc>77DB4704</crc>
+		<manufacturer>Tsukuda Original</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="San-nin Mahjong (Japan)" index="true" image="s">
+		<description>San-nin Mahjong (Japan)</description>
+		<cloneof></cloneof>
+		<crc>885FA64D</crc>
+		<manufacturer>Tsukuda Original</manufacturer>
+		<year>1984</year>
+		<genre>Mahjong</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Space Armor (Japan)" index="" image="">
+		<description>Space Armor (Japan)</description>
+		<cloneof></cloneof>
+		<crc>AC4F0A5C</crc>
+		<manufacturer>Tsukuda Original</manufacturer>
+		<year>1984</year>
+		<genre>Shooter</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Space Mountain (Japan)" index="" image="">
+		<description>Space Mountain (Japan)</description>
+		<cloneof></cloneof>
+		<crc>BBD87D8F</crc>
+		<manufacturer>Tsukuda Original</manufacturer>
+		<year>1983</year>
+		<genre>Shooter</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+</menu>

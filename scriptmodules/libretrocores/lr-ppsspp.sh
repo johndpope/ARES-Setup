@@ -49,4 +49,6 @@ function configure_lr-ppsspp() {
 
     addEmulator 1 "$md_id" "psp" "$md_inst/ppsspp_libretro.so"
     addSystem "psp"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

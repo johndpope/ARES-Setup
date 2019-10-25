@@ -68,4 +68,6 @@ function configure_xm7() {
 	addEmulator 1 "$md_id" "fm7" "xinit $md_inst/bin/xm7 %ROM%"
 	fi
     addSystem "fm7"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

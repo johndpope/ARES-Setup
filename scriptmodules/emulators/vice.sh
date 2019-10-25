@@ -72,12 +72,15 @@ _EOF_
     chmod +x "$md_inst/bin/vice.sh"
 
     local system
-    for system in c64 c128 pet plus4 vic20 ; do
+    for system in c64 c128 pet plus4 vic20 maxmachine; do
         mkRomDir "$system"
         addSystem "$system"
+		cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+        cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
     done
     
     addEmulator 1 "$md_id-x64" "c64" "$md_inst/bin/vice.sh x64 %ROM%"
+	addEmulator 1 "$md_id-x64" "maxmachine" "$md_inst/bin/vice.sh x64 %ROM%"
     addEmulator 0 "$md_id-x64sc" "c64" "$md_inst/bin/vice.sh x64sc %ROM%"
     addEmulator 1 "$md_id-x128" "c128" "$md_inst/bin/vice.sh x128 %ROM%"
     addEmulator 1 "$md_id-xpet" "pet" "$md_inst/bin/vice.sh xpet %ROM%"

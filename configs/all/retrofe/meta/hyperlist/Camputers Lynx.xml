@@ -1,0 +1,939 @@
+<?xml version="1.0"?>
+<menu>
+	<header>
+		<listname>Camputers Lynx</listname>
+		<lastlistupdate>03/06/2016</lastlistupdate>
+		<listversion>1.0</listversion>
+		<exporterversion>HyperList XML Exporter Version 1.3 Copywrite (c) 2009-2011 William Strong</exporterversion>
+	</header>
+	<game name="3D Monster Craze (1983)(Camsoft)(GB)" index="true" image="3">
+		<description>3D Monster Craze (1983)(Camsoft)(GB)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="6845p (19xx)(-)(48K-96K-128K)" index="true" image="6">
+		<description>6845p (19xx)(-)(48K-96K-128K)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Aide - Lab-Proc (19xx)(-)(FR)" index="true" image="a">
+		<description>Aide - Lab-Proc (19xx)(-)(FR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Air Raid (1984)(Camputers)(GB)" index="" image="">
+		<description>Air Raid (1984)(Camputers)(GB)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Assembler (19xx)(-)[b2]" index="" image="">
+		<description>Assembler (19xx)(-)[b2]</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Assembler (19xx)(-)[b]" index="" image="">
+		<description>Assembler (19xx)(-)[b]</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Backgammon (1983)(Camsoft)(GB)" index="true" image="b">
+		<description>Backgammon (1983)(Camsoft)(GB)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Battlebrick (19xx)(-)" index="" image="">
+		<description>Battlebrick (19xx)(-)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Centipede (19xx)(Play It!)" index="true" image="c">
+		<description>Centipede (19xx)(Play It!)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Character Generator Game (1984)(Camputers)(GB)" index="" image="">
+		<description>Character Generator Game (1984)(Camputers)(GB)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Colossal Adventure (1983)(Level 9 Computing)(Tape 1 of 5)(48K)[welcome]" index="" image="">
+		<description>Colossal Adventure (1983)(Level 9 Computing)(Tape 1 of 5)(48K)[welcome]</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Colossal Adventure (1983)(Level 9 Computing)(Tape 2 of 5)(48K)[binary loader]" index="" image="">
+		<description>Colossal Adventure (1983)(Level 9 Computing)(Tape 2 of 5)(48K)[binary loader]</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Colossal Adventure (1983)(Level 9 Computing)(Tape 3 of 5)(48K)[adventure data]" index="" image="">
+		<description>Colossal Adventure (1983)(Level 9 Computing)(Tape 3 of 5)(48K)[adventure data]</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Colossal Adventure (1983)(Level 9 Computing)(Tape 4 of 5)(48K)[adventure data]" index="" image="">
+		<description>Colossal Adventure (1983)(Level 9 Computing)(Tape 4 of 5)(48K)[adventure data]</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Colossal Adventure (1983)(Level 9 Computing)(Tape 5 of 5)(48K)[adventure data]" index="" image="">
+		<description>Colossal Adventure (1983)(Level 9 Computing)(Tape 5 of 5)(48K)[adventure data]</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Compass v1.1 (1983)(Level 9 Computing)" index="" image="">
+		<description>Compass v1.1 (1983)(Level 9 Computing)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Compass v1.1 (1983)(Level 9 Computing)[b2]" index="" image="">
+		<description>Compass v1.1 (1983)(Level 9 Computing)[b2]</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Compass v1.1 (1983)(Level 9 Computing)[b]" index="" image="">
+		<description>Compass v1.1 (1983)(Level 9 Computing)[b]</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Copys (19xx)(-)(96K-128K)" index="" image="">
+		<description>Copys (19xx)(-)(96K-128K)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Copys (19xx)(-)(96K-128K)[a]" index="" image="">
+		<description>Copys (19xx)(-)(96K-128K)[a]</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="CPM v2.2 (19xx)(Digital Research)(128K)" index="" image="">
+		<description>CPM v2.2 (19xx)(Digital Research)(128K)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Dam Busters (1983)(Camsoft)(96K)(GB)(fr)" index="true" image="d">
+		<description>Dam Busters (1983)(Camsoft)(96K)(GB)(fr)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Dam Busters (1983)(Camsoft)(GB)" index="" image="">
+		<description>Dam Busters (1983)(Camsoft)(GB)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Deathball (1983)(Miller, A.)(GB)" index="" image="">
+		<description>Deathball (1983)(Miller, A.)(GB)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Diggerman (19xx)(Gem Software)(GB)" index="" image="">
+		<description>Diggerman (19xx)(Gem Software)(GB)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Disassembler (19xx)(-)(48K-96K-128K)(FR)" index="" image="">
+		<description>Disassembler (19xx)(-)(48K-96K-128K)(FR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Dungeon Adventure (1983)(Level 9 Computing)(Tape 1 of 5)[welcome]" index="" image="">
+		<description>Dungeon Adventure (1983)(Level 9 Computing)(Tape 1 of 5)[welcome]</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Dungeon Adventure (1983)(Level 9 Computing)(Tape 2 of 5)[binary loader]" index="" image="">
+		<description>Dungeon Adventure (1983)(Level 9 Computing)(Tape 2 of 5)[binary loader]</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Dungeon Adventure (1983)(Level 9 Computing)(Tape 3 of 5)[adventure data]" index="" image="">
+		<description>Dungeon Adventure (1983)(Level 9 Computing)(Tape 3 of 5)[adventure data]</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Dungeon Adventure (1983)(Level 9 Computing)(Tape 4 of 5)[adventure data]" index="" image="">
+		<description>Dungeon Adventure (1983)(Level 9 Computing)(Tape 4 of 5)[adventure data]</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Dungeon Adventure (1983)(Level 9 Computing)(Tape 5 of 5)[adventure data]" index="" image="">
+		<description>Dungeon Adventure (1983)(Level 9 Computing)(Tape 5 of 5)[adventure data]</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Floyds Bank (1983)(Romik Software)(GB)" index="true" image="f">
+		<description>Floyds Bank (1983)(Romik Software)(GB)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Gempack 4 (1983)(Gem Software)(GB)" index="true" image="g">
+		<description>Gempack 4 (1983)(Gem Software)(GB)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Generateur Basic (1984)(Aussage, C.)(FR)" index="" image="">
+		<description>Generateur Basic (1984)(Aussage, C.)(FR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Generateur de Caracteres (19xx)(-)(96K)(FR)" index="" image="">
+		<description>Generateur de Caracteres (19xx)(-)(96K)(FR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Gobble de Spook (1983)(Camsoft)(GB)" index="" image="">
+		<description>Gobble de Spook (1983)(Camsoft)(GB)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Gridtrap (19xx)(-)(FR)" index="" image="">
+		<description>Gridtrap (19xx)(-)(FR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Hyperbolic Functions (19xx)(-)[b]" index="true" image="h">
+		<description>Hyperbolic Functions (19xx)(-)[b]</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Inteltab (1984)(Sauget, A.)(96K-128K)(FR)" index="true" image="i">
+		<description>Inteltab (1984)(Sauget, A.)(96K-128K)(FR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Labyrinthe (19xx)(Quazar Computing)(48K-96K-128K)(GB)(fr)" index="true" image="l">
+		<description>Labyrinthe (19xx)(Quazar Computing)(48K-96K-128K)(GB)(fr)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Lion Text (19xx)(Lion-Soft)" index="" image="">
+		<description>Lion Text (19xx)(Lion-Soft)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Logichess v2.2 (1983)(Danielsen, Kaare - Ekner, Hartvig)(96K)" index="" image="">
+		<description>Logichess v2.2 (1983)(Danielsen, Kaare - Ekner, Hartvig)(96K)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Lynx Composer (1983)(Kennedy, Mike)(96K)[b glitched graphics]" index="" image="">
+		<description>Lynx Composer (1983)(Kennedy, Mike)(96K)[b glitched graphics]</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Lynx Disassembler v1.1 (19xx)(Camputers)(48K-96K-128K)(GB)(fr)" index="" image="">
+		<description>Lynx Disassembler v1.1 (19xx)(Camputers)(48K-96K-128K)(GB)(fr)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Lynx Hangman (1983)(French, Steven B.)" index="" image="">
+		<description>Lynx Hangman (1983)(French, Steven B.)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Lynx Invaders (1983)(Camsoft)(GB)" index="" image="">
+		<description>Lynx Invaders (1983)(Camsoft)(GB)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Lynx JM Utilities Disk v1.0 (1989-11-09)(Koushappas, John)(96K-128K)(GB)" index="" image="">
+		<description>Lynx JM Utilities Disk v1.0 (1989-11-09)(Koushappas, John)(96K-128K)(GB)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Lynx Revival Group - Volume 1 (1988-08-24)(Koushappas, John)(GB)" index="" image="">
+		<description>Lynx Revival Group - Volume 1 (1988-08-24)(Koushappas, John)(GB)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Mastermind (19xx)(-)(96K)(FR)" index="true" image="m">
+		<description>Mastermind (19xx)(-)(96K)(FR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Maths (19xx)(-)(FR)" index="" image="">
+		<description>Maths (19xx)(-)(FR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Mazeman (1983)(Abersoft)(GB)" index="" image="">
+		<description>Mazeman (1983)(Abersoft)(GB)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Mined Out (1983)(Camsoft)(GB)" index="" image="">
+		<description>Mined Out (1983)(Camsoft)(GB)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="MODER-80 v1.0 (1983)(Seven Stars Publishing)(GB)" index="" image="">
+		<description>MODER-80 v1.0 (1983)(Seven Stars Publishing)(GB)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Moonfall (1983)(Camsoft)(GB)" index="" image="">
+		<description>Moonfall (1983)(Camsoft)(GB)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Moonfall (1983)(Camsoft)(GB)(fr)" index="" image="">
+		<description>Moonfall (1983)(Camsoft)(GB)(fr)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Moonfall (1983)(Camsoft)(GB)[instructions only]" index="" image="">
+		<description>Moonfall (1983)(Camsoft)(GB)[instructions only]</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Muncher (1983-06-09)(Gordon, Robert)" index="" image="">
+		<description>Muncher (1983-06-09)(Gordon, Robert)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Music Master (19xx)(Camsoft)(GB)" index="" image="">
+		<description>Music Master (19xx)(Camsoft)(GB)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Numerons (1983)(Camsoft)(96K)(GB)(fr)" index="true" image="n">
+		<description>Numerons (1983)(Camsoft)(96K)(GB)(fr)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Numerons (1983)(Camsoft)(GB)(fr)" index="" image="">
+		<description>Numerons (1983)(Camsoft)(GB)(fr)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Numerons (1983)(Camsoft)(GB)(fr)[b freezes after loading]" index="" image="">
+		<description>Numerons (1983)(Camsoft)(GB)(fr)[b freezes after loading]</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Odysee d&apos;Asterix, L&apos; (19xx)(La Bibliotheque de Cintre)(96K)(FR)" index="true" image="o">
+		<description>Odysee d&apos;Asterix, L&apos; (19xx)(La Bibliotheque de Cintre)(96K)(FR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Oh Mummy!! (1983)(Gem Software)(GB)" index="" image="">
+		<description>Oh Mummy!! (1983)(Gem Software)(GB)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Panik (19xx)(Judd, M.D.)(96K)(Tape 1 of 2)[cr T.A.G.][b]" index="true" image="p">
+		<description>Panik (19xx)(Judd, M.D.)(96K)(Tape 1 of 2)[cr T.A.G.][b]</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Panik (19xx)(Judd, M.D.)(96K)(Tape 2 of 2)[cr T.A.G.][b]" index="" image="">
+		<description>Panik (19xx)(Judd, M.D.)(96K)(Tape 2 of 2)[cr T.A.G.][b]</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Panik (19xx)(Judd, M.D.)[b]" index="" image="">
+		<description>Panik (19xx)(Judd, M.D.)[b]</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Pengo (1984)(Play It!)" index="" image="">
+		<description>Pengo (1984)(Play It!)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Play Your Cards Right (19xx)(-)(96K)" index="" image="">
+		<description>Play Your Cards Right (19xx)(-)(96K)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Pontoon (1983)(Gem Software)(48K-96K-128K)(GB)" index="" image="">
+		<description>Pontoon (1983)(Gem Software)(48K-96K-128K)(GB)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Power Blaster (1983)(Camsoft)(GB)" index="" image="">
+		<description>Power Blaster (1983)(Camsoft)(GB)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Programme Chopin (19xx)(-)(96K-128K)(FR)" index="" image="">
+		<description>Programme Chopin (19xx)(-)(96K-128K)(FR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Programme Chopin (19xx)(-)(FR)" index="" image="">
+		<description>Programme Chopin (19xx)(-)(FR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Quest (19xx)(-)[b]" index="true" image="q">
+		<description>Quest (19xx)(-)[b]</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Racer (1983)(Camsoft)(GB)" index="true" image="r">
+		<description>Racer (1983)(Camsoft)(GB)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Reversi (1983)(Hunt, C.)" index="" image="">
+		<description>Reversi (1983)(Hunt, C.)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Reversi (1983)(Hunt, C.)(Tape 1 of 2)[loader]" index="" image="">
+		<description>Reversi (1983)(Hunt, C.)(Tape 1 of 2)[loader]</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Reversi (1983)(Hunt, C.)(Tape 2 of 2)[game]" index="" image="">
+		<description>Reversi (1983)(Hunt, C.)(Tape 2 of 2)[game]</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Rocketman - A Pair of Number Games for Kids (1983)(Bamby Software)" index="" image="">
+		<description>Rocketman - A Pair of Number Games for Kids (1983)(Bamby Software)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Scrablynx (1985)(Sauget, Alain)(96K)(FR)" index="true" image="s">
+		<description>Scrablynx (1985)(Sauget, Alain)(96K)(FR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Sketch Pad (1984)(Camputers)(48K-96K-128K)(GB)" index="" image="">
+		<description>Sketch Pad (1984)(Camputers)(48K-96K-128K)(GB)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Snake (1983)(Hunt, C.)" index="" image="">
+		<description>Snake (1983)(Hunt, C.)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Snake (1983)(Hunt, C.)[a]" index="" image="">
+		<description>Snake (1983)(Hunt, C.)[a]</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Space Trek (1983)(Quazar Computing)(GB)" index="" image="">
+		<description>Space Trek (1983)(Quazar Computing)(GB)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Spellbound (1983)(Smith, G.)" index="" image="">
+		<description>Spellbound (1983)(Smith, G.)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Star Rover (1983-06)(Lynx User)(48K-96K-128K)" index="" image="">
+		<description>Star Rover (1983-06)(Lynx User)(48K-96K-128K)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Test (19xx)(-)(fr)" index="true" image="t">
+		<description>Test (19xx)(-)(fr)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Treasure Island (1983)(Higgins, Neil)(Tape 1 of 2)[loader]" index="" image="">
+		<description>Treasure Island (1983)(Higgins, Neil)(Tape 1 of 2)[loader]</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Treasure Island (1983)(Higgins, Neil)(Tape 2 of 2)[game]" index="" image="">
+		<description>Treasure Island (1983)(Higgins, Neil)(Tape 2 of 2)[game]</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Tron Blocker (198x)(Sawyer, Stephen)(96K)(GB)(fr)" index="" image="">
+		<description>Tron Blocker (198x)(Sawyer, Stephen)(96K)(GB)(fr)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Twinkle (1983)(Gem Software)" index="" image="">
+		<description>Twinkle (1983)(Gem Software)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Worm, The (1983)(Quazar Computing)(96K)(GB)(fr)" index="true" image="w">
+		<description>Worm, The (1983)(Quazar Computing)(96K)(GB)(fr)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Worm, The (1983)(Quazar Computing)(GB)" index="" image="">
+		<description>Worm, The (1983)(Quazar Computing)(GB)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Zombie Panic (19xx)(-)(FR)" index="true" image="z">
+		<description>Zombie Panic (19xx)(-)(FR)</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+</menu>

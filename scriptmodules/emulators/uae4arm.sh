@@ -109,6 +109,8 @@ _EOF_
     addEmulator 1 "$md_id-a500" "amiga" "$md_inst/$md_id.sh rp-a500.uae %ROM%"
     addEmulator 1 "$md_id-a1200" "amiga" "$md_inst/$md_id.sh rp-a1200.uae %ROM%"
     addSystem "amiga"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/amiga/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/amiga/"
     
     # amigacd32 & CDTV
 
@@ -123,5 +125,9 @@ _EOF_
 	chown -R $user:$user "$romdir/amigacdtv"
     chown -R $user:$user "$md_conf_root/amigacdtv"
     addSystem "amigacd32"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/amigacd32/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/amigacd32/"
 	addSystem "amigacdtv"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/amigacdtv/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/amigacdtv/"
 }

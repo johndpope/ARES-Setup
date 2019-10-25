@@ -49,5 +49,7 @@ function configure_lr-mame2015() {
         ensureSystemretroconfig "$system"
         addEmulator 0 "$md_id" "$system" "$md_inst/mame2015_libretro.so"
         addSystem "$system"
+		cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+        cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
     done
 }

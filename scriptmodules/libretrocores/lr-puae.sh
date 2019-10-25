@@ -38,4 +38,6 @@ function configure_lr-puae() {
     ensureSystemretroconfig "amiga"
     addEmulator 1 "$md_id" "amiga" "$md_inst/puae_libretro.so"
     addSystem "amiga"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

@@ -40,4 +40,6 @@ function configure_lr-81() {
 
     addEmulator 1 "$md_id" "zx81" "$md_inst/81_libretro.so"
     addSystem "zx81"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

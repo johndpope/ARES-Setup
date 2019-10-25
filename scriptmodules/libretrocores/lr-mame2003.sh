@@ -87,4 +87,6 @@ function configure_lr-mame2003() {
     addEmulator 1 "$md_id" "mame-libretro" "$md_inst/${so_name}_libretro.so"
     addSystem "arcade"
     addSystem "mame-libretro"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/mame-libretro/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/mame-libretro/"
 }

@@ -59,4 +59,6 @@ function configure_jzintv() {
 	addEmulator 1 "$md_id" "intellivision" "xinit $md_inst/bin/jzintv -z4 -f1 -p $biosdir -q %ROM%"
 	fi
     addSystem "intellivision"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

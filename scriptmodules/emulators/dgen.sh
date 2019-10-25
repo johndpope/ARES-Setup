@@ -52,6 +52,8 @@ function configure_dgen() {
         mkRomDir "$system"
         addEmulator 0 "$md_id" "$system" "$md_inst/bin/dgen -r $md_conf_root/megadrive/dgenrc %ROM%"
         addSystem "$system"
+		cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+        cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
     done
 
     [[ "$md_mode" == "remove" ]] && return

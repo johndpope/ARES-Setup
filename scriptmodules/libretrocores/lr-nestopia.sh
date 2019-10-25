@@ -57,6 +57,12 @@ function configure_lr-nestopia() {
     addEmulator 1 "$md_id" "fds" "$md_inst/nestopia_libretro.so"
     addEmulator 1 "$md_id" "famicom" "$md_inst/nestopia_libretro.so"
     addSystem "nes"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/nes/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/nes/"
     addSystem "fds"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/fds/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/fds/"
     addSystem "famicom"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/famicom/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/famicom/"
 }

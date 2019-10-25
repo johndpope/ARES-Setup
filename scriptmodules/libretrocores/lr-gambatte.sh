@@ -50,5 +50,9 @@ function configure_lr-gambatte() {
     addEmulator 1 "$md_id" "gb" "$md_inst/gambatte_libretro.so"
     addEmulator 1 "$md_id" "gbc" "$md_inst/gambatte_libretro.so"
     addSystem "gb"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/gb/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/gb/"
     addSystem "gbc"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/gbc/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/gbc/"
 }

@@ -39,4 +39,6 @@ function configure_lr-vemulator() {
 
     addEmulator 1 "$md_id" "svmu" "$md_inst/vemulator_libretro.so"
     addSystem "svmu"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

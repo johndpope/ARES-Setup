@@ -70,6 +70,8 @@ function configure_lr-mupen64plus-next() {
 
     addEmulator 1 "$md_id" "n64" "$md_inst/mupen64plus_next_libretro.so"
     addSystem "n64"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
    
     # set core options
     setRetroArchCoreOption "${dir_name}mupen64plus-169screensize" "640x360"

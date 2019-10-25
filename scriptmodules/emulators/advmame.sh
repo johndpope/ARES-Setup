@@ -162,6 +162,7 @@ function configure_advmame() {
     for system in arcadia astrocade bbcmicro channelf electron supervision studio2 advision megaduck; do
         mkRomDir "$system"
         addSystem "$system"
+		cp "$scriptdir/configs/mame-advmame/advmess.rc" "$md_conf_root/$system/"
         
     done   
 }

@@ -39,4 +39,6 @@ function configure_lr-beetle-lynx() {
 
     addEmulator 0 "$md_id" "atarilynx" "$md_inst/mednafen_lynx_libretro.so"
     addSystem "atarilynx"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

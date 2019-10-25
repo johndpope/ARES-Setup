@@ -42,6 +42,10 @@ function configure_lr-o2em() {
 
     addEmulator 1 "$md_id" "videopac" "$md_inst/o2em_libretro.so"
     addSystem "videopac"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/videopac/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/videopac/"
     addEmulator 1 "$md_id" "odyssey2" "$md_inst/o2em_libretro.so"
     addSystem "odyssey2"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/odyssey2/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/odyssey2/"
 }

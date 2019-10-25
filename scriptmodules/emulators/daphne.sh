@@ -81,4 +81,6 @@ _EOF_
 	addEmulator 0 "$md_id" "daphne-desktop" "$md_inst/daphne.sh %ROM%"
 	fi
     addSystem "daphne"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

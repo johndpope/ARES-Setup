@@ -53,6 +53,8 @@ function configure_lr-hatari() {
 
     addEmulator 1 "$md_id" "atarist" "$md_inst/hatari_libretro.so"
     addSystem "atarist"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 
     # add LD_LIBRARY_PATH='$md_inst' to start of launch command
     iniConfig " = " '"' "$configdir/atarist/emulators.cfg"

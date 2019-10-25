@@ -40,4 +40,6 @@ function configure_lr-handy() {
 
     addEmulator 1 "$md_id" "atarilynx" "$md_inst/handy_libretro.so"
     addSystem "atarilynx"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

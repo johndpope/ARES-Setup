@@ -61,5 +61,9 @@ function configure_xroar() {
     addEmulator 0 "$md_id-coco" "coco" "xinit $md_inst/bin/xroar ${params[*]} -machine coco -run %ROM%"
 	fi
     addSystem "dragon32"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/dragon32/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/dragon32/"
     addSystem "coco"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/coco/"
+cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/coco/"
 }

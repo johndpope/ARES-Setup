@@ -46,5 +46,7 @@ function configure_lr-genesis-plus-gx() {
         ensureSystemretroconfig "$system"
         addEmulator "$def" "$md_id" "$system" "$md_inst/genesis_plus_gx_libretro.so"
         addSystem "$system"
+		cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+        cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
     done
 }

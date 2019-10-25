@@ -51,5 +51,6 @@ function configure_advmame-0.94() {
     delEmulator advmame-0.94.0 arcade
 
     configure_advmame
+	cp "$scriptdir/configs/mame-advmame/advmame-0.94.rc" "$md_conf_root/mame-advmame/"
     
 }

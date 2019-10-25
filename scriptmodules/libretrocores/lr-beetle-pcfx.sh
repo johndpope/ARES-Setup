@@ -39,4 +39,6 @@ function configure_lr-beetle-pcfx() {
 
     addEmulator 1 "$md_id" "pcfx" "$md_inst/mednafen_pcfx_libretro.so"
     addSystem "pcfx"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

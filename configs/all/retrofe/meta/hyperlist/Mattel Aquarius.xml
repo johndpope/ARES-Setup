@@ -1,0 +1,499 @@
+<?xml version="1.0"?>
+<menu>
+	<header>
+		<listname>Mattel Aquarius</listname>
+		<lastlistupdate>03/06/2016</lastlistupdate>
+		<listversion>1.0</listversion>
+		<exporterversion>HyperList XML Exporter Version 1.3 Copywrite (c) 2009-2011 William Strong</exporterversion>
+	</header>
+	<game name="3D Battle Zone (Add On Electronics) (Tape 1)" index="true" image="3">
+		<description>3D Battle Zone (Add On Electronics) (Tape 1)</description>
+		<cloneof></cloneof>
+		<crc>C814617F</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="3D Battle Zone (Add On Electronics) (Tape 2)" index="" image="">
+		<description>3D Battle Zone (Add On Electronics) (Tape 2)</description>
+		<cloneof></cloneof>
+		<crc>D180C56</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Advanced Dungeons &amp; Dragons (Mattel)" index="true" image="a">
+		<description>Advanced Dungeons &amp; Dragons (Mattel)</description>
+		<cloneof></cloneof>
+		<crc>2FE95594</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Alien Quest (-) (Tape 1)" index="" image="">
+		<description>Alien Quest (-) (Tape 1)</description>
+		<cloneof></cloneof>
+		<crc>5DD79191</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Alien Quest (-) (Tape 2)" index="" image="">
+		<description>Alien Quest (-) (Tape 2)</description>
+		<cloneof></cloneof>
+		<crc>689F7866</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Aliens (Add On Electronics) (Tape 1)" index="" image="">
+		<description>Aliens (Add On Electronics) (Tape 1)</description>
+		<cloneof></cloneof>
+		<crc>223AA099</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Aliens (Add On Electronics) (Tape 2)" index="" image="">
+		<description>Aliens (Add On Electronics) (Tape 2)</description>
+		<cloneof></cloneof>
+		<crc>D9A6FBB7</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Astrosmash (Mattel)" index="" image="">
+		<description>Astrosmash (Mattel)</description>
+		<cloneof></cloneof>
+		<crc>CE76C898</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Biorhythms (Mattel)" index="true" image="b">
+		<description>Biorhythms (Mattel)</description>
+		<cloneof></cloneof>
+		<crc>47E1C47B</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Bounder (Add On Electronics) (Tape 1)" index="" image="">
+		<description>Bounder (Add On Electronics) (Tape 1)</description>
+		<cloneof></cloneof>
+		<crc>AA7FD815</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Bounder (Add On Electronics) (Tape 2)" index="" image="">
+		<description>Bounder (Add On Electronics) (Tape 2)</description>
+		<cloneof></cloneof>
+		<crc>7FD21646</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Breakout (Add On Electronics) (Tape 1)" index="" image="">
+		<description>Breakout (Add On Electronics) (Tape 1)</description>
+		<cloneof></cloneof>
+		<crc>DDFD4267</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Breakout (Add On Electronics) (Tape 2)" index="" image="">
+		<description>Breakout (Add On Electronics) (Tape 2)</description>
+		<cloneof></cloneof>
+		<crc>F1DC4B6E</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Chess (Mattel) (proto)" index="true" image="c">
+		<description>Chess (Mattel) (proto)</description>
+		<cloneof></cloneof>
+		<crc>243E59F</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Chuckman (Add On Electronics) (Tape 1)" index="" image="">
+		<description>Chuckman (Add On Electronics) (Tape 1)</description>
+		<cloneof></cloneof>
+		<crc>3881292E</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Chuckman (Add On Electronics) (Tape 2)" index="" image="">
+		<description>Chuckman (Add On Electronics) (Tape 2)</description>
+		<cloneof></cloneof>
+		<crc>4E13945D</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Cute Cubes (K. Baker) (Tape 1)" index="" image="">
+		<description>Cute Cubes (K. Baker) (Tape 1)</description>
+		<cloneof></cloneof>
+		<crc>11332B7B</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Cute Cubes (K. Baker) (Tape 2)" index="" image="">
+		<description>Cute Cubes (K. Baker) (Tape 2)</description>
+		<cloneof></cloneof>
+		<crc>C06BB781</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="D-Fenders (Add On Electronics) (Tape 1)" index="true" image="d">
+		<description>D-Fenders (Add On Electronics) (Tape 1)</description>
+		<cloneof></cloneof>
+		<crc>3264697C</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="D-Fenders (Add On Electronics) (Tape 2)" index="" image="">
+		<description>D-Fenders (Add On Electronics) (Tape 2)</description>
+		<cloneof></cloneof>
+		<crc>E4204461</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Ed-On (Add On Electronics) (Tape 1)" index="true" image="e">
+		<description>Ed-On (Add On Electronics) (Tape 1)</description>
+		<cloneof></cloneof>
+		<crc>D17C04</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Ed-On (Add On Electronics) (Tape 2)" index="" image="">
+		<description>Ed-On (Add On Electronics) (Tape 2)</description>
+		<cloneof></cloneof>
+		<crc>5FE187F0</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Fileform (Mattel)" index="true" image="f">
+		<description>Fileform (Mattel)</description>
+		<cloneof></cloneof>
+		<crc>A7D29ABD</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Gridbug (Add On Electronics) (Tape 1)" index="true" image="g">
+		<description>Gridbug (Add On Electronics) (Tape 1)</description>
+		<cloneof></cloneof>
+		<crc>79B51B77</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Gridbug (Add On Electronics) (Tape 2)" index="" image="">
+		<description>Gridbug (Add On Electronics) (Tape 2)</description>
+		<cloneof></cloneof>
+		<crc>912FF4FE</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Macho Man (K. Baker) (Tape 1)" index="true" image="m">
+		<description>Macho Man (K. Baker) (Tape 1)</description>
+		<cloneof></cloneof>
+		<crc>218CCB45</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Macho Man (K. Baker) (Tape 2)" index="" image="">
+		<description>Macho Man (K. Baker) (Tape 2)</description>
+		<cloneof></cloneof>
+		<crc>556D6BB</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Mazantics (Add On Electronics) (Tape 1)" index="" image="">
+		<description>Mazantics (Add On Electronics) (Tape 1)</description>
+		<cloneof></cloneof>
+		<crc>BAC5773C</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Mazantics (Add On Electronics) (Tape 2)" index="" image="">
+		<description>Mazantics (Add On Electronics) (Tape 2)</description>
+		<cloneof></cloneof>
+		<crc>F8538136</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Melody Chase (Mattel)" index="" image="">
+		<description>Melody Chase (Mattel)</description>
+		<cloneof></cloneof>
+		<crc>6F99DBAF</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Millypede (Add On Electronics) (Tape 1)[CAQ]" index="" image="">
+		<description>Millypede (Add On Electronics) (Tape 1)[CAQ]</description>
+		<cloneof></cloneof>
+		<crc>2D5B7AD8</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Millypede (Add On Electronics) (Tape 2)[CAQ]" index="" image="">
+		<description>Millypede (Add On Electronics) (Tape 2)[CAQ]</description>
+		<cloneof></cloneof>
+		<crc>6423AC3C</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Mould (-) (Tape 1)" index="" image="">
+		<description>Mould (-) (Tape 1)</description>
+		<cloneof></cloneof>
+		<crc>608EFA0A</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Mould (-) (Tape 2)" index="" image="">
+		<description>Mould (-) (Tape 2)</description>
+		<cloneof></cloneof>
+		<crc>931D2378</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="N-Vaders (Add On Electronics) (Tape 1)" index="true" image="n">
+		<description>N-Vaders (Add On Electronics) (Tape 1)</description>
+		<cloneof></cloneof>
+		<crc>1491CCF0</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="N-Vaders (Add On Electronics) (Tape 2)" index="" image="">
+		<description>N-Vaders (Add On Electronics) (Tape 2)</description>
+		<cloneof></cloneof>
+		<crc>6BCAA4F8</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Night Stalker (Mattel)" index="" image="">
+		<description>Night Stalker (Mattel)</description>
+		<cloneof></cloneof>
+		<crc>32AE514</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Pack Mr. (Add On Electronics) (Tape 1)" index="true" image="p">
+		<description>Pack Mr. (Add On Electronics) (Tape 1)</description>
+		<cloneof></cloneof>
+		<crc>7D736B60</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Pack Mr. (Add On Electronics) (Tape 2)" index="" image="">
+		<description>Pack Mr. (Add On Electronics) (Tape 2)</description>
+		<cloneof></cloneof>
+		<crc>90D94A50</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Postman Pot (Add On Electronics) (Tape 1)" index="" image="">
+		<description>Postman Pot (Add On Electronics) (Tape 1)</description>
+		<cloneof></cloneof>
+		<crc>FCBA8A36</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Postman Pot (Add On Electronics) (Tape 2)" index="" image="">
+		<description>Postman Pot (Add On Electronics) (Tape 2)</description>
+		<cloneof></cloneof>
+		<crc>5C955D42</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Snafu (Mattel)" index="true" image="s">
+		<description>Snafu (Mattel)</description>
+		<cloneof></cloneof>
+		<crc>AED0EA34</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Stalactites (K. Baker) (Tape 1)" index="" image="">
+		<description>Stalactites (K. Baker) (Tape 1)</description>
+		<cloneof></cloneof>
+		<crc>A99430B3</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Stalactites (K. Baker) (Tape 2)" index="" image="">
+		<description>Stalactites (K. Baker) (Tape 2)</description>
+		<cloneof></cloneof>
+		<crc>97DB4DAF</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Torment (-) (Tape 1)" index="true" image="t">
+		<description>Torment (-) (Tape 1)</description>
+		<cloneof></cloneof>
+		<crc>9674F096</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Torment (-) (Tape 2)" index="" image="">
+		<description>Torment (-) (Tape 2)</description>
+		<cloneof></cloneof>
+		<crc>53B0FDF1</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Tron - Deadly Discs (Mattel)" index="" image="">
+		<description>Tron - Deadly Discs (Mattel)</description>
+		<cloneof></cloneof>
+		<crc>6D6EBD1D</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Utopia (Mattel)" index="true" image="u">
+		<description>Utopia (Mattel)</description>
+		<cloneof></cloneof>
+		<crc>1FC3002E</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Zero-In (Mattel)" index="true" image="z">
+		<description>Zero-In (Mattel)</description>
+		<cloneof></cloneof>
+		<crc>6241B20</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+</menu>

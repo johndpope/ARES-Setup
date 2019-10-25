@@ -39,4 +39,6 @@ function configure_lr-quasi88() {
     ensureSystemretroconfig "pc88"
     addEmulator 1 "$md_id" "pc88" "$md_inst/quasi88_libretro.so"
     addSystem "pc88"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

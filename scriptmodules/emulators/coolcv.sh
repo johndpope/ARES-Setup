@@ -34,4 +34,6 @@ function configure_coolcv() {
 
     addEmulator 1 "$md_id" "coleco" "$md_inst/coolcv_pi %ROM%"
     addSystem "coleco"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

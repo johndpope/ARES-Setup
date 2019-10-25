@@ -43,6 +43,8 @@ function configure_lr-mame2016() {
         ensureSystemretroconfig "$system"
         addEmulator 0 "$md_id" "$system" "$md_inst/mamearcade2016_libretro.so"
         addSystem "$system"
+		cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+        cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
     done
 setRetroArchCoreOption "${dir_name}mame2016_throttle" "enabled"
 }

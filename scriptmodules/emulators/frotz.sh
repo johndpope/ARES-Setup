@@ -51,6 +51,8 @@ function configure_frotz() {
     # CON: to stop runcommand from redirecting stdout to log
     addEmulator 1 "$md_id" "zmachine" "CON:pushd $romdir/zmachine; frotz %ROM%; popd"
     addSystem "zmachine"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 
     [[ "$md_mode" == "install" ]] && game_data_frotz
 }

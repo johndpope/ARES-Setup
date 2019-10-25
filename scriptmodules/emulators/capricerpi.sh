@@ -45,4 +45,6 @@ function configure_capricerpi() {
 
     addEmulator 0 "$md_id" "amstradcpc" "$md_inst/capriceRPI %ROM%"
     addSystem "amstradcpc"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

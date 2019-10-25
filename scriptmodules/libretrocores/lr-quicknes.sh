@@ -42,4 +42,6 @@ function configure_lr-quicknes() {
 
     addEmulator "$def" "$md_id" "nes" "$md_inst/quicknes_libretro.so"
     addSystem "nes"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

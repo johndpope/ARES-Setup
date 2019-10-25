@@ -1,0 +1,899 @@
+<?xml version="1.0"?>
+<menu>
+	<header>
+		<listname>Big Fish Games</listname>
+		<lastlistupdate>03/06/2016</lastlistupdate>
+		<listversion>1.0</listversion>
+		<exporterversion>HyperList XML Exporter Version 1.3 Copywrite (c) 2009-2011 William Strong</exporterversion>
+	</header>
+	<game name="Adventure Inlay" index="true" image="a">
+		<description>Adventure Inlay</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>GameHouse</manufacturer>
+		<year>2004</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Adventure Inlay - Safari Edition" index="" image="">
+		<description>Adventure Inlay - Safari Edition</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>GameHouse</manufacturer>
+		<year>2004</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Air Strike II - Gulf Thunder" index="" image="">
+		<description>Air Strike II - Gulf Thunder</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>DivoGames</manufacturer>
+		<year>2004</year>
+		<genre>Shoot-&apos;Em-Up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Alien Sky" index="" image="">
+		<description>Alien Sky</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>KraiSoft Entertainment</manufacturer>
+		<year>2004</year>
+		<genre>Shoot-&apos;Em-Up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Aloha Solitaire" index="" image="">
+		<description>Aloha Solitaire</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>GameHouse</manufacturer>
+		<year>2005</year>
+		<genre>Casino</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Aloha TriPeaks" index="" image="">
+		<description>Aloha TriPeaks</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>GameHouse</manufacturer>
+		<year>2005</year>
+		<genre>Casino</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Ancient Tri-Jong" index="" image="">
+		<description>Ancient Tri-Jong</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Toybox Games</manufacturer>
+		<year>2005</year>
+		<genre>Mahjong</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Ancient Tripeaks" index="" image="">
+		<description>Ancient Tripeaks</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Toybox Games</manufacturer>
+		<year>2004</year>
+		<genre>Casino</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Astrobatics" index="" image="">
+		<description>Astrobatics</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>KraiSoft Entertainment</manufacturer>
+		<year>2004</year>
+		<genre>Shoot-&apos;Em-Up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Atlantis" index="" image="">
+		<description>Atlantis</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>FunPause</manufacturer>
+		<year>2005</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Atomaders" index="" image="">
+		<description>Atomaders</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>KraiSoft Entertainment</manufacturer>
+		<year>2004</year>
+		<genre>Shoot-&apos;Em-Up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Bewitched" index="true" image="b">
+		<description>Bewitched</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Sony Pictures Digital Inc</manufacturer>
+		<year>2005</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Boggle Supreme" index="" image="">
+		<description>Boggle Supreme</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Funkitron, Inc</manufacturer>
+		<year>2005</year>
+		<genre>Board Games</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Bounce Out Blitz" index="" image="">
+		<description>Bounce Out Blitz</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>GameHouse</manufacturer>
+		<year>2004</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Casino Island To Go" index="true" image="c">
+		<description>Casino Island To Go</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Electronic Arts Inc</manufacturer>
+		<year>2005</year>
+		<genre>Casino</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Chainz" index="" image="">
+		<description>Chainz</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>MumboJumbo, LLC</manufacturer>
+		<year>2004</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Chainz 2 - Relinked" index="" image="">
+		<description>Chainz 2 - Relinked</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>MumboJumbo, LLC</manufacturer>
+		<year>2005</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Charm Solitaire" index="" image="">
+		<description>Charm Solitaire</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Puzzle Lab</manufacturer>
+		<year>2005</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Charm Tale" index="" image="">
+		<description>Charm Tale</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Puzzle Lab</manufacturer>
+		<year>2005</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Chicktionary" index="" image="">
+		<description>Chicktionary</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Kewlbox</manufacturer>
+		<year>2005</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Collapse! Crunch" index="" image="">
+		<description>Collapse! Crunch</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>GameHouse</manufacturer>
+		<year>2004</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Combo Chaos!" index="" image="">
+		<description>Combo Chaos!</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Half Pint Productions</manufacturer>
+		<year>2003</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Crystal Path" index="" image="">
+		<description>Crystal Path</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Puzzle Lab</manufacturer>
+		<year>2004</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Digby&apos;s Donuts" index="true" image="d">
+		<description>Digby&apos;s Donuts</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>HipSoft LLC</manufacturer>
+		<year>2004</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Digger Adventures" index="" image="">
+		<description>Digger Adventures</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Alawar</manufacturer>
+		<year>2005</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Diner Dash" index="" image="">
+		<description>Diner Dash</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>PlayFirst, Inc</manufacturer>
+		<year>2004</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Feeding Frenzy" index="true" image="f">
+		<description>Feeding Frenzy</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Sprout Games, LLC</manufacturer>
+		<year>2004</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Fiber Twig" index="" image="">
+		<description>Fiber Twig</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Puzzle Lab</manufacturer>
+		<year>2004</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Five Card Deluxe" index="" image="">
+		<description>Five Card Deluxe</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>HipSoft LLC</manufacturer>
+		<year>2005</year>
+		<genre>Casino</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Flip Words" index="" image="">
+		<description>Flip Words</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>HipSoft LLC</manufacturer>
+		<year>2004</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Flying Leo" index="" image="">
+		<description>Flying Leo</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Beep Industries</manufacturer>
+		<year>2005</year>
+		<genre>Flying</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Fortune Tiles Gold" index="" image="">
+		<description>Fortune Tiles Gold</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>TikGames, LLC</manufacturer>
+		<year>2005</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Fresco Wizard" index="" image="">
+		<description>Fresco Wizard</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Puzzle Lab</manufacturer>
+		<year>2004</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="GameHouse Sudoku" index="true" image="g">
+		<description>GameHouse Sudoku</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>GameHouse</manufacturer>
+		<year>2005</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Granny in Paradise" index="" image="">
+		<description>Granny in Paradise</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Sandlot Games</manufacturer>
+		<year>2005</year>
+		<genre>Platform</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Gutterball 2" index="" image="">
+		<description>Gutterball 2</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Skunk Studios, LLC</manufacturer>
+		<year>2004</year>
+		<genre>Bowling</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Hamsterball" index="true" image="h">
+		<description>Hamsterball</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Raptisoft, LLC</manufacturer>
+		<year>2004</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Hello!" index="" image="">
+		<description>Hello!</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Nology Softwares</manufacturer>
+		<year>2004</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Holiday Express" index="" image="">
+		<description>Holiday Express</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>HipSoft LLC</manufacturer>
+		<year>2004</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Iggle Pop!" index="true" image="i">
+		<description>Iggle Pop!</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Sprout Games, LLC</manufacturer>
+		<year>2004</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Incadia" index="" image="">
+		<description>Incadia</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Snowstep Development GbR</manufacturer>
+		<year>2004</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Incredible Ink" index="" image="">
+		<description>Incredible Ink</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>GameHouse</manufacturer>
+		<year>2004</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Inspector Parker" index="" image="">
+		<description>Inspector Parker</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Oberon Media</manufacturer>
+		<year>2004</year>
+		<genre>Adventure</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Invadazoid" index="" image="">
+		<description>Invadazoid</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Bantam City Games</manufacturer>
+		<year>2005</year>
+		<genre>Breakout</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Jewel Quest" index="true" image="j">
+		<description>Jewel Quest</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>iWin, Inc</manufacturer>
+		<year>2004</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Lemonade Tycoon" index="true" image="l">
+		<description>Lemonade Tycoon</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>JAMDAT Mobile (Canada)</manufacturer>
+		<year>2002</year>
+		<genre>Strategy</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Luxor" index="" image="">
+		<description>Luxor</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>MumboJumbo, LLC</manufacturer>
+		<year>2005</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Mad Caps" index="true" image="m">
+		<description>Mad Caps</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>MumboJumbo, LLC</manufacturer>
+		<year>2004</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Magic Ball" index="" image="">
+		<description>Magic Ball</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Dream Dale</manufacturer>
+		<year>2004</year>
+		<genre>Breakout</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Magic Ball 2" index="" image="">
+		<description>Magic Ball 2</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Dream Dale</manufacturer>
+		<year>2004</year>
+		<genre>Breakout</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Magic Ball 2 - New Worlds" index="" image="">
+		<description>Magic Ball 2 - New Worlds</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Dream Dale</manufacturer>
+		<year>2005</year>
+		<genre>Breakout</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Magic Inlay" index="" image="">
+		<description>Magic Inlay</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>GameHouse</manufacturer>
+		<year>2004</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Magic Vines" index="" image="">
+		<description>Magic Vines</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Big Fish Games</manufacturer>
+		<year>2005</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Mah Jong Medley" index="" image="">
+		<description>Mah Jong Medley</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>GameHouse</manufacturer>
+		<year>2004</year>
+		<genre>Mahjong</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Mah Jong Quest" index="" image="">
+		<description>Mah Jong Quest</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>iWin, Inc</manufacturer>
+		<year>2005</year>
+		<genre>Mahjong</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Mahjong Garden To Go" index="" image="">
+		<description>Mahjong Garden To Go</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Electronic Arts</manufacturer>
+		<year>2004</year>
+		<genre>Mahjong</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Mahjong Towers Eternity" index="" image="">
+		<description>Mahjong Towers Eternity</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Big Fish Games</manufacturer>
+		<year>2005</year>
+		<genre>Mahjong</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Maui Wowee" index="" image="">
+		<description>Maui Wowee</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Toybox Games</manufacturer>
+		<year>2005</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Phlinx To Go" index="true" image="p">
+		<description>Phlinx To Go</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Electronic Arts</manufacturer>
+		<year>2005</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Pin High Country Club Golf" index="" image="">
+		<description>Pin High Country Club Golf</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Skyworks Technologies, Inc</manufacturer>
+		<year>2004</year>
+		<genre>Golf</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Puzzle Express" index="" image="">
+		<description>Puzzle Express</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>HipSoft LLC</manufacturer>
+		<year>2004</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Puzzle Inlay" index="" image="">
+		<description>Puzzle Inlay</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>GameHouse</manufacturer>
+		<year>2004</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Puzzle Solitaire" index="" image="">
+		<description>Puzzle Solitaire</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Dekovir Entertainment</manufacturer>
+		<year>2005</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="QBz" index="true" image="q">
+		<description>QBz</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Skunk Studios, LLC</manufacturer>
+		<year>2004</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Reader&apos;s Digest Super Word Power" index="true" image="r">
+		<description>Reader&apos;s Digest Super Word Power</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>GameHouse</manufacturer>
+		<year>2005</year>
+		<genre>Educational</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Ricochet" index="" image="">
+		<description>Ricochet</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Reflexive Entertainment, Inc</manufacturer>
+		<year>2001</year>
+		<genre>Breakout</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Ricochet Lost Worlds - Recharged" index="" image="">
+		<description>Ricochet Lost Worlds - Recharged</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Reflexive Entertainment </manufacturer>
+		<year>2004</year>
+		<genre>Breakout</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Roller Rush" index="" image="">
+		<description>Roller Rush</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Toybox Games</manufacturer>
+		<year>2005</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Saints &amp; Sinners Bingo" index="true" image="s">
+		<description>Saints &amp; Sinners Bingo</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Large Animal Games</manufacturer>
+		<year>2005</year>
+		<genre>Casino</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Scrabble" index="" image="">
+		<description>Scrabble</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Funkitron, Inc</manufacturer>
+		<year>2003</year>
+		<genre>Board Game</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Shape Shifter" index="" image="">
+		<description>Shape Shifter</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>GameHouse</manufacturer>
+		<year>2004</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Slingo Deluxe" index="" image="">
+		<description>Slingo Deluxe</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Funkitron, Inc</manufacturer>
+		<year>2004</year>
+		<genre>Casino</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Spelvin" index="" image="">
+		<description>Spelvin</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Skunk Studios, LLC</manufacturer>
+		<year>2004</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Splash" index="" image="">
+		<description>Splash</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>GameHouse</manufacturer>
+		<year>2005</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Spring Sprang Sprung" index="" image="">
+		<description>Spring Sprang Sprung</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>GameHouse</manufacturer>
+		<year>2005</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Super Fruit Frolic" index="" image="">
+		<description>Super Fruit Frolic</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Pyrogon</manufacturer>
+		<year>2003</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Super GameHouse Solitaire Vol. 3" index="" image="">
+		<description>Super GameHouse Solitaire Vol. 3</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>GameHouse</manufacturer>
+		<year>2004</year>
+		<genre>Casino</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Super Rumble Cube" index="" image="">
+		<description>Super Rumble Cube</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>PixelStorm Entertainment Studios, Inc</manufacturer>
+		<year>2003</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Super SpongeBob Collapse!" index="" image="">
+		<description>Super SpongeBob Collapse!</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>GameHouse</manufacturer>
+		<year>2003</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Tennis Titans" index="true" image="t">
+		<description>Tennis Titans</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Skunk Studios, LLC</manufacturer>
+		<year>2005</year>
+		<genre>Tennis</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="The Bluecoats - North vs South" index="" image="">
+		<description>The Bluecoats - North vs South</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Anuman Interactive</manufacturer>
+		<year>2012</year>
+		<genre>Strategy</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Tradewinds 2" index="" image="">
+		<description>Tradewinds 2</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Sandlot Games</manufacturer>
+		<year>2005</year>
+		<genre>Strategy</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Tropical Swaps" index="" image="">
+		<description>Tropical Swaps</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Crystal Squid Ltd</manufacturer>
+		<year>2005</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Tumblebugs" index="" image="">
+		<description>Tumblebugs</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Wildfire Studios Pty. Ltd</manufacturer>
+		<year>2005</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Turtle Bay" index="" image="">
+		<description>Turtle Bay</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Snowstep Development GbR</manufacturer>
+		<year>2004</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Twistingo" index="" image="">
+		<description>Twistingo</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>AlwaysNeat</manufacturer>
+		<year>2005</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Ultimate Dominoes" index="true" image="u">
+		<description>Ultimate Dominoes</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Antidote Corp</manufacturer>
+		<year>2004</year>
+		<genre>Board Games</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Varmintz Deluxe" index="true" image="v">
+		<description>Varmintz Deluxe</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Skunk Studios, LLC</manufacturer>
+		<year>2004</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Walls of Jericho" index="true" image="w">
+		<description>Walls of Jericho</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Full Armor Studios</manufacturer>
+		<year>2003</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+</menu>

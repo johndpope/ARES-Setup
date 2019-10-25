@@ -67,6 +67,8 @@ function configure_solarus() {
 
     # ensure rom dir exists
     mkRomDir "solarus"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 
     # create launcher for Solarus that disables JACK driver in OpenAL,
     # disables mouse cursor, starts in fullscreen mode and configures

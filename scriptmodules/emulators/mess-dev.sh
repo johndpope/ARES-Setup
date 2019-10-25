@@ -22,7 +22,7 @@ function _latest_ver_mess() {
 }
 
 function _get_binary_name_mess() {
-    # The MAME executable on 64-bit systems is called mame64 instead of mame. Rename it back to mame.
+    # The MESS executable on 64-bit systems is called mess64 instead of mess. Rename it back to mess.
     if isPlatform "64bit"; then
         echo 'mess64'
     else
@@ -32,7 +32,7 @@ function _get_binary_name_mess() {
 
 function depends_mess() {
     if compareVersions $__gcc_version lt 6.0.0; then
-        md_ret_errors+=("Sorry, you need an OS with gcc 6.0 or newer to compile mame")
+        md_ret_errors+=("Sorry, you need an OS with gcc 6.0 or newer to compile mess")
         return 1
     fi
 
@@ -55,7 +55,7 @@ function build_mess() {
         rpSwap on 5120
     fi
 
-    # Compile MAME
+    # Compile MESS
     make SUBTARGET=mess ARCHOPTS=-U_FORTIFY_SOURCE NOWERROR=1 -j1
 
     if isPlatform "64bit"; then
@@ -89,17 +89,21 @@ function install_mess() {
 }
 
 function configure_mess() {
-    local system="mame"
-    mkRomDir "arcade"
-    mkRomDir "$system"
+    local system
+    for system in adam advision alice apfimag apogee aquarius arcadia astrocade atom bbcmicro cdimono1 cgenie coleco crvision electron exl100 fmtowns gamecom gmaster gamate gamepock gp32 hec2hrx lviv lynx128k m5  mc10 megaduck microvsn mz2500 pegasus pockstat pv1000 pv2000 radio86 scv socrates studio2 supervision sv8000 tutor vc4000 vector06 vg5k; do 
+	    mkRomDir "$system"
+		cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+        cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
+		        
+    done   
 
-    moveConfigDir "$home/.mame" "$md_conf_root/$system"
+    moveConfigDir "$home/.mess" "$md_conf_root/$system"
 
-    # Create required MAME directories underneath the ROM directory
+    # Create required MESS directories underneath the ROM directory
     if [[ "$md_mode" == "install" ]]; then
-        local mame_sub_dir
-        for mame_sub_dir in artwork cfg comments diff inp nvram samples scores snap sta; do
-            mkRomDir "$system/$mame_sub_dir"
+        local mess_sub_dir
+        for mess_sub_dir in artwork cfg comments diff inp nvram samples scores snap sta; do
+            mkRomDir "$system/$mess_sub_dir"
         done
     fi
 
@@ -108,12 +112,12 @@ function configure_mess() {
     chown $user:$user "$biosdir/$system"
 
     # Create a new INI file if one does not already exist
-    if [[ "$md_mode" == "install" && ! -f "$md_conf_root/$system/mame.ini" ]]; then
+    if [[ "$md_mode" == "install" && ! -f "$md_conf_root/$system/mess.ini" ]]; then
         pushd "$md_conf_root/$system/"
         "$md_inst/$(_get_binary_name_${md_id})" -createconfig
         popd
 
-        iniConfig " " "" "$md_conf_root/$system/mame.ini"
+        iniConfig " " "" "$md_conf_root/$system/mess.ini"
         iniSet "rompath"            "$romdir/$system;$romdir/arcade;$biosdir/$system"
         iniSet "hashpath"           "$md_inst/hash"
         iniSet "samplepath"         "$romdir/$system/samples;$romdir/arcade/samples"
@@ -144,13 +148,83 @@ function configure_mess() {
         iniSet "hi_path" "$romdir/$system/scores"
 
         chown -R $user:$user "$md_conf_root/$system"
-        chmod a+r "$md_conf_root/$system/mame.ini"
+        chmod a+r "$md_conf_root/$system/mess.ini"
     fi
 
     local binary_name="$(_get_binary_name_${md_id})"
-    addEmulator 0 "$md_id" "arcade" "$md_inst/${binary_name} %BASENAME%"
-    addEmulator 1 "$md_id" "$system" "$md_inst/${binary_name} %BASENAME%"
+    #Cartridge Only
+	
+	addEmulator 0 "$md_id" "advision" "$md_inst/mess advision -cart %BASENAME%"
+	addEmulator 0 "$md_id" "arcadia" "$md_inst/mess arcadia  -cart %BASENAME%"
+	addEmulator 0 "$md_id" "astrocade" "$md_inst/mess astrocde -cart %BASENAME%"
+	addEmulator 0 "$md_id" "channelf" "$md_inst/mess channelf  -cart %BASENAME%"
+	addEmulator 0 "$md_id" "megaduck" "$md_inst/mess megaduck  -cart %BASENAME%"
+	addEmulator 0 "$md_id" "supervision" "$md_inst/mess svision -cart %BASENAME%"
+	addEmulator 0 "$md_id" "studio2" "$md_inst/mess studio2 -cart %BASENAME%"
+	addEmulator 0 "$md_id" "creativision" "$md_inst/mess crvision -cart %BASENAME%"
+	addEmulator 0 "$md_id" "gamecom" "$md_inst/mess gamecom -cart1 %BASENAME%"
+	addEmulator 0 "$md_id" "gmaster" "$md_inst/mess gmaster -cart %BASENAME%"
+	addEmulator 0 "$md_id" "gamate" "$md_inst/mess gamate -cart %BASENAME%"
+	addEmulator 0 "$md_id" "gamepock" "$md_inst/mess gamepock -cart %BASENAME%"
+	addEmulator 0 "$md_id" "microvsn" "$md_inst/mess microvsn -cart %BASENAME%"
+	addEmulator 0 "$md_id" "pv1000" "$md_inst/mess pv1000 -cart %BASENAME%"
+	addEmulator 0 "$md_id" "scv" "$md_inst/mess scv -cart %BASENAME%"
+	addEmulator 0 "$md_id" "socrates" "$md_inst/mess socrates -cart %BASENAME%"
+	addEmulator 0 "$md_id" "sv8000" "$md_inst/mess sv8000 -cart %BASENAME%"
+	addEmulator 0 "$md_id" "vc4000" "$md_inst/mess vc4000 -cart %BASENAME%"
+	addEmulator 0 "$md_id" "pockstat" "$md_inst/mess pockstat -cart %BASENAME%"
+	addEmulator 0 "$md_id" "supracan" "$md_inst/mess supracan -cart %BASENAME%"
+	
+	# Cassette Only
+	
+	addEmulator 0 "$md_id" "electron" "$md_inst/mess electron -cass %BASENAME%"
+	addEmulator 0 "$md_id" "alice" "$md_inst/mess alice -cass %BASENAME%"
+	addEmulator 0 "$md_id" "apogee" "$md_inst/mess electron -cass %BASENAME%"
+	addEmulator 0 "$md_id" "mc10" "$md_inst/mess mc10 -cass %BASENAME%"
+	addEmulator 0 "$md_id" "hec2hrx" "$md_inst/mess hec2hrx -cass %BASENAME%"
+	addEmulator 0 "$md_id" "vg5k" "$md_inst/mess vg5k -cass %BASENAME%"
+	addEmulator 0 "$md_id" "lviv" "$md_inst/mess lviv -cass %BASENAME%"
+	
+	#Floppy Only
+	
+	addEmulator 0 "$md_id" "mz2500" "$md_inst/mess mz2500 -flop1 %BASENAME%"
+	
+	#Multiple Media Options
+	# Cart & Cass
+	
+	addEmulator 0 "$md_id" "apfimag" "$md_inst/mess apfimag -cart %BASENAME%"
+	addEmulator 0 "$md_id" "apfimag" "$md_inst/mess apfimag -cass %BASENAME%"
+	addEmulator 0 "$md_id" "aquarius" "$md_inst/mess aquarius -cart %BASENAME%"
+	addEmulator 0 "$md_id" "aquarius" "$md_inst/mess aquarius -cass %BASENAME%"
+	addEmulator 0 "$md_id" "radio86" "$md_inst/mess radio86 -cart %BASENAME%"
+	addEmulator 0 "$md_id" "radio86" "$md_inst/mess radio86 -cass %BASENAME%"
+	addEmulator 0 "$md_id" "m5" "$md_inst/mess m5 -cart %BASENAME%"
+	addEmulator 0 "$md_id" "m5" "$md_inst/mess m5 -cass %BASENAME%"
+	addEmulator 0 "$md_id" "tutor" "$md_inst/mess tutor -cart %BASENAME%"
+	addEmulator 0 "$md_id" "tutor" "$md_inst/mess tutor -cass %BASENAME%"
+	addEmulator 0 "$md_id" "pegasus" "$md_inst/mess tutor -cart1 %BASENAME%"
+	addEmulator 0 "$md_id" "pegasus" "$md_inst/mess tutor -cass %BASENAME%"
+	
+	#Many
+	
+	addEmulator 0 "$md_id" "atom" "$md_inst/mess atom -cart %BASENAME%"
+	addEmulator 0 "$md_id" "atom" "$md_inst/mess atom -flop1 %BASENAME%"
+	addEmulator 0 "$md_id" "atom" "$md_inst/mess atom -cass %BASENAME%"
+	addEmulator 0 "$md_id" "atom" "$md_inst/mess atom -quik %BASENAME%"
+	addEmulator 0 "$md_id" "cgenie" "$md_inst/mess cgenie -cart %BASENAME%"
+	addEmulator 0 "$md_id" "cgenie" "$md_inst/mess cgenie -flop1 %BASENAME%"
+	addEmulator 0 "$md_id" "cgenie" "$md_inst/mess cgenie -cass %BASENAME%"
+	addEmulator 0 "$md_id" "adam" "$md_inst/mess adam -cart %BASENAME%"
+	addEmulator 0 "$md_id" "adam" "$md_inst/mess adam -flop1 %BASENAME%"
+	addEmulator 0 "$md_id" "adam" "$md_inst/mess adam -cass %BASENAME%"
+	addEmulator 0 "$md_id" "fmtowns" "$md_inst/mess fmtowns -cdrm %BASENAME%"
+	addEmulator 0 "$md_id" "fmtowns" "$md_inst/mess fmtowns -flop1 %BASENAME%"
+	addEmulator 0 "$md_id" "fmtowns" "$md_inst/mess fmtowns -hard1 %BASENAME%"
+	addEmulator 0 "$md_id" "sorcerer" "$md_inst/mess sorcerer -cart %BASENAME%"
+	addEmulator 0 "$md_id" "sorcerer" "$md_inst/mess sorcerer -flop1 %BASENAME%"
+	addEmulator 0 "$md_id" "sorcerer" "$md_inst/mess sorcerer -cass1 %BASENAME%"
+	addEmulator 0 "$md_id" "sorcerer" "$md_inst/mess sorcerer -quik %BASENAME%"
+	addEmulator 0 "$md_id" "sorcerer" "$md_inst/mess sorcerer -dump %BASENAME%"
 
-    addSystem "arcade" "$rp_module_desc" ".zip .7z"
-    addSystem "$system" "$rp_module_desc" ".zip .7z"
+        addSystem "$system" "$rp_module_desc" ".zip .7z"
 }

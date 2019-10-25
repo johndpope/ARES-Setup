@@ -38,4 +38,6 @@ function configure_lr-np2kai() {
 
     addEmulator 1 "$md_id" "pc98" "$md_inst/np2kai_libretro.so"
     addSystem "pc98"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

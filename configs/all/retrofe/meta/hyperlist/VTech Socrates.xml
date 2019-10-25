@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<menu>
+	<header>
+		<listname>VTech Socrates</listname>
+		<lastlistupdate>08/22/2017</lastlistupdate>
+		<listversion>2.1</listversion>
+		<exporterversion>HyperList XML Exporter Version 1.3 Copywrite (c) 2009-2011 William Strong</exporterversion>
+	</header>
+	<game name="Amazing Mazes (USA)" index="true" image="a">
+		<description>Amazing Mazes (USA)</description>
+		<cloneof></cloneof>
+		<crc>95b84308</crc>
+		<manufacturer>Video Technology</manufacturer>
+		<year>1989</year>
+		<genre>Educational</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Around the World (USA)" index="" image="">
+		<description>Around the World (USA)</description>
+		<cloneof></cloneof>
+		<crc>a1e01c38</crc>
+		<manufacturer>Video Technology</manufacturer>
+		<year>1989</year>
+		<genre>Educational</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="CAD Professor (USA)" index="true" image="c">
+		<description>CAD Professor (USA)</description>
+		<cloneof></cloneof>
+		<crc>c2ba995b</crc>
+		<manufacturer>Video Technology</manufacturer>
+		<year>1989</year>
+		<genre>Educational</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Facts &apos;N Fraction (USA)" index="true" image="f">
+		<description>Facts &apos;N Fraction (USA)</description>
+		<cloneof></cloneof>
+		<crc>7118617b</crc>
+		<manufacturer>Video Technology</manufacturer>
+		<year>1988</year>
+		<genre>Educational</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Game Wizard (USA)" index="true" image="g">
+		<description>Game Wizard (USA)</description>
+		<cloneof></cloneof>
+		<crc>57440b05</crc>
+		<manufacturer>Video Technology</manufacturer>
+		<year>1990</year>
+		<genre>Educational</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Hodge-Podge (USA)" index="true" image="h">
+		<description>Hodge-Podge (USA)</description>
+		<cloneof></cloneof>
+		<crc>19e1a301</crc>
+		<manufacturer>Video Technology</manufacturer>
+		<year>1989</year>
+		<genre>Educational</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Memory Mania (USA)" index="true" image="m">
+		<description>Memory Mania (USA)</description>
+		<cloneof></cloneof>
+		<crc>3c7fd651</crc>
+		<manufacturer>Video Technology</manufacturer>
+		<year>1988</year>
+		<genre>Educational</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="State to State (USA)" index="true" image="s">
+		<description>State to State (USA)</description>
+		<cloneof></cloneof>
+		<crc>5848379f</crc>
+		<manufacturer>Video Technology</manufacturer>
+		<year>1988</year>
+		<genre>Educational</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+</menu>

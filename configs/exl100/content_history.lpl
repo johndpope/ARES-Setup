@@ -1,0 +1,50 @@
+{
+  "version": "1.2",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "items": [
+    {
+      "path": "/media/aresuser/ARES/ARES/roms/exl100/Parsec (1989)(Edition PUSSY)(FR).k7",
+      "label": "",
+      "core_path": "/opt/ares/libretrocores/lr-mess/mess_libretro.so",
+      "core_name": "MAME",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/media/aresuser/ARES/ARES/roms/exl100/Bugs Buster (1986)(Free Game Blot)(FR)[req 64kb].k7",
+      "label": "",
+      "core_path": "/opt/ares/libretrocores/lr-mess/mess_libretro.so",
+      "core_name": "MAME",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/media/aresuser/ARES/ARES/roms/exl100/wizord.zip",
+      "label": "",
+      "core_path": "/opt/ares/libretrocores/lr-mess/mess_libretro.so",
+      "core_name": "MAME",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/media/aresuser/ARES/ARES/roms/exl100/virus.zip",
+      "label": "",
+      "core_path": "/opt/ares/libretrocores/lr-mess/mess_libretro.so",
+      "core_name": "MAME",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/media/aresuser/ARES/ARES/roms/exl100/tennis.zip",
+      "label": "",
+      "core_path": "/opt/ares/libretrocores/lr-mess/mess_libretro.so",
+      "core_name": "MAME",
+      "crc32": "",
+      "db_name": ""
+    }
+  ]
+}

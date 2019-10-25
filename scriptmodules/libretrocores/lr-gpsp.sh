@@ -49,4 +49,6 @@ function configure_lr-gpsp() {
     isPlatform "armv6" && def=1
     addEmulator $def "$md_id" "gba" "$md_inst/gpsp_libretro.so"
     addSystem "gba"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

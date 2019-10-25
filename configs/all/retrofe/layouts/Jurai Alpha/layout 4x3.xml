@@ -1,0 +1,477 @@
+<layout width="1440" height="1080" font="fonts/Oswald-Regular.ttf" loadFontSize="36" fontColor="dedede">
+
+    <!--===============================================================================================================================-->
+    <!-- Sounds -->
+    <!--===============================================================================================================================-->
+
+    <sound type="load"      src="sounds/load.wav" />
+    <sound type="unload"    src="sounds/unload.wav" />
+    <sound type="highlight" src="sounds/highlight.wav" />
+    <sound type="select"    src="sounds/select.wav" />
+
+    <!--===============================================================================================================================-->
+    <!-- Background -->
+    <!--===============================================================================================================================-->
+
+    <!-- zoomed video background -->
+    <reloadableVideo imageType="screenshot" alpha="0" x="960" y="540" width="3840" maxHeight="5120" xOrigin="center" yOrigin="center" containerX="0" containerY="0" containerWidth="1920" containerHeight="1080" layer="0">
+        <onEnter         ><set duration="0.1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="width" from="15360" to="3840" algorithm="easeInquadratic" /><animate type="maxHeight" from="20480" to="5120" algorithm="easeInquadratic" /></set></onEnter>
+        <onExit          ><set duration="0.1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="width" from="3840" to="15360" algorithm="easeOutquadratic"/><animate type="maxHeight" from="5120" to="20480" algorithm="easeOutquadratic"/></set></onExit>
+        <onMenuEnter     ><set duration="0.1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="width" from="15360" to="3840" algorithm="easeInquadratic" /><animate type="maxHeight" from="20480" to="5120" algorithm="easeInquadratic" /></set></onMenuEnter>
+        <onMenuExit      ><set duration="0.1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="width" from="3840" to="15360" algorithm="easeOutquadratic"/><animate type="maxHeight" from="5120" to="20480" algorithm="easeOutquadratic"/></set></onMenuExit>
+        <onMenuJumpEnter ><set duration="0.1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="width" from="15360" to="3840" algorithm="easeInquadratic" /><animate type="maxHeight" from="20480" to="5120" algorithm="easeInquadratic" /></set></onMenuJumpEnter>
+        <onMenuJumpExit  ><set duration="0.1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="width" from="3840" to="15360" algorithm="easeOutquadratic"/><animate type="maxHeight" from="5120" to="20480" algorithm="easeOutquadratic"/></set></onMenuJumpExit>
+        <onPlaylistEnter ><set duration="0.1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="width" from="15360" to="3840" algorithm="easeInquadratic" /><animate type="maxHeight" from="20480" to="5120" algorithm="easeInquadratic" /></set></onPlaylistEnter>
+        <onPlaylistExit  ><set duration="0.1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="width" from="3840" to="15360" algorithm="easeOutquadratic"/><animate type="maxHeight" from="5120" to="20480" algorithm="easeOutquadratic"/></set></onPlaylistExit>
+        <onHighlightEnter><set duration="0.1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="width" from="15360" to="3840" algorithm="easeInquadratic" /><animate type="maxHeight" from="20480" to="5120" algorithm="easeInquadratic" /></set></onHighlightEnter>
+        <onHighlightExit ><set duration="0.1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="width" from="3840" to="15360" algorithm="easeOutquadratic"/><animate type="maxHeight" from="5120" to="20480" algorithm="easeOutquadratic"/></set></onHighlightExit>
+        <onGameEnter     ><set duration="0.1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="width" from="3840" to="15360" algorithm="easeOutquadratic"/><animate type="maxHeight" from="5120" to="20480" algorithm="easeOutquadratic"/></set></onGameEnter>
+        <onGameExit      ><set duration="0.1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="width" from="15360" to="3840" algorithm="easeInquadratic" /><animate type="maxHeight" from="20480" to="5120" algorithm="easeInquadratic" /></set></onGameExit>
+    </reloadableVideo>
+
+    <!--===============================================================================================================================-->
+    <!-- Main menu -->
+    <!--===============================================================================================================================-->
+
+    <!-- Logo Menu -->
+    <menu type="custom" imageType="logo" scrollTime=".2" scrollAcceleration=".02" orientation="horizontal" x="0" width="center" y="130" algorithm="easeinquadratic">
+        <itemDefaults alpha="1" x="center" y="130" maxWidth="695" height="175" xOrigin="center" yOrigin="center" fontSize="50" loadFontSize="50" layer="12"/>
+        <item xOffset="-1440" layer="7" alpha="0" maxWidth="350" height="85"/>
+        <item xOffset="-670" layer="7" maxWidth="350" height="85">
+            <onEnter                  ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /></set></onEnter>
+            <onExit                   ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/></set></onExit>
+            <onMenuEnter menuIndex="i"><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /></set></onMenuEnter>
+            <onMenuExit  menuIndex="i"><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/></set></onMenuExit>
+            <onGameEnter menuIndex="i"><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/></set></onGameEnter>
+            <onGameExit  menuIndex="i"><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /></set></onGameExit>
+        </item>
+        <item xOffset="0" layer="12" selected="true">
+            <onEnter                  ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /></set></onEnter>
+            <onExit                   ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/></set></onExit>
+            <onMenuEnter menuIndex="i"><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /></set></onMenuEnter>
+            <onMenuExit  menuIndex="i"><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/></set></onMenuExit>
+            <onGameEnter menuIndex="i"><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/></set></onGameEnter>
+            <onGameExit  menuIndex="i"><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /></set></onGameExit>
+        </item>
+        <item xOffset="670" layer="7" maxWidth="350" height="85">
+            <onEnter                  ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /></set></onEnter>
+            <onExit                   ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/></set></onExit>
+            <onMenuEnter menuIndex="i"><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /></set></onMenuEnter>
+            <onMenuExit  menuIndex="i"><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/></set></onMenuExit>
+            <onGameEnter menuIndex="i"><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/></set></onGameEnter>
+            <onGameExit  menuIndex="i"><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /></set></onGameExit>
+        </item>
+        <item xOffset="1440" layer="7" alpha="0" maxWidth="350" height="85"/>
+    </menu>
+
+    <image src="images/prev.png" alpha="0.2" x="0" y="130" width="75" height="50" xOrigin="left" yOrigin="center" layer="12">
+        <onIdle>
+            <set duration="1"><animate type="alpha" from="0.2" to="0.7" algorithm="easeInoutQuadratic"/><animate type="width" from="75" to="112.5" algorithm="easeInoutQuadratic"/><animate type="height" from="50" to="75" algorithm="easeInoutQuadratic"/></set>
+            <set duration="1"><animate type="alpha" from="0.7" to="0.2" algorithm="easeInoutQuadratic"/><animate type="width" from="112.5" to="75" algorithm="easeInoutQuadratic"/><animate type="height" from="75" to="50" algorithm="easeInoutQuadratic"/></set>
+        </onIdle>
+        <onEnter    ><set duration=".1"><animate type="alpha" to="0.2" algorithm="easeInquadratic" /></set></onEnter>
+        <onExit     ><set duration=".1"><animate type="alpha" to="0.0" algorithm="easeOutquadratic"/></set></onExit>
+        <onMenuEnter><set duration=".1"><animate type="alpha" to="0.2" algorithm="easeInquadratic" /></set></onMenuEnter>
+        <onMenuExit ><set duration=".1"><animate type="alpha" to="0.0" algorithm="easeOutquadratic"/></set></onMenuExit>
+        <onGameEnter><set duration=".1"><animate type="alpha" to="0.0" algorithm="easeOutquadratic"/></set></onGameEnter>
+        <onGameExit ><set duration=".1"><animate type="alpha" to="0.2" algorithm="easeInquadratic" /></set></onGameExit>
+    </image>
+
+    <image src="images/next.png" alpha="0.2" x="1440" y="130" width="75" height="50" xOrigin="right" yOrigin="center" layer="12">
+        <onIdle>
+            <set duration="1"><animate type="alpha" from="0.2" to="0.7" algorithm="easeInoutQuadratic"/><animate type="width" from="75" to="112.5" algorithm="easeInoutQuadratic"/><animate type="height" from="50" to="75" algorithm="easeInoutQuadratic"/></set>
+            <set duration="1"><animate type="alpha" from="0.7" to="0.2" algorithm="easeInoutQuadratic"/><animate type="width" from="112.5" to="75" algorithm="easeInoutQuadratic"/><animate type="height" from="75" to="50" algorithm="easeInoutQuadratic"/></set>
+        </onIdle>
+        <onEnter    ><set duration=".1"><animate type="alpha" to="0.2" algorithm="easeInquadratic" /></set></onEnter>
+        <onExit     ><set duration=".1"><animate type="alpha" to="0.0" algorithm="easeOutquadratic"/></set></onExit>
+        <onMenuEnter><set duration=".1"><animate type="alpha" to="0.2" algorithm="easeInquadratic" /></set></onMenuEnter>
+        <onMenuExit ><set duration=".1"><animate type="alpha" to="0.0" algorithm="easeOutquadratic"/></set></onMenuExit>
+        <onGameEnter><set duration=".1"><animate type="alpha" to="0.0" algorithm="easeOutquadratic"/></set></onGameEnter>
+        <onGameExit ><set duration=".1"><animate type="alpha" to="0.2" algorithm="easeInquadratic" /></set></onGameExit>
+    </image>
+
+    <!--===============================================================================================================================-->
+    <!-- Box/Device panel (Central panel) -->
+    <!--===============================================================================================================================-->
+
+    <!-- Device image -->
+    <reloadableImage type="device" alpha="0" x="center" y="center" maxWidth="540" height="520" xOrigin="center" yOrigin="center" layer="11">
+        <onIdle>
+            <set duration="2"><animate type="yOffset" from="0"   to="25"  algorithm="easeIncircular" /></set>
+            <set duration="2"><animate type="yOffset" from="25"  to="0"   algorithm="easeOutcircular"/></set>
+            <set duration="2"><animate type="yOffset" from="0"   to="-25" algorithm="easeIncircular" /></set>
+            <set duration="2"><animate type="yOffset" from="-25" to="0"   algorithm="easeOutcircular"/></set>
+        </onIdle>
+        <onEnter         ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="maxWidth" from="0" to="540" algorithm="easeInquadratic" /><animate type="height" from="0" to="520" algorithm="easeInquadratic" /></set></onEnter>
+        <onExit          ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="maxWidth" from="540" to="0" algorithm="easeOutquadratic"/><animate type="height" from="520" to="0" algorithm="easeOutquadratic"/></set></onExit>
+        <onMenuEnter     ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="maxWidth" from="0" to="540" algorithm="easeInquadratic" /><animate type="height" from="0" to="520" algorithm="easeInquadratic" /></set></onMenuEnter>
+        <onMenuExit      ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="maxWidth" from="540" to="0" algorithm="easeOutquadratic"/><animate type="height" from="520" to="0" algorithm="easeOutquadratic"/></set></onMenuExit>
+        <onMenuJumpEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="maxWidth" from="0" to="540" algorithm="easeInquadratic" /><animate type="height" from="0" to="520" algorithm="easeInquadratic" /></set></onMenuJumpEnter>
+        <onMenuJumpExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="maxWidth" from="540" to="0" algorithm="easeOutquadratic"/><animate type="height" from="520" to="0" algorithm="easeOutquadratic"/></set></onMenuJumpExit>
+        <onPlaylistEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="maxWidth" from="0" to="540" algorithm="easeInquadratic" /><animate type="height" from="0" to="520" algorithm="easeInquadratic" /></set></onPlaylistEnter>
+        <onPlaylistExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="maxWidth" from="540" to="0" algorithm="easeOutquadratic"/><animate type="height" from="520" to="0" algorithm="easeOutquadratic"/></set></onPlaylistExit>
+        <onHighlightEnter><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="maxWidth" from="0" to="540" algorithm="easeInquadratic" /><animate type="height" from="0" to="520" algorithm="easeInquadratic" /></set></onHighlightEnter>
+        <onHighlightExit ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="maxWidth" from="540" to="0" algorithm="easeOutquadratic"/><animate type="height" from="520" to="0" algorithm="easeOutquadratic"/></set></onHighlightExit>
+        <onGameEnter     ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="maxWidth" from="540" to="0" algorithm="easeOutquadratic"/><animate type="height" from="520" to="0" algorithm="easeOutquadratic"/></set></onGameEnter>
+        <onGameExit      ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="maxWidth" from="0" to="540" algorithm="easeInquadratic" /><animate type="height" from="0" to="520" algorithm="easeInquadratic" /></set></onGameExit>
+    </reloadableImage>
+
+    <!-- Box image -->
+    <reloadableImage type="artwork_front" alpha="0" x="center" y="center" maxWidth="695" height="520" xOrigin="center" yOrigin="center" layer="11">
+        <onIdle>
+            <set duration="2"><animate type="yOffset" from="0"   to="25"  algorithm="easeIncircular" /></set>
+            <set duration="2"><animate type="yOffset" from="25"  to="0"   algorithm="easeOutcircular"/></set>
+            <set duration="2"><animate type="yOffset" from="0"   to="-25" algorithm="easeIncircular" /></set>
+            <set duration="2"><animate type="yOffset" from="-25" to="0"   algorithm="easeOutcircular"/></set>
+        </onIdle>
+        <onEnter         ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="maxWidth" from="0" to="540" algorithm="easeInquadratic" /><animate type="height" from="0" to="520" algorithm="easeInquadratic" /></set></onEnter>
+        <onExit          ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="maxWidth" from="540" to="0" algorithm="easeOutquadratic"/><animate type="height" from="520" to="0" algorithm="easeOutquadratic"/></set></onExit>
+        <onMenuEnter     ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="maxWidth" from="0" to="540" algorithm="easeInquadratic" /><animate type="height" from="0" to="520" algorithm="easeInquadratic" /></set></onMenuEnter>
+        <onMenuExit      ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="maxWidth" from="540" to="0" algorithm="easeOutquadratic"/><animate type="height" from="520" to="0" algorithm="easeOutquadratic"/></set></onMenuExit>
+        <onMenuJumpEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="maxWidth" from="0" to="540" algorithm="easeInquadratic" /><animate type="height" from="0" to="520" algorithm="easeInquadratic" /></set></onMenuJumpEnter>
+        <onMenuJumpExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="maxWidth" from="540" to="0" algorithm="easeOutquadratic"/><animate type="height" from="520" to="0" algorithm="easeOutquadratic"/></set></onMenuJumpExit>
+        <onPlaylistEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="maxWidth" from="0" to="540" algorithm="easeInquadratic" /><animate type="height" from="0" to="520" algorithm="easeInquadratic" /></set></onPlaylistEnter>
+        <onPlaylistExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="maxWidth" from="540" to="0" algorithm="easeOutquadratic"/><animate type="height" from="520" to="0" algorithm="easeOutquadratic"/></set></onPlaylistExit>
+        <onHighlightEnter><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="maxWidth" from="0" to="540" algorithm="easeInquadratic" /><animate type="height" from="0" to="520" algorithm="easeInquadratic" /></set></onHighlightEnter>
+        <onHighlightExit ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="maxWidth" from="540" to="0" algorithm="easeOutquadratic"/><animate type="height" from="520" to="0" algorithm="easeOutquadratic"/></set></onHighlightExit>
+        <onGameEnter     ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="maxWidth" from="540" to="0" algorithm="easeOutquadratic"/><animate type="height" from="520" to="0" algorithm="easeOutquadratic"/></set></onGameEnter>
+        <onGameExit      ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="maxWidth" from="0" to="540" algorithm="easeInquadratic" /><animate type="height" from="0" to="520" algorithm="easeInquadratic" /></set></onGameExit>
+    </reloadableImage>
+
+    <!--===============================================================================================================================-->
+    <!-- Story panel (Upper right panel) -->
+    <!--===============================================================================================================================-->
+
+    <!-- Story text background -->
+    <image src="images/black.png" alpha="0" x="250" y="375" width="400" height="300" xOrigin="center" yOrigin="center" layer="8">
+        <onEnter         ><set duration=".1"><animate type="alpha" to="0.5" algorithm="easeInquadratic" /><animate type="yOffset" from="-525" to="0" algorithm="easeInquadratic" /></set></onEnter>
+        <onExit          ><set duration=".1"><animate type="alpha" to="0.0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="-525" algorithm="easeOutquadratic"/></set></onExit>
+        <onMenuEnter     ><set duration=".1"><animate type="alpha" to="0.5" algorithm="easeInquadratic" /><animate type="yOffset" from="-525" to="0" algorithm="easeInquadratic" /></set></onMenuEnter>
+        <onMenuExit      ><set duration=".1"><animate type="alpha" to="0.0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="-525" algorithm="easeOutquadratic"/></set></onMenuExit>
+        <onMenuJumpEnter ><set duration=".1"><animate type="alpha" to="0.5" algorithm="easeInquadratic" /><animate type="yOffset" from="-525" to="0" algorithm="easeInquadratic" /></set></onMenuJumpEnter>
+        <onMenuJumpExit  ><set duration=".1"><animate type="alpha" to="0.0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="-525" algorithm="easeOutquadratic"/></set></onMenuJumpExit>
+        <onPlaylistEnter ><set duration=".1"><animate type="alpha" to="0.5" algorithm="easeInquadratic" /><animate type="yOffset" from="-525" to="0" algorithm="easeInquadratic" /></set></onPlaylistEnter>
+        <onPlaylistExit  ><set duration=".1"><animate type="alpha" to="0.0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="-525" algorithm="easeOutquadratic"/></set></onPlaylistExit>
+        <onHighlightEnter><set duration=".1"><animate type="alpha" to="0.5" algorithm="easeInquadratic" /><animate type="yOffset" from="-525" to="0" algorithm="easeInquadratic" /></set></onHighlightEnter>
+        <onHighlightExit ><set duration=".1"><animate type="alpha" to="0.0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="-525" algorithm="easeOutquadratic"/></set></onHighlightExit>
+        <onGameEnter     ><set duration=".1"><animate type="alpha" to="0.0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="-525" algorithm="easeOutquadratic"/></set></onGameEnter>
+        <onGameExit      ><set duration=".1"><animate type="alpha" to="0.5" algorithm="easeInquadratic" /><animate type="yOffset" from="-525" to="0" algorithm="easeInquadratic" /></set></onGameExit>
+    </image>
+
+    <!-- Story text -->
+    <reloadableScrollingText type="story" alpha="0" x="250" y="375" width="350" height="250" xOrigin="center" yOrigin="center" font="fonts/Oswald-Regular.ttf" fontSize="35" loadFontSize="35" fontColor="dedede" direction="vertical" alignment="justified" scrollingSpeed="15" startPosition="0" startTime="4" endTime="1" layer="19">
+        <onEnter         ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="-525" to="0" algorithm="easeInquadratic" /></set></onEnter>
+        <onExit          ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="-525" algorithm="easeOutquadratic"/></set></onExit>
+        <onMenuEnter     ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="-525" to="0" algorithm="easeInquadratic" /></set></onMenuEnter>
+        <onMenuExit      ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="-525" algorithm="easeOutquadratic"/></set></onMenuExit>
+        <onMenuJumpEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="-525" to="0" algorithm="easeInquadratic" /></set></onMenuJumpEnter>
+        <onMenuJumpExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="-525" algorithm="easeOutquadratic"/></set></onMenuJumpExit>
+        <onPlaylistEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="-525" to="0" algorithm="easeInquadratic" /></set></onPlaylistEnter>
+        <onPlaylistExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="-525" algorithm="easeOutquadratic"/></set></onPlaylistExit>
+        <onHighlightEnter><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="-525" to="0" algorithm="easeInquadratic" /></set></onHighlightEnter>
+        <onHighlightExit ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="-525" algorithm="easeOutquadratic"/></set></onHighlightExit>
+        <onGameEnter     ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="-525" algorithm="easeOutquadratic"/></set></onGameEnter>
+        <onGameExit      ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="-525" to="0" algorithm="easeInquadratic" /></set></onGameExit>
+    </reloadableScrollingText>
+
+    <!--===============================================================================================================================-->
+    <!-- Media panel (Lower left panel) -->
+    <!--===============================================================================================================================-->
+
+    <!-- Media image -->
+    <reloadableImage type="medium_front" alpha="0" x="250" y="730" maxWidth="350" maxHeight="350" xOrigin="center" yOrigin="center" layer="11">
+        <onEnter         ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="525" to="0" algorithm="easeInquadratic" /></set></onEnter>
+        <onExit          ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="525" algorithm="easeOutquadratic"/></set></onExit>
+        <onMenuEnter     ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="525" to="0" algorithm="easeInquadratic" /></set></onMenuEnter>
+        <onMenuExit      ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="525" algorithm="easeOutquadratic"/></set></onMenuExit>
+        <onMenuJumpEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="525" to="0" algorithm="easeInquadratic" /></set></onMenuJumpEnter>
+        <onMenuJumpExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="525" algorithm="easeOutquadratic"/></set></onMenuJumpExit>
+        <onPlaylistEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="525" to="0" algorithm="easeInquadratic" /></set></onPlaylistEnter>
+        <onPlaylistExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="525" algorithm="easeOutquadratic"/></set></onPlaylistExit>
+        <onHighlightEnter><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="525" to="0" algorithm="easeInquadratic" /></set></onHighlightEnter>
+        <onHighlightExit ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="525" algorithm="easeOutquadratic"/></set></onHighlightExit>
+        <onGameEnter     ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="525" algorithm="easeOutquadratic"/></set></onGameEnter>
+        <onGameExit      ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="525" to="0" algorithm="easeInquadratic" /></set></onGameExit>
+    </reloadableImage>
+
+    <!--===============================================================================================================================-->
+    <!-- Main video panel (Top right panel) -->
+    <!--===============================================================================================================================-->
+
+    <reloadableVideo imageType="screenshot" alpha="0" x="1190" y="375" width="400" maxHeight="300" xOrigin="center" yOrigin="center" layer="9">
+        <onEnter         ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="-625" to="0" algorithm="easeInquadratic" /></set></onEnter>
+        <onExit          ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="-625" algorithm="easeOutquadratic"/></set></onExit>
+        <onMenuEnter     ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="-625" to="0" algorithm="easeInquadratic" /></set></onMenuEnter>
+        <onMenuExit      ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="-625" algorithm="easeOutquadratic"/></set></onMenuExit>
+        <onMenuJumpEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="-625" to="0" algorithm="easeInquadratic" /></set></onMenuJumpEnter>
+        <onMenuJumpExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="-625" algorithm="easeOutquadratic"/></set></onMenuJumpExit>
+        <onPlaylistEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="-625" to="0" algorithm="easeInquadratic" /></set></onPlaylistEnter>
+        <onPlaylistExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="-625" algorithm="easeOutquadratic"/></set></onPlaylistExit>
+        <onHighlightEnter><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="-625" to="0" algorithm="easeInquadratic" /></set></onHighlightEnter>
+        <onHighlightExit ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="-625" algorithm="easeOutquadratic"/></set></onHighlightExit>
+        <onGameEnter     ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="-625" algorithm="easeOutquadratic"/></set></onGameEnter>
+        <onGameExit      ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="-625" to="0" algorithm="easeInquadratic" /></set></onGameExit>
+    </reloadableVideo>
+
+    <!--===============================================================================================================================-->
+    <!-- Item Info panel (Lower right panel) -->
+    <!--===============================================================================================================================-->
+
+    <!-- Item Info background -->
+    <image src="images/black.png" alpha="0" x="990" y="615" width="400" height="275" xOrigin="left" yOrigin="top" layer="8">
+        <onEnter         ><set duration=".1"><animate type="alpha" to="0.5" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onEnter>
+        <onExit          ><set duration=".1"><animate type="alpha" to="0.0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onExit>
+        <onMenuEnter     ><set duration=".1"><animate type="alpha" to="0.5" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onMenuEnter>
+        <onMenuExit      ><set duration=".1"><animate type="alpha" to="0.0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onMenuExit>
+        <onMenuJumpEnter ><set duration=".1"><animate type="alpha" to="0.5" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onMenuJumpEnter>
+        <onMenuJumpExit  ><set duration=".1"><animate type="alpha" to="0.0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onMenuJumpExit>
+        <onPlaylistEnter ><set duration=".1"><animate type="alpha" to="0.5" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onPlaylistEnter>
+        <onPlaylistExit  ><set duration=".1"><animate type="alpha" to="0.0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onPlaylistExit>
+        <onHighlightEnter><set duration=".1"><animate type="alpha" to="0.5" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onHighlightEnter>
+        <onHighlightExit ><set duration=".1"><animate type="alpha" to="0.0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onHighlightExit>
+        <onGameEnter     ><set duration=".1"><animate type="alpha" to="0.0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onGameEnter>
+        <onGameExit      ><set duration=".1"><animate type="alpha" to="0.5" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onGameExit>
+    </image>
+
+    <!-- Year Text -->
+    <reloadableScrollingText type="year" alpha="0" x="1015" y="630" maxWidth="350" height="40" xOrigin="left" yOrigin="center" font="fonts/Oswald-Regular.ttf" fontSize="40" loadFontSize="40" fontColor="dedede" direction="vertical" scrollingSpeed="15" startPosition="0" startTime="4" endTime="1" layer="10">
+        <onEnter         ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onEnter>
+        <onExit          ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onExit>
+        <onMenuEnter     ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onMenuEnter>
+        <onMenuExit      ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onMenuExit>
+        <onMenuJumpEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onMenuJumpEnter>
+        <onMenuJumpExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onMenuJumpExit>
+        <onPlaylistEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onPlaylistEnter>
+        <onPlaylistExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onPlaylistExit>
+        <onHighlightEnter><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onHighlightEnter>
+        <onHighlightExit ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onHighlightExit>
+        <onGameEnter     ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onGameEnter>
+        <onGameExit      ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onGameExit>
+    </reloadableScrollingText>
+
+    <!-- Manufacturer Text -->
+    <reloadableText type="manufacturer" alpha="0" x="1015" y="690" maxWidth="350" height="40" xOrigin="left" yOrigin="center" font="fonts/Oswald-Regular.ttf" fontSize="40" loadFontSize="40" fontColor="dedede" layer="10">
+        <onEnter         ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onEnter>
+        <onExit          ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onExit>
+        <onMenuEnter     ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onMenuEnter>
+        <onMenuExit      ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onMenuExit>
+        <onMenuJumpEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onMenuJumpEnter>
+        <onMenuJumpExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onMenuJumpExit>
+        <onPlaylistEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onPlaylistEnter>
+        <onPlaylistExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onPlaylistExit>
+        <onHighlightEnter><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onHighlightEnter>
+        <onHighlightExit ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onHighlightExit>
+        <onGameEnter     ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onGameEnter>
+        <onGameExit      ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onGameExit>
+    </reloadableText>
+
+    <!-- Developer Text -->
+    <reloadableText type="developer" alpha="0" x="1015" y="730" maxWidth="350" height="40" xOrigin="left" yOrigin="center" font="fonts/Oswald-Regular.ttf" fontSize="40" loadFontSize="40" layer="10">
+        <onEnter         ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onEnter>
+        <onExit          ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onExit>
+        <onMenuEnter     ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onMenuEnter>
+        <onMenuExit      ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onMenuExit>
+        <onMenuJumpEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onMenuJumpEnter>
+        <onMenuJumpExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onMenuJumpExit>
+        <onPlaylistEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onPlaylistEnter>
+        <onPlaylistExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onPlaylistExit>
+        <onHighlightEnter><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onHighlightEnter>
+        <onHighlightExit ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onHighlightExit>
+        <onGameEnter     ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onGameEnter>
+        <onGameExit      ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onGameExit>
+    </reloadableText>
+
+    <!-- CPU Text -->
+    <reloadableScrollingText type="cpu" alpha="0" x="1015" y="710" maxWidth="350" height="50" xOrigin="left" yOrigin="center" font="fonts/Oswald-Regular.ttf" fontSize="24" loadFontSize="24" fontColor="dedede" direction="vertical" scrollingSpeed="15" startPosition="0" startTime="4" endTime="1" layer="10">
+        <onEnter         ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onEnter>
+        <onExit          ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onExit>
+        <onMenuEnter     ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onMenuEnter>
+        <onMenuExit      ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onMenuExit>
+        <onMenuJumpEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onMenuJumpEnter>
+        <onMenuJumpExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onMenuJumpExit>
+        <onPlaylistEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onPlaylistEnter>
+        <onPlaylistExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onPlaylistExit>
+        <onHighlightEnter><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onHighlightEnter>
+        <onHighlightExit ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onHighlightExit>
+        <onGameEnter     ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onGameEnter>
+        <onGameExit      ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onGameExit>
+    </reloadableScrollingText>
+
+    <!-- show type image -->
+    <reloadableImage type="type" mode="commonlayout" alpha="1" x="1060" y="815" maxWidth="85" height="100" xOrigin="center" yOrigin="center" layer="15">
+        <onEnter         ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onEnter>
+        <onExit          ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onExit>
+        <onMenuEnter     ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onMenuEnter>
+        <onMenuExit      ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onMenuExit>
+        <onMenuJumpEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onMenuJumpEnter>
+        <onMenuJumpExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onMenuJumpExit>
+        <onPlaylistEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onPlaylistEnter>
+        <onPlaylistExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onPlaylistExit>
+        <onHighlightEnter><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onHighlightEnter>
+        <onHighlightExit ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onHighlightExit>
+        <onGameEnter     ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onGameEnter>
+        <onGameExit      ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onGameExit>
+    </reloadableImage>
+
+    <!-- show genre image -->
+    <reloadableImage type="genre" mode="commonlayout" alpha="0" x="1060" y="815" maxWidth="85" height="100" xOrigin="center" yOrigin="center" layer="15">
+        <onEnter         ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onEnter>
+        <onExit          ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onExit>
+        <onMenuEnter     ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onMenuEnter>
+        <onMenuExit      ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onMenuExit>
+        <onMenuJumpEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onMenuJumpEnter>
+        <onMenuJumpExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onMenuJumpExit>
+        <onPlaylistEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onPlaylistEnter>
+        <onPlaylistExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onPlaylistExit>
+        <onHighlightEnter><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onHighlightEnter>
+        <onHighlightExit ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onHighlightExit>
+        <onGameEnter     ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onGameEnter>
+        <onGameExit      ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onGameExit>
+    </reloadableImage>
+
+    <!-- show generation image -->
+    <reloadableImage type="generation" mode="commonlayout" alpha="1" x="1150" y="815" maxWidth="85" height="100" xOrigin="center" yOrigin="center" layer="15">
+        <onEnter         ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onEnter>
+        <onExit          ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onExit>
+        <onMenuEnter     ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onMenuEnter>
+        <onMenuExit      ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onMenuExit>
+        <onMenuJumpEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onMenuJumpEnter>
+        <onMenuJumpExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onMenuJumpExit>
+        <onPlaylistEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onPlaylistEnter>
+        <onPlaylistExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onPlaylistExit>
+        <onHighlightEnter><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onHighlightEnter>
+        <onHighlightExit ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onHighlightExit>
+        <onGameEnter     ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onGameEnter>
+        <onGameExit      ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onGameExit>
+    </reloadableImage>
+
+    <!-- show rating image -->
+    <reloadableImage type="rating" mode="commonlayout" alpha="0" x="1150" y="815" maxWidth="85" height="100" xOrigin="center" yOrigin="center" layer="15">
+        <onEnter         ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onEnter>
+        <onExit          ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onExit>
+        <onMenuEnter     ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onMenuEnter>
+        <onMenuExit      ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onMenuExit>
+        <onMenuJumpEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onMenuJumpEnter>
+        <onMenuJumpExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onMenuJumpExit>
+        <onPlaylistEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onPlaylistEnter>
+        <onPlaylistExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onPlaylistExit>
+        <onHighlightEnter><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onHighlightEnter>
+        <onHighlightExit ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onHighlightExit>
+        <onGameEnter     ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onGameEnter>
+        <onGameExit      ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onGameExit>
+    </reloadableImage>
+
+    <!-- show Media image -->
+    <reloadableImage type="media" mode="commonlayout" textFallback="true" alpha="1" x="1240" y="815" maxWidth="85" height="100" xOrigin="center" yOrigin="center" layer="15">
+        <onEnter         ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onEnter>
+        <onExit          ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onExit>
+        <onMenuEnter     ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onMenuEnter>
+        <onMenuExit      ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onMenuExit>
+        <onMenuJumpEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onMenuJumpEnter>
+        <onMenuJumpExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onMenuJumpExit>
+        <onPlaylistEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onPlaylistEnter>
+        <onPlaylistExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onPlaylistExit>
+        <onHighlightEnter><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onHighlightEnter>
+        <onHighlightExit ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onHighlightExit>
+        <onGameEnter     ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onGameEnter>
+        <onGameExit      ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onGameExit>
+    </reloadableImage>
+
+    <!-- show Number of players image -->
+    <reloadableImage type="numberPlayers" mode="commonlayout" alpha="0" x="1240" y="815" maxWidth="85" height="100" xOrigin="center" yOrigin="center" layer="15">
+        <onEnter         ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onEnter>
+        <onExit          ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onExit>
+        <onMenuEnter     ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onMenuEnter>
+        <onMenuExit      ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onMenuExit>
+        <onMenuJumpEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onMenuJumpEnter>
+        <onMenuJumpExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onMenuJumpExit>
+        <onPlaylistEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onPlaylistEnter>
+        <onPlaylistExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onPlaylistExit>
+        <onHighlightEnter><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onHighlightEnter>
+        <onHighlightExit ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onHighlightExit>
+        <onGameEnter     ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onGameEnter>
+        <onGameExit      ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onGameExit>
+    </reloadableImage>
+
+    <!-- show Playlist image -->
+    <reloadableImage type="playlist" mode="commonlayout" alpha="0" x="1330" y="815" maxWidth="85" height="100" xOrigin="center" yOrigin="center" layer="15">
+        <onEnter         ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onEnter>
+        <onExit          ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onExit>
+        <onMenuEnter     ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onMenuEnter>
+        <onMenuExit      ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onMenuExit>
+        <onMenuJumpEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onMenuJumpEnter>
+        <onMenuJumpExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onMenuJumpExit>
+        <onPlaylistEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onPlaylistEnter>
+        <onPlaylistExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onPlaylistExit>
+        <onHighlightEnter><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onHighlightEnter>
+        <onHighlightExit ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onHighlightExit>
+        <onGameEnter     ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="455" algorithm="easeOutquadratic"/></set></onGameEnter>
+        <onGameExit      ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="455" to="0" algorithm="easeInquadratic" /></set></onGameExit>
+    </reloadableImage>
+
+    <!--===============================================================================================================================-->
+    <!-- Bottom bar -->
+    <!--===============================================================================================================================-->
+
+    <!-- Collection Name -->
+    <reloadableImage mode="system" type="logo" x="20" y="1010" maxWidth="300" maxHeight="100" xOrigin="left" yOrigin="center" layer="15">
+        <onEnter    ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="120" to="0" algorithm="easeInquadratic" /></set></onEnter>
+        <onExit     ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="120" algorithm="easeOutquadratic"/></set></onExit>
+        <onMenuEnter><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="120" to="0" algorithm="easeInquadratic" /></set></onMenuEnter>
+        <onMenuExit ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="120" algorithm="easeOutquadratic"/></set></onMenuExit>
+        <onGameEnter><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="120" algorithm="easeOutquadratic"/></set></onGameEnter>
+        <onGameExit ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="120" to="0" algorithm="easeInquadratic" /></set></onGameExit>
+    </reloadableImage>
+
+    <!-- Title background -->
+    <image src="images/black.png" alpha="0" x="center" y="1010" width="760" height="60" xOrigin="center" yOrigin="center" layer="14">
+        <onEnter>         <set duration=".1"><animate type="alpha" to="0.5" algorithm="easeInquadratic" /><animate type="yOffset" from="120" to="0" algorithm="easeInquadratic" /></set></onEnter>
+        <onExit>          <set duration=".1"><animate type="alpha" to="0.0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="120" algorithm="easeOutquadratic"/></set></onExit>
+        <onMenuEnter     ><set duration=".1"><animate type="alpha" to="0.5" algorithm="easeInquadratic" /><animate type="yOffset" from="120" to="0" algorithm="easeInquadratic" /></set></onMenuEnter>
+        <onMenuExit      ><set duration=".1"><animate type="alpha" to="0.0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="120" algorithm="easeOutquadratic"/></set></onMenuExit>
+        <onMenuJumpEnter ><set duration=".1"><animate type="alpha" to="0.5" algorithm="easeInquadratic" /><animate type="yOffset" from="120" to="0" algorithm="easeInquadratic" /></set></onMenuJumpEnter>
+        <onMenuJumpExit  ><set duration=".1"><animate type="alpha" to="0.0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="120" algorithm="easeOutquadratic"/></set></onMenuJumpExit>
+        <onPlaylistEnter ><set duration=".1"><animate type="alpha" to="0.5" algorithm="easeInquadratic" /><animate type="yOffset" from="120" to="0" algorithm="easeInquadratic" /></set></onPlaylistEnter>
+        <onPlaylistExit  ><set duration=".1"><animate type="alpha" to="0.0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="120" algorithm="easeOutquadratic"/></set></onPlaylistExit>
+        <onHighlightEnter><set duration=".1"><animate type="alpha" to="0.5" algorithm="easeInquadratic" /><animate type="yOffset" from="120" to="0" algorithm="easeInquadratic" /></set></onHighlightEnter>
+        <onHighlightExit ><set duration=".1"><animate type="alpha" to="0.0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="120" algorithm="easeOutquadratic"/></set></onHighlightExit>
+        <onGameEnter     ><set duration=".1"><animate type="alpha" to="0.0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="120" algorithm="easeOutquadratic"/></set></onGameEnter>
+        <onGameExit      ><set duration=".1"><animate type="alpha" to="0.5" algorithm="easeInquadratic" /><animate type="yOffset" from="120" to="0" algorithm="easeInquadratic" /></set></onGameExit>
+    </image>
+
+    <!-- Title text -->
+    <reloadableText type="title" alpha="0" x="center" y="1010" maxWidth="760" height="60" xOrigin="center" yOrigin="center" font="fonts/Oswald-Regular.ttf" fontSize="60" loadFontSize="60" fontColor="dedede" layer="15">
+        <onEnter         ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="120" to="0" algorithm="easeInquadratic" /></set></onEnter>
+        <onExit          ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="120" algorithm="easeOutquadratic"/></set></onExit>
+        <onMenuEnter     ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="120" to="0" algorithm="easeInquadratic" /></set></onMenuEnter>
+        <onMenuExit      ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="120" algorithm="easeOutquadratic"/></set></onMenuExit>
+        <onMenuJumpEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="120" to="0" algorithm="easeInquadratic" /></set></onMenuJumpEnter>
+        <onMenuJumpExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="120" algorithm="easeOutquadratic"/></set></onMenuJumpExit>
+        <onPlaylistEnter ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="120" to="0" algorithm="easeInquadratic" /></set></onPlaylistEnter>
+        <onPlaylistExit  ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="120" algorithm="easeOutquadratic"/></set></onPlaylistExit>
+        <onHighlightEnter><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="120" to="0" algorithm="easeInquadratic" /></set></onHighlightEnter>
+        <onHighlightExit ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="120" algorithm="easeOutquadratic"/></set></onHighlightExit>
+        <onGameEnter     ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="120" algorithm="easeOutquadratic"/></set></onGameEnter>
+        <onGameExit      ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="120" to="0" algorithm="easeInquadratic" /></set></onGameExit>
+    </reloadableText>
+
+    <!-- Collection Size -->
+    <reloadableText type="collectionIndexSize" menuScrollReload="true" x="1420" y="1035" xOrigin="right" yOrigin="center" font="fonts/Oswald-Regular.ttf" fontSize="50" loadFontSize="50" fontColor="dedede" alignment="right" layer="15">
+        <onEnter    ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="70" to="0" algorithm="easeInquadratic" /></set></onEnter>
+        <onExit     ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="70" algorithm="easeOutquadratic"/></set></onExit>
+        <onMenuEnter><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="70" to="0" algorithm="easeInquadratic" /></set></onMenuEnter>
+        <onMenuExit ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="70" algorithm="easeOutquadratic"/></set></onMenuExit>
+        <onGameEnter><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="70" algorithm="easeOutquadratic"/></set></onGameEnter>
+        <onGameExit ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="70" to="0" algorithm="easeInquadratic" /></set></onGameExit>
+    </reloadableText>
+    <!-- Collection Size Shadow -->
+    <reloadableText type="collectionIndexSize" menuScrollReload="true" x="1422" y="1037" xOrigin="right" yOrigin="center" font="fonts/Oswald-Regular.ttf" fontSize="50" loadFontSize="50" fontColor="000000" alignment="right" layer="14">
+        <onEnter    ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="70" to="0" algorithm="easeInquadratic" /></set></onEnter>
+        <onExit     ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="70" algorithm="easeOutquadratic"/></set></onExit>
+        <onMenuEnter><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="70" to="0" algorithm="easeInquadratic" /></set></onMenuEnter>
+        <onMenuExit ><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="70" algorithm="easeOutquadratic"/></set></onMenuExit>
+        <onGameEnter><set duration=".1"><animate type="alpha" to="0" algorithm="easeOutquadratic"/><animate type="yOffset" from="0" to="70" algorithm="easeOutquadratic"/></set></onGameEnter>
+        <onGameExit ><set duration=".1"><animate type="alpha" to="1" algorithm="easeInquadratic" /><animate type="yOffset" from="70" to="0" algorithm="easeInquadratic" /></set></onGameExit>
+    </reloadableText>
+
+</layout>

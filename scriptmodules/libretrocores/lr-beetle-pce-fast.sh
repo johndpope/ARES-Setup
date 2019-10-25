@@ -46,5 +46,7 @@ function configure_lr-beetle-pce-fast() {
         ensureSystemretroconfig "$system"
         addEmulator 1 "$md_id" "$system" "$md_inst/mednafen_pce_fast_libretro.so"
         addSystem "$system"
+		cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+        cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
     done
 }

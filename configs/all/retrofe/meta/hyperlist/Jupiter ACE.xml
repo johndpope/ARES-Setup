@@ -1,0 +1,1169 @@
+<?xml version="1.0"?>
+<menu>
+	<header>
+		<listname>Jupiter ACE</listname>
+		<lastlistupdate>08/22/2017</lastlistupdate>
+		<listversion>2.0</listversion>
+		<exporterversion>HyperList XML Exporter Version 1.3 Copywrite (c) 2009-2011 William Strong</exporterversion>
+	</header>
+	<game name="3D Maze (Europe) (Unl)" index="true" image="3">
+		<description>3D Maze (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>A7D40F66</crc>
+		<manufacturer>Ricardo Fernandes Lopes</manufacturer>
+		<year>2007</year>
+		<genre>Maze</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Ace Invaders (Forth Dimension) (Europe)" index="true" image="a">
+		<description>Ace Invaders (Forth Dimension) (Europe)</description>
+		<cloneof></cloneof>
+		<crc>F8858CB9</crc>
+		<manufacturer>Forth Dimension</manufacturer>
+		<year>1983</year>
+		<genre>Shoot-&apos;Em-Up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Ace Invaders (Hi-Tech Microsoft) (Europe)" index="" image="">
+		<description>Ace Invaders (Hi-Tech Microsoft) (Europe)</description>
+		<cloneof></cloneof>
+		<crc>E5D9C8E1</crc>
+		<manufacturer>Hi-Tech Microsoft</manufacturer>
+		<year>1983</year>
+		<genre>Shoot-&apos;Em-Up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Ace Invasion (Europe)" index="" image="">
+		<description>Ace Invasion (Europe)</description>
+		<cloneof></cloneof>
+		<crc>5004F1B0</crc>
+		<manufacturer>Titan Software</manufacturer>
+		<year>1983</year>
+		<genre>Shoot-&apos;Em-Up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Ace Mines (Europe) (Unl)" index="" image="">
+		<description>Ace Mines (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>D508F3E5</crc>
+		<manufacturer>Ricardo Fernandes Lopes</manufacturer>
+		<year>2004</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Ace Snake (Europe)" index="" image="">
+		<description>Ace Snake (Europe)</description>
+		<cloneof></cloneof>
+		<crc>348374A4</crc>
+		<manufacturer>Stusoft</manufacturer>
+		<year>1984</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Ace Star (Europe) (Unl)" index="" image="">
+		<description>Ace Star (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>01217F3F</crc>
+		<manufacturer>Jupiter Ace Archive Team</manufacturer>
+		<year>2010</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Aceteroids (Europe)" index="" image="">
+		<description>Aceteroids (Europe)</description>
+		<cloneof></cloneof>
+		<crc>80C5B4F1</crc>
+		<manufacturer>Jovian Games</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Acevaders (Europe)" index="" image="">
+		<description>Acevaders (Europe)</description>
+		<cloneof></cloneof>
+		<crc>9E8EF6C0</crc>
+		<manufacturer>Micro Marketing Ltd</manufacturer>
+		<year>1983</year>
+		<genre>Shoot-&apos;Em-Up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Alen Invaders (Europe) (Unl)" index="" image="">
+		<description>Alen Invaders (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>84754081</crc>
+		<manufacturer>Boldfield Computing</manufacturer>
+		<year>1984</year>
+		<genre>Shoot-&apos;Em-Up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Alien Defender (Europe)" index="" image="">
+		<description>Alien Defender (Europe)</description>
+		<cloneof></cloneof>
+		<crc>38259232</crc>
+		<manufacturer>Boldfield Computing</manufacturer>
+		<year>1984</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Amazing Maze (Europe)" index="" image="">
+		<description>Amazing Maze (Europe)</description>
+		<cloneof></cloneof>
+		<crc>B8EB2DFA</crc>
+		<manufacturer>Boldfield Computing</manufacturer>
+		<year>1984</year>
+		<genre>Maze</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Asteroids (Europe)" index="" image="">
+		<description>Asteroids (Europe)</description>
+		<cloneof></cloneof>
+		<crc>DA6C588B</crc>
+		<manufacturer>Voyager Software</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Astrian Descent (Europe) (Unl)" index="" image="">
+		<description>Astrian Descent (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>EBBE6695</crc>
+		<manufacturer>Brian Bates</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Atic Raid (Europe)" index="" image="">
+		<description>Atic Raid (Europe)</description>
+		<cloneof></cloneof>
+		<crc>FD3FC960</crc>
+		<manufacturer>Boldfield Computing</manufacturer>
+		<year>1984</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Balloon Pilot (Europe)" index="true" image="b">
+		<description>Balloon Pilot (Europe)</description>
+		<cloneof></cloneof>
+		<crc>0102DE16</crc>
+		<manufacturer>Boldfield Computing</manufacturer>
+		<year>1984</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Black Island Adventure (Europe)" index="" image="">
+		<description>Black Island Adventure (Europe)</description>
+		<cloneof></cloneof>
+		<crc>EC520816</crc>
+		<manufacturer>Boldfield Computing</manufacturer>
+		<year>1984</year>
+		<genre>Adventure</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Blowing Up the World (Europe)" index="" image="">
+		<description>Blowing Up the World (Europe)</description>
+		<cloneof></cloneof>
+		<crc>5C1D617C</crc>
+		<manufacturer>Micromega</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Bomber (Europe)" index="" image="">
+		<description>Bomber (Europe)</description>
+		<cloneof></cloneof>
+		<crc>A97802B9</crc>
+		<manufacturer>Voyager Software</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Bomber (Europe) (Unl)" index="" image="">
+		<description>Bomber (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>FEB62F38</crc>
+		<manufacturer>Paul Robson</manufacturer>
+		<year>1997</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Bombs (Europe)" index="" image="">
+		<description>Bombs (Europe)</description>
+		<cloneof></cloneof>
+		<crc>F78A48F9</crc>
+		<manufacturer>Boldfield Computing</manufacturer>
+		<year>1984</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Bouncing Bill (Europe) (Unl)" index="" image="">
+		<description>Bouncing Bill (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>ABBE9567</crc>
+		<manufacturer>D Leonard</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Brandshatch (Europe)" index="" image="">
+		<description>Brandshatch (Europe)</description>
+		<cloneof></cloneof>
+		<crc>0CC21258</crc>
+		<manufacturer>Micromega</manufacturer>
+		<year>1983</year>
+		<genre>Driving</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Breakout (Dream Software) (Europe)" index="" image="">
+		<description>Breakout (Dream Software) (Europe)</description>
+		<cloneof></cloneof>
+		<crc>4965E060</crc>
+		<manufacturer>Dream Software</manufacturer>
+		<year>1983</year>
+		<genre>Breakout</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Breakout (Remsoft) (Europe)" index="" image="">
+		<description>Breakout (Remsoft) (Europe)</description>
+		<cloneof></cloneof>
+		<crc>EAA4CFF1</crc>
+		<manufacturer>Remsoft</manufacturer>
+		<year>1983</year>
+		<genre>Breakout</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Brick Catcher (Europe)" index="" image="">
+		<description>Brick Catcher (Europe)</description>
+		<cloneof></cloneof>
+		<crc>7556A88E</crc>
+		<manufacturer>Voyager Software</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Casse-Brique (Europe)" index="true" image="c">
+		<description>Casse-Brique (Europe)</description>
+		<cloneof></cloneof>
+		<crc>1E184506</crc>
+		<manufacturer>ERE</manufacturer>
+		<year>1983</year>
+		<genre>Breakout</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Cavern Attack (Europe)" index="" image="">
+		<description>Cavern Attack (Europe)</description>
+		<cloneof></cloneof>
+		<crc>1518CA67</crc>
+		<manufacturer>Hi-Tech Microsoft</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Centipede (Europe)" index="" image="">
+		<description>Centipede (Europe)</description>
+		<cloneof></cloneof>
+		<crc>A3280AC0</crc>
+		<manufacturer>Boldfield Computing</manufacturer>
+		<year>1984</year>
+		<genre>Shoot-&apos;Em-Up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Champ De Mines (Europe)" index="" image="">
+		<description>Champ De Mines (Europe)</description>
+		<cloneof></cloneof>
+		<crc>4BB3E7D8</crc>
+		<manufacturer>ERE</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Chess (Europe)" index="" image="">
+		<description>Chess (Europe)</description>
+		<cloneof></cloneof>
+		<crc>554A759C</crc>
+		<manufacturer>Boldfield Computing</manufacturer>
+		<year>1984</year>
+		<genre>Board Games</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Claustro Phobia (Europe) (Unl)" index="" image="">
+		<description>Claustro Phobia (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>FEB16C92</crc>
+		<manufacturer>D Leonard</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Computer Weaving (Europe)" index="" image="">
+		<description>Computer Weaving (Europe)</description>
+		<cloneof></cloneof>
+		<crc>3F62512E</crc>
+		<manufacturer>Boldfield Computing</manufacturer>
+		<year>1984</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Cygnus (Europe)" index="" image="">
+		<description>Cygnus (Europe)</description>
+		<cloneof></cloneof>
+		<crc>D0A31A28</crc>
+		<manufacturer>Boldfield Computing</manufacturer>
+		<year>1984</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Death Ride (Europe) (Unl)" index="true" image="d">
+		<description>Death Ride (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>88350A88</crc>
+		<manufacturer>D Leonard</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Death Ride 2 (Europe) (Unl)" index="" image="">
+		<description>Death Ride 2 (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>0BD9D3F1</crc>
+		<manufacturer>D Leonard</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Demolition (Europe)" index="" image="">
+		<description>Demolition (Europe)</description>
+		<cloneof></cloneof>
+		<crc>6FE4AC61</crc>
+		<manufacturer>Jovian Games</manufacturer>
+		<year>1983</year>
+		<genre>Breakout</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Dodge (Europe) (Unl)" index="" image="">
+		<description>Dodge (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>299438F5</crc>
+		<manufacturer>Brian Bates</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Dot Man (Europe)" index="" image="">
+		<description>Dot Man (Europe)</description>
+		<cloneof></cloneof>
+		<crc>DDB81EC6</crc>
+		<manufacturer>Micro Marketing Ltd</manufacturer>
+		<year>1983</year>
+		<genre>Maze</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Drunk Driver (Europe) (Unl)" index="" image="">
+		<description>Drunk Driver (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>D19615BF</crc>
+		<manufacturer>D Leonard</manufacturer>
+		<year>1983</year>
+		<genre>Driving</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Dual Duel (Europe)" index="" image="">
+		<description>Dual Duel (Europe)</description>
+		<cloneof></cloneof>
+		<crc>ABDE8634</crc>
+		<manufacturer>Stusoft</manufacturer>
+		<year>1985</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Duck Invaders (Europe)" index="" image="">
+		<description>Duck Invaders (Europe)</description>
+		<cloneof></cloneof>
+		<crc>EBA80D22</crc>
+		<manufacturer>Jovian Games</manufacturer>
+		<year>1983</year>
+		<genre>Shoot-&apos;Em-Up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Duckshoot (Europe)" index="" image="">
+		<description>Duckshoot (Europe)</description>
+		<cloneof></cloneof>
+		<crc>105055D8</crc>
+		<manufacturer>Micro Marketing Ltd</manufacturer>
+		<year>1983</year>
+		<genre>Shoot-&apos;Em-Up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Earth Defence (Europe)" index="true" image="e">
+		<description>Earth Defence (Europe)</description>
+		<cloneof></cloneof>
+		<crc>F7E6FE2D</crc>
+		<manufacturer>Hamsoft</manufacturer>
+		<year>1983</year>
+		<genre>Shoot-&apos;Em-Up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Elusive Recluse (Europe)" index="" image="">
+		<description>Elusive Recluse (Europe)</description>
+		<cloneof></cloneof>
+		<crc>BB0D49FD</crc>
+		<manufacturer>Stusoft</manufacturer>
+		<year>1984</year>
+		<genre>Adventure</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Fire One (Europe) (Unl)" index="true" image="f">
+		<description>Fire One (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>53457A9B</crc>
+		<manufacturer>D Leonard</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Firebird (Europe)" index="" image="">
+		<description>Firebird (Europe)</description>
+		<cloneof></cloneof>
+		<crc>A7717297</crc>
+		<manufacturer>Voyager Software</manufacturer>
+		<year>1983</year>
+		<genre>Shoot-&apos;Em-Up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Fish (Europe)" index="" image="">
+		<description>Fish (Europe)</description>
+		<cloneof></cloneof>
+		<crc>AD4DA76F</crc>
+		<manufacturer>Jupiter Cantab</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Flutterer (Europe)" index="" image="">
+		<description>Flutterer (Europe)</description>
+		<cloneof></cloneof>
+		<crc>EB6E3931</crc>
+		<manufacturer>Jupiter Cantab</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Frogger (Boldfield Computing) (Europe)" index="" image="">
+		<description>Frogger (Boldfield Computing) (Europe)</description>
+		<cloneof></cloneof>
+		<crc>6BAEF1A9</crc>
+		<manufacturer>Boldfield Computing</manufacturer>
+		<year>1984</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Frogger (Plasma Software) (Europe) (Unl)" index="" image="">
+		<description>Frogger (Plasma Software) (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>6AF2E369</crc>
+		<manufacturer>Plasma Software</manufacturer>
+		<year>1984</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Frogger (Remsoft) (Europe)" index="" image="">
+		<description>Frogger (Remsoft) (Europe)</description>
+		<cloneof></cloneof>
+		<crc>3BABC5A1</crc>
+		<manufacturer>Remsoft</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Frogger (Remsoft) (Europe) (Version 2)" index="" image="">
+		<description>Frogger (Remsoft) (Europe) (Version 2)</description>
+		<cloneof></cloneof>
+		<crc>1A3907B0</crc>
+		<manufacturer>Remsoft</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Fungle Monster (Europe) (Unl)" index="" image="">
+		<description>Fungle Monster (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>F4BB53BA</crc>
+		<manufacturer>Voyager Software</manufacturer>
+		<year>1983</year>
+		<genre>Platform</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Gobbledegook (Europe)" index="true" image="g">
+		<description>Gobbledegook (Europe)</description>
+		<cloneof></cloneof>
+		<crc>808F7EF7</crc>
+		<manufacturer>Jupiter Cantab</manufacturer>
+		<year>1983</year>
+		<genre>Maze</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Golfgrid (Europe)" index="" image="">
+		<description>Golfgrid (Europe)</description>
+		<cloneof></cloneof>
+		<crc>4A337D18</crc>
+		<manufacturer>Jovian Games</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Grandprix (Europe) (Unl)" index="" image="">
+		<description>Grandprix (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>B419921F</crc>
+		<manufacturer>Plasma Software</manufacturer>
+		<year>1984</year>
+		<genre>Driving</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Greedy Gobbler (Europe)" index="" image="">
+		<description>Greedy Gobbler (Europe)</description>
+		<cloneof></cloneof>
+		<crc>FA1CD2DD</crc>
+		<manufacturer>Micromega</manufacturer>
+		<year>1983</year>
+		<genre>Maze</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Green X Frog (Europe)" index="" image="">
+		<description>Green X Frog (Europe)</description>
+		<cloneof></cloneof>
+		<crc>4AA7CDFC</crc>
+		<manufacturer>Hi-Tech Microsoft</manufacturer>
+		<year>1982</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Hangman (Europe)" index="true" image="h">
+		<description>Hangman (Europe)</description>
+		<cloneof></cloneof>
+		<crc>3403A247</crc>
+		<manufacturer>Jupiter Cantab</manufacturer>
+		<year>1983</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Insect Catcher (Europe)" index="true" image="i">
+		<description>Insect Catcher (Europe)</description>
+		<cloneof></cloneof>
+		<crc>00FF39A3</crc>
+		<manufacturer>Dream Software</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Jackpot (Europe)" index="true" image="j">
+		<description>Jackpot (Europe)</description>
+		<cloneof></cloneof>
+		<crc>80B93E84</crc>
+		<manufacturer>Voyager Software</manufacturer>
+		<year>1983</year>
+		<genre>Casino</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Jumpman (Europe)" index="" image="">
+		<description>Jumpman (Europe)</description>
+		<cloneof></cloneof>
+		<crc>DE04B476</crc>
+		<manufacturer>Callisto Software</manufacturer>
+		<year>1984</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Krazy Kong (Europe) (Unl)" index="true" image="k">
+		<description>Krazy Kong (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>DDD263B6</crc>
+		<manufacturer>Voyager Software</manufacturer>
+		<year>19xx</year>
+		<genre>Platform</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Life (Europe)" index="true" image="l">
+		<description>Life (Europe)</description>
+		<cloneof></cloneof>
+		<crc>06A3528A</crc>
+		<manufacturer>Hamsoft</manufacturer>
+		<year>1983</year>
+		<genre>Simulation</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Life (Europe) (Unl)" index="" image="">
+		<description>Life (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>FD48C670</crc>
+		<manufacturer>Julian Skidmore</manufacturer>
+		<year>2006</year>
+		<genre>Simulation</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Life 1K (Europe) (Unl)" index="" image="">
+		<description>Life 1K (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>3E7532FE</crc>
+		<manufacturer>Dutra de Lacerda</manufacturer>
+		<year>1985</year>
+		<genre>Simulation</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Light-Racer (Europe) (Unl)" index="" image="">
+		<description>Light-Racer (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>24F5EFC0</crc>
+		<manufacturer>Brian Bates</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Magic Floor (Europe) (Unl)" index="true" image="m">
+		<description>Magic Floor (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>CCD81A6E</crc>
+		<manufacturer>Martin Korth</manufacturer>
+		<year>2012</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Mastermind (Europe)" index="" image="">
+		<description>Mastermind (Europe)</description>
+		<cloneof></cloneof>
+		<crc>CF027675</crc>
+		<manufacturer>Hamsoft</manufacturer>
+		<year>1983</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Memory Stars (Europe)" index="" image="">
+		<description>Memory Stars (Europe)</description>
+		<cloneof></cloneof>
+		<crc>A4075EBE</crc>
+		<manufacturer>Hi-Tech Microsoft</manufacturer>
+		<year>1982</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Meteor Racer (Europe)" index="" image="">
+		<description>Meteor Racer (Europe)</description>
+		<cloneof></cloneof>
+		<crc>ABDDCBC8</crc>
+		<manufacturer>Forth Dimension</manufacturer>
+		<year>1983</year>
+		<genre>Shoot-&apos;Em-Up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Meteor Storm (Europe) (Unl)" index="" image="">
+		<description>Meteor Storm (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>03D63835</crc>
+		<manufacturer>D Leonard</manufacturer>
+		<year>1983</year>
+		<genre>Shoot-&apos;Em-Up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Meteors (Europe)" index="" image="">
+		<description>Meteors (Europe)</description>
+		<cloneof></cloneof>
+		<crc>30E2E408</crc>
+		<manufacturer>Remsoft</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Meteors (Europe) (Unl)" index="" image="">
+		<description>Meteors (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>E4453013</crc>
+		<manufacturer>Boldfield Computing</manufacturer>
+		<year>1984</year>
+		<genre>Shoot-&apos;Em-Up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Micro Maze (Europe)" index="" image="">
+		<description>Micro Maze (Europe)</description>
+		<cloneof></cloneof>
+		<crc>D19FF48A</crc>
+		<manufacturer>Hi-Tech Microsoft</manufacturer>
+		<year>1982</year>
+		<genre>Maze</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Minefield (Europe)" index="" image="">
+		<description>Minefield (Europe)</description>
+		<cloneof></cloneof>
+		<crc>DC70BEE6</crc>
+		<manufacturer>Micro Marketing Ltd</manufacturer>
+		<year>1983</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Missile Man (Europe)" index="" image="">
+		<description>Missile Man (Europe)</description>
+		<cloneof></cloneof>
+		<crc>EEE45AB4</crc>
+		<manufacturer>Micromega</manufacturer>
+		<year>1983</year>
+		<genre>Shoot-&apos;Em-Up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Moneymatrix (Europe)" index="" image="">
+		<description>Moneymatrix (Europe)</description>
+		<cloneof></cloneof>
+		<crc>52F5FC86</crc>
+		<manufacturer>Jovian Games</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Moo (Europe)" index="" image="">
+		<description>Moo (Europe)</description>
+		<cloneof></cloneof>
+		<crc>4E89BBF3</crc>
+		<manufacturer>Jupiter Cantab</manufacturer>
+		<year>1983</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Moon Buggy (Europe) (Unl)" index="" image="">
+		<description>Moon Buggy (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>8A824119</crc>
+		<manufacturer>Boldfield Computing</manufacturer>
+		<year>1984</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Othello (Europe)" index="true" image="o">
+		<description>Othello (Europe)</description>
+		<cloneof></cloneof>
+		<crc>52C4D4A8</crc>
+		<manufacturer>Jupiter Cantab</manufacturer>
+		<year>1983</year>
+		<genre>Board Games</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Overtaker (Europe)" index="" image="">
+		<description>Overtaker (Europe)</description>
+		<cloneof></cloneof>
+		<crc>0734CAC9</crc>
+		<manufacturer>Micromega</manufacturer>
+		<year>1983</year>
+		<genre>Driving</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Owler (Europe)" index="" image="">
+		<description>Owler (Europe)</description>
+		<cloneof></cloneof>
+		<crc>7E93C42F</crc>
+		<manufacturer>Callisto Software</manufacturer>
+		<year>1983</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Picman (Europe)" index="true" image="p">
+		<description>Picman (Europe)</description>
+		<cloneof></cloneof>
+		<crc>D501FD45</crc>
+		<manufacturer>Dream Software</manufacturer>
+		<year>1983</year>
+		<genre>Maze</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Planet of Death (Europe) (Unl)" index="" image="">
+		<description>Planet of Death (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>BE67ED38</crc>
+		<manufacturer>Jupiter Ace Archive Team</manufacturer>
+		<year>2010</year>
+		<genre>Adventure</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Puzzle (Europe)" index="" image="">
+		<description>Puzzle (Europe)</description>
+		<cloneof></cloneof>
+		<crc>594132C8</crc>
+		<manufacturer>Boldfield Computing</manufacturer>
+		<year>1984</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Quick-Draw (Europe) (Unl)" index="true" image="q">
+		<description>Quick-Draw (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>A7EE7CFE</crc>
+		<manufacturer>Brian Bates</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Quick-Draw Practice (Europe) (Unl)" index="" image="">
+		<description>Quick-Draw Practice (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>32B350E4</crc>
+		<manufacturer>Brian Bates</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Racer (Europe)" index="true" image="r">
+		<description>Racer (Europe)</description>
+		<cloneof></cloneof>
+		<crc>0D3F819A</crc>
+		<manufacturer>Hamsoft</manufacturer>
+		<year>1983</year>
+		<genre>Driving</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Revenge of the Robohench (Europe) (Unl)" index="" image="">
+		<description>Revenge of the Robohench (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>77B2FB21</crc>
+		<manufacturer>Boldfield Computing</manufacturer>
+		<year>1984</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Road Toad (Europe) (Unl)" index="" image="">
+		<description>Road Toad (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>7690F746</crc>
+		<manufacturer>D Leonard</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Robo Hunt (Europe) (Unl)" index="" image="">
+		<description>Robo Hunt (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>E80C6DB2</crc>
+		<manufacturer>Boldfield Computing</manufacturer>
+		<year>1984</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Sam and the Bombs (Europe) (Unl)" index="true" image="s">
+		<description>Sam and the Bombs (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>EDC5D37A</crc>
+		<manufacturer>Boldfield Computing</manufacturer>
+		<year>1984</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Scramble (Europe)" index="" image="">
+		<description>Scramble (Europe)</description>
+		<cloneof></cloneof>
+		<crc>436EA338</crc>
+		<manufacturer>Remsoft</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Shell Shock (Europe) (Unl)" index="" image="">
+		<description>Shell Shock (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>195CA4AF</crc>
+		<manufacturer>D Leonard</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Shuttlecock (Europe)" index="" image="">
+		<description>Shuttlecock (Europe)</description>
+		<cloneof></cloneof>
+		<crc>7D01C879</crc>
+		<manufacturer>Boldfield Computing</manufacturer>
+		<year>1984</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Sketch (Europe)" index="" image="">
+		<description>Sketch (Europe)</description>
+		<cloneof></cloneof>
+		<crc>4ECC96C5</crc>
+		<manufacturer>Dream Software</manufacturer>
+		<year>1983</year>
+		<genre>Miscellaneous</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Snake (Europe)" index="" image="">
+		<description>Snake (Europe)</description>
+		<cloneof></cloneof>
+		<crc>691E427F</crc>
+		<manufacturer>Waylandsoft</manufacturer>
+		<year>1985</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="SokoAce (Europe) (Unl)" index="" image="">
+		<description>SokoAce (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>B02E398D</crc>
+		<manufacturer>Ricardo Fernandes Lopes</manufacturer>
+		<year>2006</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Space Battle (Europe)" index="" image="">
+		<description>Space Battle (Europe)</description>
+		<cloneof></cloneof>
+		<crc>1569208E</crc>
+		<manufacturer>Hi-Tech Microsoft</manufacturer>
+		<year>1983</year>
+		<genre>Shoot-&apos;Em-Up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Spacefighter Pilot (Europe)" index="" image="">
+		<description>Spacefighter Pilot (Europe)</description>
+		<cloneof></cloneof>
+		<crc>6EC4CD1B</crc>
+		<manufacturer>Micromega</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Star Trek (Europe) (Unl)" index="" image="">
+		<description>Star Trek (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>6D084E74</crc>
+		<manufacturer>Plasma Software</manufacturer>
+		<year>1984</year>
+		<genre>Simulation</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Star Wars (Europe)" index="" image="">
+		<description>Star Wars (Europe)</description>
+		<cloneof></cloneof>
+		<crc>27344635</crc>
+		<manufacturer>Remsoft</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Street Racer (Europe)" index="" image="">
+		<description>Street Racer (Europe)</description>
+		<cloneof></cloneof>
+		<crc>C1D26D3C</crc>
+		<manufacturer>Voyager Software</manufacturer>
+		<year>1983</year>
+		<genre>Driving</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Sudoku (Europe) (Unl)" index="" image="">
+		<description>Sudoku (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>A994A6FD</crc>
+		<manufacturer>Ricardo Fernandes Lopes</manufacturer>
+		<year>2007</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Superbat (Europe)" index="" image="">
+		<description>Superbat (Europe)</description>
+		<cloneof></cloneof>
+		<crc>DE48091A</crc>
+		<manufacturer>Waylandsoft</manufacturer>
+		<year>1985</year>
+		<genre>Ball &amp; Paddle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Swamp Monsters (Europe)" index="" image="">
+		<description>Swamp Monsters (Europe)</description>
+		<cloneof></cloneof>
+		<crc>7847904E</crc>
+		<manufacturer>Micro Marketing</manufacturer>
+		<year>1983</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Tank Battle (Europe) (Unl)" index="true" image="t">
+		<description>Tank Battle (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>27B07D5D</crc>
+		<manufacturer>Boldfield Computing</manufacturer>
+		<year>1984</year>
+		<genre>Action</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Tetris (Europe) (Unl)" index="" image="">
+		<description>Tetris (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>F4B103D4</crc>
+		<manufacturer>Ricardo Fernandes Lopes</manufacturer>
+		<year>2009</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Titan Defender (Europe)" index="" image="">
+		<description>Titan Defender (Europe)</description>
+		<cloneof></cloneof>
+		<crc>0B0DA908</crc>
+		<manufacturer>Stusoft</manufacturer>
+		<year>1985</year>
+		<genre>Shoot-&apos;Em-Up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Towers of Hanoi (Europe) (Unl)" index="" image="">
+		<description>Towers of Hanoi (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>43C2ED79</crc>
+		<manufacturer>Ricardo Fernandes Lopes</manufacturer>
+		<year>2006</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Turbo (Europe) (Unl)" index="" image="">
+		<description>Turbo (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>B1D5AAD0</crc>
+		<manufacturer>Plasma Software</manufacturer>
+		<year>1984</year>
+		<genre>Driving</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Valkyr (Europe) (Unl)" index="true" image="v">
+		<description>Valkyr (Europe) (Unl)</description>
+		<cloneof></cloneof>
+		<crc>FB1ED671</crc>
+		<manufacturer>Stusoft</manufacturer>
+		<year>1985</year>
+		<genre>Shoot-&apos;Em-Up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Zapem (Europe)" index="true" image="z">
+		<description>Zapem (Europe)</description>
+		<cloneof></cloneof>
+		<crc>F14DCFEC</crc>
+		<manufacturer>Micro Marketing Ltd</manufacturer>
+		<year>1983</year>
+		<genre>Shoot-&apos;Em-Up</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Zombies &amp; Pothoes (Europe)" index="" image="">
+		<description>Zombies &amp; Pothoes (Europe)</description>
+		<cloneof></cloneof>
+		<crc>3A60A598</crc>
+		<manufacturer>Jupiter Cantab</manufacturer>
+		<year>1983</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+</menu>

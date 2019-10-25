@@ -99,15 +99,28 @@ _EOF_
     setDispmanx "$md_id" 1
 
     addEmulator 1 "$md_id" "zxspectrum" "bash $romdir/zxspectrum/+Start\ ZEsarUX.sh %ROM%"
+
     addEmulator 1 "$md_id" "samcoupe" "bash $romdir/zxspectrum/+Start\ ZEsarUX.sh --machine sam %ROM%"
     addEmulator 1 "$md_id" "amstradcpc" "bash $romdir/zxspectrum/+Start\ ZEsarUX.sh --machine CPC464 %ROM%"
     addEmulator 1 "$md_id" "zx81" "bash $romdir/zxspectrum/+Start\ ZEsarUX.sh --machine ZX81 %ROM%"
     addEmulator 1 "$md_id" "jupiter-ace" "bash $romdir/zxspectrum/+Start\ ZEsarUX.sh --machine ACE %ROM%"
     addEmulator 1 "$md_id" "ql" "bash $romdir/zxspectrum/+Start\ ZEsarUX.sh --machine QL %ROM%"
     addSystem "zxspectrum"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/zxspectrum/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/zxspectrum/"
     addSystem "samcoupe"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/samcoupe/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/samcoupe/"
     addSystem "amstradcpc"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/amstradcpc/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/amstradcpc/"
     addSystem "zx81"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/zx81/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/zx81/"
     addSystem "jupiter-ace"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/jupiter-ace/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/jupiter-ace/"
     addSystem "ql"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/ql/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/ql/"
 }

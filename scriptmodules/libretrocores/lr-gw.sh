@@ -41,4 +41,6 @@ function configure_lr-gw() {
 
     addEmulator 1 "$md_id" "gameandwatch" "$md_inst/gw_libretro.so"
     addSystem "gameandwatch"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

@@ -43,4 +43,6 @@ function configure_lr-redream() {
 
     addEmulator 0 "$md_id" "dreamcast" "$md_inst/redream_libretro.so"
     addSystem "dreamcast"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

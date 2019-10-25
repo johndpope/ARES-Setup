@@ -452,7 +452,10 @@ function configure_retrofe() {
 	moveConfigDir "$md_inst/launchers" "$(_get_configdir_retrofe)/launchers"
 	moveConfigDir "$md_inst/meta" "$(_get_configdir_retrofe)/meta"
 	moveConfigDir "$md_inst/collections" "$(_get_configdir_retrofe)/collections"
-}
+	cp -r "$scriptdir/configs/all/retrofe" "$md_conf_root/all/"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/ports/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/ports/"
+  } 
 
 
 

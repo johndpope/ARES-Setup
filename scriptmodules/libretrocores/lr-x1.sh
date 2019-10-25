@@ -39,4 +39,6 @@ function configure_lr-x1() {
 
     addEmulator 1 "$md_id" "x1" "$md_inst/x1_libretro.so"
     addSystem "x1"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

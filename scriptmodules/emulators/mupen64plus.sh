@@ -247,6 +247,8 @@ function configure_mupen64plus() {
     addSystem "n64"
 
     mkRomDir "n64"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 
     [[ "$md_mode" == "remove" ]] && return
 

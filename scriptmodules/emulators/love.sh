@@ -63,6 +63,8 @@ function configure_love() {
 
     addEmulator 1 "$md_id" "love" "$md_inst/bin/love %ROM%"
     addSystem "love"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 
     [[ "$md_mode" == "install" ]] && game_data_love
 }

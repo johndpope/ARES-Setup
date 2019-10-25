@@ -1,0 +1,34 @@
+{
+  "version": "1.2",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "items": [
+    {
+      "path": "/media/aresuser/ARES/ARES/roms/cgenie/digboy.zip",
+      "label": "",
+      "core_path": "/opt/ares/libretrocores/lr-mess/mess_libretro.so",
+      "core_name": "MAME",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/media/aresuser/ARES/ARES/roms/cgenie/eatman.zip",
+      "label": "",
+      "core_path": "/opt/ares/libretrocores/lr-mess/mess_libretro.so",
+      "core_name": "MAME",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/media/aresuser/ARES/ARES/roms/cgenie/andromed.zip",
+      "label": "",
+      "core_path": "/opt/ares/libretrocores/lr-mess/mess_libretro.so",
+      "core_name": "MAME",
+      "crc32": "",
+      "db_name": ""
+    }
+  ]
+}

@@ -51,10 +51,13 @@ function install_lr-fbneo() {
 }
 
 function configure_lr-fbneo() {
-    local dir
-    for dir in arcade neogeo neocdz fbneo pcengine supergrafx tg16 gamegear mastersystem megadrive sg-1000 coleco msx zxspectrum; do
-        mkRomDir "$dir"
-        ensureSystemretroconfig "$dir"
+    local system
+    for system in arcade neogeo neocdz fbneo pcengine supergrafx tg16 gamegear mastersystem megadrive sg-1000 coleco msx zxspectrum; do
+        mkRomDir "$system"
+        ensureSystemretroconfig "$system"
+		addSystem "$system"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"	
     done
 
     # Create samples directory
@@ -89,18 +92,5 @@ function configure_lr-fbneo() {
     addEmulator 0 "$md_id-msx" "msx" "$md_inst/fbneo_libretro.so --subsystem msx"
     addEmulator 0 "$md_id-spec" "zxspectrum" "$md_inst/fbneo_libretro.so --subsystem spec"
 
-    addSystem "arcade"
-    addSystem "neogeo"
-    addSystem "neocdz"
-    addSystem "fbneo"
-    addSystem "pcengine"
-    addSystem "supergrafx"
-    addSystem "tg16"
-    addSystem "gamegear"
-    addSystem "mastersystem"
-    addSystem "megadrive"
-    addSystem "sg-1000"
-    addSystem "coleco"
-    addSystem "msx"
-    addSystem "zxspectrum"
+    
 }

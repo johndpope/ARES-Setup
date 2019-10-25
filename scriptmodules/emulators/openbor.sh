@@ -51,6 +51,8 @@ function configure_openbor() {
     mkUserDir "$configdir/openbor/ScreenShots"
     mkUserDir "$configdir/openbor/Saves"
     addSystem "openbor"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
     addEmulator 1 "$md_id" "openbor" "pushd $md_inst; $md_inst/openbor %ROM%; popd"
     mv "$md_inst/OpenBOR" "$md_inst/openbor"
     ln -snf "/dev/shm" "$md_inst/Logs"

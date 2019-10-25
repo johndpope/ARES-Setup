@@ -44,4 +44,6 @@ function configure_lr-vba-next() {
 
     addEmulator 0 "$md_id" "gba" "$md_inst/vba_next_libretro.so"
     addSystem "gba"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

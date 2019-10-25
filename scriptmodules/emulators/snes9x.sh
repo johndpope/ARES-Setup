@@ -50,4 +50,6 @@ function configure_snes9x() {
 
     addEmulator 0 "$md_id" "snes" "$md_inst/snes9x %ROM%"
     addSystem "snes"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

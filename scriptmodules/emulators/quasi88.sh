@@ -46,4 +46,6 @@ function configure_quasi88() {
 	addEmulator 1 "$md_id" "pc88" "xinit $md_inst/quasi88.sdl -f6 IMAGE-NEXT1 -f7 IMAGE-NEXT2 -f8 NOWAI -f9 ROMAJI -f10 NUMLOCK -fullscreen %ROM%"
     fi
     addSystem "pc88"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

@@ -41,4 +41,6 @@ function configure_lr-freechaf() {
 
     addEmulator 1 "$md_id" "channelf" "$md_inst/freechaf_libretro.so"
     addSystem "channelf"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

@@ -1,0 +1,1019 @@
+<?xml version="1.0"?>
+<menu>
+	<header>
+		<listname>Lviv PC-01</listname>
+		<lastlistupdate>03/06/2016</lastlistupdate>
+		<listversion>1.0</listversion>
+		<exporterversion>HyperList XML Exporter Version 1.3 Copywrite (c) 2009-2011 William Strong</exporterversion>
+	</header>
+	<game name="Aero Cobra (Russia)" index="true" image="a">
+		<description>Aero Cobra (Russia)</description>
+		<cloneof></cloneof>
+		<crc>34423DBE</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Aids (Russia)" index="" image="">
+		<description>Aids (Russia)</description>
+		<cloneof></cloneof>
+		<crc>C5CB5520</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Aids 2 (Russia)" index="" image="">
+		<description>Aids 2 (Russia)</description>
+		<cloneof></cloneof>
+		<crc>249B02D4</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Air Balloon (Russia)" index="" image="">
+		<description>Air Balloon (Russia)</description>
+		<cloneof></cloneof>
+		<crc>F2D7B772</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Alibaba and the 40 thieves (Russia)" index="" image="">
+		<description>Alibaba and the 40 thieves (Russia)</description>
+		<cloneof></cloneof>
+		<crc>89CF714D</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Almaz (Russia)" index="" image="">
+		<description>Almaz (Russia)</description>
+		<cloneof></cloneof>
+		<crc>D51069B</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Ancient Legend (Russia)" index="" image="">
+		<description>Ancient Legend (Russia)</description>
+		<cloneof></cloneof>
+		<crc>DD4A204C</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Arcanoid (Russia)" index="" image="">
+		<description>Arcanoid (Russia)</description>
+		<cloneof></cloneof>
+		<crc>B17E2BC1</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Arctic (Russia)" index="" image="">
+		<description>Arctic (Russia)</description>
+		<cloneof></cloneof>
+		<crc>37E0783E</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Ball (Russia)" index="true" image="b">
+		<description>Ball (Russia)</description>
+		<cloneof></cloneof>
+		<crc>8DC53902</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Barman (Russia)" index="" image="">
+		<description>Barman (Russia)</description>
+		<cloneof></cloneof>
+		<crc>CC3CFEBE</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Battle (Russia)" index="" image="">
+		<description>Battle (Russia)</description>
+		<cloneof></cloneof>
+		<crc>3A4F49D6</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Bomberman (MSX) (Russia)" index="" image="">
+		<description>Bomberman (MSX) (Russia)</description>
+		<cloneof></cloneof>
+		<crc>6BA1CCDE</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Cannon Ball (Russia)" index="true" image="c">
+		<description>Cannon Ball (Russia)</description>
+		<cloneof></cloneof>
+		<crc>5B09CB6D</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Catacomb (Russia)" index="" image="">
+		<description>Catacomb (Russia)</description>
+		<cloneof></cloneof>
+		<crc>C3F0F06C</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Cave (Russia)" index="" image="">
+		<description>Cave (Russia)</description>
+		<cloneof></cloneof>
+		<crc>8DA553EB</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Cheese (Russia)" index="" image="">
+		<description>Cheese (Russia)</description>
+		<cloneof></cloneof>
+		<crc>F5339106</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Chess (Russia)" index="" image="">
+		<description>Chess (Russia)</description>
+		<cloneof></cloneof>
+		<crc>4315A4D6</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Chess for all (Russia)" index="" image="">
+		<description>Chess for all (Russia)</description>
+		<cloneof></cloneof>
+		<crc>C0E16B66</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Chess for Beginners (Russia)" index="" image="">
+		<description>Chess for Beginners (Russia)</description>
+		<cloneof></cloneof>
+		<crc>DA3DE636</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Citty Atack (Russia)" index="" image="">
+		<description>Citty Atack (Russia)</description>
+		<cloneof></cloneof>
+		<crc>8AAB1C63</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Color Ball (MSX) (Russia)" index="" image="">
+		<description>Color Ball (MSX) (Russia)</description>
+		<cloneof></cloneof>
+		<crc>BBC7B6F1</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Colored Lines (Russia)" index="" image="">
+		<description>Colored Lines (Russia)</description>
+		<cloneof></cloneof>
+		<crc>B97720D7</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Columns (Russia)" index="" image="">
+		<description>Columns (Russia)</description>
+		<cloneof></cloneof>
+		<crc>A308EFBA</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Continental Circus (Russia)" index="" image="">
+		<description>Continental Circus (Russia)</description>
+		<cloneof></cloneof>
+		<crc>8907FEBE</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Cookie (Russia)" index="" image="">
+		<description>Cookie (Russia)</description>
+		<cloneof></cloneof>
+		<crc>B88D3BCB</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Corn (Russia)" index="" image="">
+		<description>Corn (Russia)</description>
+		<cloneof></cloneof>
+		<crc>9FA9C545</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Critters (Russia)" index="" image="">
+		<description>Critters (Russia)</description>
+		<cloneof></cloneof>
+		<crc>4CBE7FA8</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Crux (Russia)" index="" image="">
+		<description>Crux (Russia)</description>
+		<cloneof></cloneof>
+		<crc>4ED6AC79</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Darkwing Duck (Russia)" index="true" image="d">
+		<description>Darkwing Duck (Russia)</description>
+		<cloneof></cloneof>
+		<crc>ECF43211</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Desert Storm (Russia)" index="" image="">
+		<description>Desert Storm (Russia)</description>
+		<cloneof></cloneof>
+		<crc>FBDDE09A</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Digger (Russia)" index="" image="">
+		<description>Digger (Russia)</description>
+		<cloneof></cloneof>
+		<crc>465D6F47</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Disk John (Russia)" index="" image="">
+		<description>Disk John (Russia)</description>
+		<cloneof></cloneof>
+		<crc>91C93738</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Doroga (Russia)" index="" image="">
+		<description>Doroga (Russia)</description>
+		<cloneof></cloneof>
+		<crc>3F875A2E</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Dracula (Russia)" index="" image="">
+		<description>Dracula (Russia)</description>
+		<cloneof></cloneof>
+		<crc>1BABADA7</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Driller Tanks (MSX) (Russia)" index="" image="">
+		<description>Driller Tanks (MSX) (Russia)</description>
+		<cloneof></cloneof>
+		<crc>E862D551</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Drunken Lifter (Russia)" index="" image="">
+		<description>Drunken Lifter (Russia)</description>
+		<cloneof></cloneof>
+		<crc>9CA1D52E</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Ducks (Russia)" index="" image="">
+		<description>Ducks (Russia)</description>
+		<cloneof></cloneof>
+		<crc>9CFEB1F3</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Farmer (Russia)" index="true" image="f">
+		<description>Farmer (Russia)</description>
+		<cloneof></cloneof>
+		<crc>62C8AF3F</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Filler (Russia)" index="" image="">
+		<description>Filler (Russia)</description>
+		<cloneof></cloneof>
+		<crc>C3FE6B65</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Fire Rescue (MSX) (Russia)" index="" image="">
+		<description>Fire Rescue (MSX) (Russia)</description>
+		<cloneof></cloneof>
+		<crc>9AF9275A</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Flight (Russia)" index="" image="">
+		<description>Flight (Russia)</description>
+		<cloneof></cloneof>
+		<crc>FC04994A</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Formula 1 (Russia)" index="" image="">
+		<description>Formula 1 (Russia)</description>
+		<cloneof></cloneof>
+		<crc>7FBAA289</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Frog (Russia)" index="" image="">
+		<description>Frog (Russia)</description>
+		<cloneof></cloneof>
+		<crc>140E02D</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Frogger (Russia)" index="" image="">
+		<description>Frogger (Russia)</description>
+		<cloneof></cloneof>
+		<crc>33B60BFD</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Galaxy (Russia)" index="true" image="g">
+		<description>Galaxy (Russia)</description>
+		<cloneof></cloneof>
+		<crc>4A6F460A</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Heartbroken (Russia)" index="true" image="h">
+		<description>Heartbroken (Russia)</description>
+		<cloneof></cloneof>
+		<crc>C4DFFCFC</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Henry (Russia)" index="" image="">
+		<description>Henry (Russia)</description>
+		<cloneof></cloneof>
+		<crc>8FE6977E</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Indian no Bouken (MSX) (Russia)" index="true" image="i">
+		<description>Indian no Bouken (MSX) (Russia)</description>
+		<cloneof></cloneof>
+		<crc>5C9669FF</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="International Karate (Russia)" index="" image="">
+		<description>International Karate (Russia)</description>
+		<cloneof></cloneof>
+		<crc>B2204B3F</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Jackpot (Russia)" index="true" image="j">
+		<description>Jackpot (Russia)</description>
+		<cloneof></cloneof>
+		<crc>DA9335EF</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Jumping Jack (Russia)" index="" image="">
+		<description>Jumping Jack (Russia)</description>
+		<cloneof></cloneof>
+		<crc>8CB31C68</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Karate (Russia)" index="true" image="k">
+		<description>Karate (Russia)</description>
+		<cloneof></cloneof>
+		<crc>3C460ECF</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Keyboard Training (Russia)" index="" image="">
+		<description>Keyboard Training (Russia)</description>
+		<cloneof></cloneof>
+		<crc>E7207004</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="King Valley (Russia)" index="" image="">
+		<description>King Valley (Russia)</description>
+		<cloneof></cloneof>
+		<crc>82E9680C</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Kobra (Russia)" index="" image="">
+		<description>Kobra (Russia)</description>
+		<cloneof></cloneof>
+		<crc>661EF350</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Korona (Russia)" index="" image="">
+		<description>Korona (Russia)</description>
+		<cloneof></cloneof>
+		<crc>7BE4A6A1</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Labyrinth (Russia)" index="true" image="l">
+		<description>Labyrinth (Russia)</description>
+		<cloneof></cloneof>
+		<crc>E0B11B2C</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Laguna (Russia)" index="" image="">
+		<description>Laguna (Russia)</description>
+		<cloneof></cloneof>
+		<crc>7E86854E</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Last Mission (Russia)" index="" image="">
+		<description>Last Mission (Russia)</description>
+		<cloneof></cloneof>
+		<crc>153595AA</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="M-rak (Russia)" index="true" image="m">
+		<description>M-rak (Russia)</description>
+		<cloneof></cloneof>
+		<crc>215E75C</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Mario (Russia)" index="" image="">
+		<description>Mario (Russia)</description>
+		<cloneof></cloneof>
+		<crc>58552EEA</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Merlin 2 (Russia)" index="" image="">
+		<description>Merlin 2 (Russia)</description>
+		<cloneof></cloneof>
+		<crc>C9D4F116</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Merlin 4 (Russia)" index="" image="">
+		<description>Merlin 4 (Russia)</description>
+		<cloneof></cloneof>
+		<crc>4DA677C9</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Merlin 5 (Russia)" index="" image="">
+		<description>Merlin 5 (Russia)</description>
+		<cloneof></cloneof>
+		<crc>E42A9CBC</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Merlin 6 (Russia)" index="" image="">
+		<description>Merlin 6 (Russia)</description>
+		<cloneof></cloneof>
+		<crc>531D63B4</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Merlin 7 (Russia)" index="" image="">
+		<description>Merlin 7 (Russia)</description>
+		<cloneof></cloneof>
+		<crc>5C3D0FD3</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Mina (Russia)" index="" image="">
+		<description>Mina (Russia)</description>
+		<cloneof></cloneof>
+		<crc>99198023</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Money Box (Russia)" index="" image="">
+		<description>Money Box (Russia)</description>
+		<cloneof></cloneof>
+		<crc>D7DB4ED3</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Moon Track (Russia)" index="" image="">
+		<description>Moon Track (Russia)</description>
+		<cloneof></cloneof>
+		<crc>880296A8</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Pacman (Russia)" index="true" image="p">
+		<description>Pacman (Russia)</description>
+		<cloneof></cloneof>
+		<crc>25B64D82</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Pipe 1 (Russia)" index="" image="">
+		<description>Pipe 1 (Russia)</description>
+		<cloneof></cloneof>
+		<crc>DAC80B4F</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Pipe 2 (Russia)" index="" image="">
+		<description>Pipe 2 (Russia)</description>
+		<cloneof></cloneof>
+		<crc>6C5CB6</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Pool (Russia)" index="" image="">
+		<description>Pool (Russia)</description>
+		<cloneof></cloneof>
+		<crc>A62A1118</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Popcorn (Russia)" index="" image="">
+		<description>Popcorn (Russia)</description>
+		<cloneof></cloneof>
+		<crc>BD59A746</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Popcorn 2 (Russia)" index="" image="">
+		<description>Popcorn 2 (Russia)</description>
+		<cloneof></cloneof>
+		<crc>7F47686</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Popcorn FVI (Russia)" index="" image="">
+		<description>Popcorn FVI (Russia)</description>
+		<cloneof></cloneof>
+		<crc>9F3C5BB8</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Prisoner (Russia)" index="" image="">
+		<description>Prisoner (Russia)</description>
+		<cloneof></cloneof>
+		<crc>B2462821</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Prygun (Russia)" index="" image="">
+		<description>Prygun (Russia)</description>
+		<cloneof></cloneof>
+		<crc>646E15EF</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Push (Russia)" index="" image="">
+		<description>Push (Russia)</description>
+		<cloneof></cloneof>
+		<crc>87217179</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Putup (Russia)" index="" image="">
+		<description>Putup (Russia)</description>
+		<cloneof></cloneof>
+		<crc>135B4A3C</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Rocket (Russia)" index="true" image="r">
+		<description>Rocket (Russia)</description>
+		<cloneof></cloneof>
+		<crc>A7DEB525</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Rockman (Russia)" index="" image="">
+		<description>Rockman (Russia)</description>
+		<cloneof></cloneof>
+		<crc>BC13069A</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Sea Battle (Russia)" index="true" image="s">
+		<description>Sea Battle (Russia)</description>
+		<cloneof></cloneof>
+		<crc>3F7E1A94</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Seymour (Russia)" index="" image="">
+		<description>Seymour (Russia)</description>
+		<cloneof></cloneof>
+		<crc>B8FB566C</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Soko Ban (Russia)" index="" image="">
+		<description>Soko Ban (Russia)</description>
+		<cloneof></cloneof>
+		<crc>5775FB02</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Space Ghosts (Russia)" index="" image="">
+		<description>Space Ghosts (Russia)</description>
+		<cloneof></cloneof>
+		<crc>2CD78F52</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Space Shock (Russia)" index="" image="">
+		<description>Space Shock (Russia)</description>
+		<cloneof></cloneof>
+		<crc>4F5C135F</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Space Tour (Russia)" index="" image="">
+		<description>Space Tour (Russia)</description>
+		<cloneof></cloneof>
+		<crc>1EDE7A8E</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Squash (Russia)" index="" image="">
+		<description>Squash (Russia)</description>
+		<cloneof></cloneof>
+		<crc>F0FF41B3</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Star-fighter (Russia)" index="" image="">
+		<description>Star-fighter (Russia)</description>
+		<cloneof></cloneof>
+		<crc>719F4483</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Super Labyrinth (Russia)" index="" image="">
+		<description>Super Labyrinth (Russia)</description>
+		<cloneof></cloneof>
+		<crc>CE6C5722</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Tetr-s (Russia)" index="true" image="t">
+		<description>Tetr-s (Russia)</description>
+		<cloneof></cloneof>
+		<crc>FA22E1F5</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Tetris (Russia)" index="" image="">
+		<description>Tetris (Russia)</description>
+		<cloneof></cloneof>
+		<crc>DC997EB8</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Torpedo Attack (Russia)" index="" image="">
+		<description>Torpedo Attack (Russia)</description>
+		<cloneof></cloneof>
+		<crc>A4C9A0C</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Tower (Russia)" index="" image="">
+		<description>Tower (Russia)</description>
+		<cloneof></cloneof>
+		<crc>2654BE15</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Tunnels of doom (Russia)" index="" image="">
+		<description>Tunnels of doom (Russia)</description>
+		<cloneof></cloneof>
+		<crc>F6344D41</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Twinz (Russia)" index="" image="">
+		<description>Twinz (Russia)</description>
+		<cloneof></cloneof>
+		<crc>E05814B7</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Wanderer (Russia)" index="true" image="w">
+		<description>Wanderer (Russia)</description>
+		<cloneof></cloneof>
+		<crc>8E869D3C</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Worms (Russia)" index="" image="">
+		<description>Worms (Russia)</description>
+		<cloneof></cloneof>
+		<crc>94C82EE9</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Zoo (Russia)" index="true" image="z">
+		<description>Zoo (Russia)</description>
+		<cloneof></cloneof>
+		<crc>14996712</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+</menu>

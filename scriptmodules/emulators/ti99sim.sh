@@ -62,4 +62,6 @@ function configure_ti99sim() {
     addEmulator 0 "$md_id-ea+cf7" "ti99" "pushd $md_inst; $sudo xinit md_inst/ti99sim-sdl -f=2 --cf7=%ROM% "$romdir/ti99/ea.ctg"; popd"
 	fi
     addSystem "ti99"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

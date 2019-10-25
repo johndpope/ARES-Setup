@@ -94,4 +94,6 @@ function configure_lr-mupen64plus() {
 
     addEmulator 0 "$md_id" "n64" "$md_inst/mupen64plus_libretro.so"
     addSystem "n64"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

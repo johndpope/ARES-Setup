@@ -58,8 +58,9 @@ function configure_atari800() {
     # move old config if exists to new location
     if [[ -f "$md_conf_root/atari800.cfg" ]]; then
         mv "$md_conf_root/atari800.cfg" "$md_conf_root/atari800/atari800.cfg"
-    fi
+	fi
     moveConfigFile "$home/.atari800.cfg" "$md_conf_root/atari800/atari800.cfg"
+	cp "$scriptdir/configs/atari800/atari800.cfg" "$md_conf_root/atari800"
 	if isPlatform "rpi" || isPlatform "odroid-xu"; then
     addEmulator 1 "atari800" "atari800" "$md_inst/bin/atari800 %ROM%"
     addEmulator 1 "atari800" "atari5200" "$md_inst/bin/atari800 %ROM%"
@@ -68,5 +69,9 @@ function configure_atari800() {
     addEmulator 1 "atari800" "atari5200" "xinit $md_inst/bin/atari800 %ROM%"
 	fi
     addSystem "atari800"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/atari800/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/atari800/"
     addSystem "atari5200"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/atari5200/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/atari5200/"
 }

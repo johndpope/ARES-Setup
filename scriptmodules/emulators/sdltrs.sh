@@ -61,6 +61,12 @@ function configure_sdltrs() {
     addEmulator 0 "$md_id-model4p" "trs-80-4" "xinit $md_inst/sdltrs -model 4p -romfile4p $biosdir/level4p.rom -showled -diskdir $romdir/trs-80 -disk0 %ROM%"
 	fi
     addSystem "trs-80-1"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/trs-80-1/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/trs-80-1/"
 	addSystem "trs-80-3"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/trs-80-3/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/trs-80-3/"
 	addSystem "trs-80-4"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/trs-80-4/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/trs-80-4/"
 }

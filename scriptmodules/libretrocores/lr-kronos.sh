@@ -47,4 +47,6 @@ function configure_lr-kronos() {
 
     addEmulator 1 "$md_id" "saturn" "$md_inst/kronos_libretro.so"
     addSystem "saturn"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

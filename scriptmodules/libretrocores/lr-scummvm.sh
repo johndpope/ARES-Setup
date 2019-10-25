@@ -48,6 +48,8 @@ function configure_lr-scummvm() {
 
     # ensure rom dir and system retroconfig
     mkRomDir "scummvm"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
     ensureSystemretroconfig "scummvm"
 
     # download and extract auxiliary data (theme, extra)

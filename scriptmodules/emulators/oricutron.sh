@@ -66,6 +66,8 @@ function configure_oricutron() {
         addEmulator 1 "$md_id-$machine" "oric" "pushd $md_inst; $md_inst/oricutron --machine $machine %ROM% --fullscreen; popd"
     done
     addSystem "oric"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 
     [[ "$md_mode" == "install" ]] && game_data_oricutron
 }

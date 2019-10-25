@@ -42,4 +42,6 @@ function configure_lr-beetle-vb() {
 
     addEmulator 1 "$md_id" "virtualboy" "$md_inst/mednafen_vb_libretro.so"
     addSystem "virtualboy"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

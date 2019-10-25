@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<menu>
+	<header>
+		<listname>VM Labs Nuon</listname>
+		<lastlistupdate>03/06/2016</lastlistupdate>
+		<listversion>1.0</listversion>
+		<exporterversion>HyperList XML Exporter Version 1.3 Copywrite (c) 2009-2011 William Strong</exporterversion>
+	</header>
+	<game name="Amaze" index="true" image="a">
+		<description>Amaze</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Ballistic" index="true" image="b">
+		<description>Ballistic</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Infogrames</manufacturer>
+		<year>2000</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Freefall3050" index="true" image="f">
+		<description>Freefall 3050 A.D.</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>VMLabs</manufacturer>
+		<year>2000</year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="gamesdemos" index="true" image="g">
+		<description>Games + Demos</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>NuonDome</manufacturer>
+		<year></year>
+		<genre>Demo</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="interactivesampler" index="true" image="i">
+		<description>Interactive Sampler</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>VMLabs</manufacturer>
+		<year>2000</year>
+		<genre>Demo</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="ironsoldier3" index="" image="">
+		<description>Iron Soldier 3</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Eclipse Software Design</manufacturer>
+		<year>2000</year>
+		<genre>FPS</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="merlinracing" index="true" image="m">
+		<description>Merlin Racing</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>VMLabs</manufacturer>
+		<year>2000</year>
+		<genre>Driving</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="samegamecolors" index="true" image="s">
+		<description>SameGame Colors</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="samegameshapes" index="" image="">
+		<description>SameGame Shapes</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="spaceinvadersxl" index="" image="">
+		<description>Space Invaders XL</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Taito</manufacturer>
+		<year>2000</year>
+		<genre>Fixed Shooter</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="tempest3000" index="true" image="t">
+		<description>Tempest 3000</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Llamasoft</manufacturer>
+		<year>2000</year>
+		<genre>Fixed Shooter</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="thenexttetris" index="" image="">
+		<description>The NExt Tetris</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Toshiba</manufacturer>
+		<year>2001</year>
+		<genre>Puzzle</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+</menu>

@@ -60,4 +60,6 @@ function configure_yabause() {
     addEmulator 0 "${md_id}-720p-bios" "saturn" "$md_inst/yabasanshiro -a -nf -r 4 -b /home/aresuser/RetroArena/BIOS/saturn_bios.bin -i %ROM%"
     addEmulator 0 "${md_id}-720p-bios-frameskip" "saturn" "$md_inst/yabasanshiro -a -r 4 -b /home/aresuser/RetroArena/BIOS/saturn_bios.bin -i %ROM%"
     addSystem "saturn"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

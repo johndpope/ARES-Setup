@@ -208,6 +208,8 @@ function configure_ppsspp() {
         ln -snf "$romdir/$system" "$md_conf_root/$system/PSP/GAME"
         addEmulator 1 "$md_id" "$system" "$md_inst/PPSSPPSDL --fullscreen %ROM%"
         addSystem "$system"
+		cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+        cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
     done
     
     moveConfigDir "$home/.config/ppsspp" "$md_conf_root/psp"

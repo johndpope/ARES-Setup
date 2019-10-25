@@ -38,4 +38,6 @@ function configure_lr-theodore() {
 
     addEmulator 1 "$md_id" "thomson" "$md_inst/theodore_libretro.so"
     addSystem "thomson"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

@@ -50,4 +50,6 @@ function configure_creativision() {
     addEmulator 0 "${md_id}-saloramanager" "crvision" "$md_inst/creatiVision -f -k -3 -b /home/aresuser/RetroArena/BIOS/crvision/saloram.rom -r %ROM%"
     addEmulator 0 "${md_id}-laser2001" "crvision" "$md_inst/creatiVision -f -3 -b /home/aresuser/RetroArena/BIOS/crvision/laser2001.rom -r %ROM%"
     addSystem "crvision"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

@@ -46,4 +46,6 @@ function configure_stratagus() {
 
     addEmulator 0 "$md_id" "stratagus" "xinit $md_inst/stratagus -F -d %ROM%"
     addSystem "stratagus" "Stratagus Strategy Engine" ".wc1 .wc2 .sc .data"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

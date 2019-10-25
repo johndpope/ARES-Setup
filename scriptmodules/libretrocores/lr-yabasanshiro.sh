@@ -48,6 +48,8 @@ function configure_lr-yabasanshiro() {
     ensureSystemretroconfig "saturn"
     addEmulator 1 "$md_id" "saturn" "$md_inst/yabasanshiro_libretro.so"
     addSystem "saturn"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
     
     # set core options
     setRetroArchCoreOption "${dir_name}yabasanshiro_addon_cart" "4M_extended_ram"

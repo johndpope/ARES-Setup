@@ -1,0 +1,599 @@
+<?xml version="1.0"?>
+<menu>
+	<header>
+		<listname>Hector HRX</listname>
+		<lastlistupdate>03/06/2016</lastlistupdate>
+		<listversion>1.0</listversion>
+		<exporterversion>HyperList XML Exporter Version 1.3 Copywrite (c) 2009-2011 William Strong</exporterversion>
+	</header>
+	<game name="Addition (France)" index="true" image="a">
+		<description>Addition (France)</description>
+		<cloneof></cloneof>
+		<crc>649BFC9E</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Alunissage (France)" index="" image="">
+		<description>Alunissage (France)</description>
+		<cloneof></cloneof>
+		<crc>E74D4B07</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Asteroides (France)" index="" image="">
+		<description>Asteroides (France)</description>
+		<cloneof></cloneof>
+		<crc>39237A3F</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Attro Logic (France)" index="" image="">
+		<description>Attro Logic (France)</description>
+		<cloneof></cloneof>
+		<crc>C1E32E9</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Backgammon (France)" index="true" image="b">
+		<description>Backgammon (France)</description>
+		<cloneof></cloneof>
+		<crc>20034353</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Balade dans Paris (France)" index="" image="">
+		<description>Balade dans Paris (France)</description>
+		<cloneof></cloneof>
+		<crc>B4FBB4F6</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Base Spatiale (France)" index="" image="">
+		<description>Base Spatiale (France)</description>
+		<cloneof></cloneof>
+		<crc>DC6D2779</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Bataille Navale (France)" index="" image="">
+		<description>Bataille Navale (France)</description>
+		<cloneof></cloneof>
+		<crc>966315FC</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Black Jack (France)" index="" image="">
+		<description>Black Jack (France)</description>
+		<cloneof></cloneof>
+		<crc>7CC74F41</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Calcul Mental (France)" index="true" image="c">
+		<description>Calcul Mental (France)</description>
+		<cloneof></cloneof>
+		<crc>3C23232D</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Chatbyrinthe (France)" index="" image="">
+		<description>Chatbyrinthe (France)</description>
+		<cloneof></cloneof>
+		<crc>24E498D2</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Chenille (France)" index="" image="">
+		<description>Chenille (France)</description>
+		<cloneof></cloneof>
+		<crc>D608A9DF</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Combat (France)" index="" image="">
+		<description>Combat (France)</description>
+		<cloneof></cloneof>
+		<crc>E3D66518</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Cow-boys (France)" index="" image="">
+		<description>Cow-boys (France)</description>
+		<cloneof></cloneof>
+		<crc>141D8FC8</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Crazy 8 (France)" index="" image="">
+		<description>Crazy 8 (France)</description>
+		<cloneof></cloneof>
+		<crc>19FE0F8</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Crédits (France)" index="" image="">
+		<description>Crédits (France)</description>
+		<cloneof></cloneof>
+		<crc>8F0389E0</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Dé + 2 (Knockdown) (France)" index="true" image="d">
+		<description>Dé + 2 (Knockdown) (France)</description>
+		<cloneof></cloneof>
+		<crc>436FBB9A</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Dédale (France)" index="" image="">
+		<description>Dédale (France)</description>
+		<cloneof></cloneof>
+		<crc>519BC705</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Dogfight (France)" index="" image="">
+		<description>Dogfight (France)</description>
+		<cloneof></cloneof>
+		<crc>84F9CDA</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Encerclement (France)" index="true" image="e">
+		<description>Encerclement (France)</description>
+		<cloneof></cloneof>
+		<crc>9DA679B6</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Envahisseurs (France)" index="" image="">
+		<description>Envahisseurs (France)</description>
+		<cloneof></cloneof>
+		<crc>508BB8E3</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Extension Forth (France)" index="" image="">
+		<description>Extension Forth (France)</description>
+		<cloneof></cloneof>
+		<crc>98B17B7F</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Flipper (France)" index="true" image="f">
+		<description>Flipper (France)</description>
+		<cloneof></cloneof>
+		<crc>24A3213F</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Formule 1 (France)" index="" image="">
+		<description>Formule 1 (France)</description>
+		<cloneof></cloneof>
+		<crc>C9409DDD</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Fractions (France)" index="" image="">
+		<description>Fractions (France)</description>
+		<cloneof></cloneof>
+		<crc>6849952F</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Galaxius (France)" index="true" image="g">
+		<description>Galaxius (France)</description>
+		<cloneof></cloneof>
+		<crc>D49F3F3E</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Goofy Golf (France)" index="" image="">
+		<description>Goofy Golf (France)</description>
+		<cloneof></cloneof>
+		<crc>D3DA2D01</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Grenouille (France)" index="" image="">
+		<description>Grenouille (France)</description>
+		<cloneof></cloneof>
+		<crc>38E23440</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Hector Géo-France (France)" index="true" image="h">
+		<description>Hector Géo-France (France)</description>
+		<cloneof></cloneof>
+		<crc>D552022D</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Hector-Man (France)" index="" image="">
+		<description>Hector-Man (France)</description>
+		<cloneof></cloneof>
+		<crc>D45A407C</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Hep Taxi (France)" index="" image="">
+		<description>Hep Taxi (France)</description>
+		<cloneof></cloneof>
+		<crc>599403EC</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Hyams (France)" index="" image="">
+		<description>Hyams (France)</description>
+		<cloneof></cloneof>
+		<crc>D741DA68</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Jeep Lunaire (France)" index="true" image="j">
+		<description>Jeep Lunaire (France)</description>
+		<cloneof></cloneof>
+		<crc>99EDD52D</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="L&apos;Auto Lumière (France)" index="true" image="l">
+		<description>L&apos;Auto Lumière (France)</description>
+		<cloneof></cloneof>
+		<crc>2C33EE6</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="La Caverne des Lutins (France)" index="" image="">
+		<description>La Caverne des Lutins (France)</description>
+		<cloneof></cloneof>
+		<crc>4A563240</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Le Baroudeur (France)" index="" image="">
+		<description>Le Baroudeur (France)</description>
+		<cloneof></cloneof>
+		<crc>8F7B6137</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Le Désert des Tartares (France)" index="" image="">
+		<description>Le Désert des Tartares (France)</description>
+		<cloneof></cloneof>
+		<crc>3571750B</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Le Dragon du Donjon (France)" index="" image="">
+		<description>Le Dragon du Donjon (France)</description>
+		<cloneof></cloneof>
+		<crc>D0659802</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Le Furet (France)" index="" image="">
+		<description>Le Furet (France)</description>
+		<cloneof></cloneof>
+		<crc>C6583DC</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Le Glouton (France)" index="" image="">
+		<description>Le Glouton (France)</description>
+		<cloneof></cloneof>
+		<crc>41D88D3E</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Le Jeu de la Vie (France)" index="" image="">
+		<description>Le Jeu de la Vie (France)</description>
+		<cloneof></cloneof>
+		<crc>4474129</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Le Manoir d&apos;Alba (France)" index="" image="">
+		<description>Le Manoir d&apos;Alba (France)</description>
+		<cloneof></cloneof>
+		<crc>CE9923BC</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Le Pendu (France)" index="" image="">
+		<description>Le Pendu (France)</description>
+		<cloneof></cloneof>
+		<crc>D2E51733</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Le Tour de France en avion (France)" index="" image="">
+		<description>Le Tour de France en avion (France)</description>
+		<cloneof></cloneof>
+		<crc>570C816</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Les Régions Françaises (France)" index="" image="">
+		<description>Les Régions Françaises (France)</description>
+		<cloneof></cloneof>
+		<crc>12127B06</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Microdico (France)" index="true" image="m">
+		<description>Microdico (France)</description>
+		<cloneof></cloneof>
+		<crc>E282A539</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Over Sea Aircraft Mission (France)" index="true" image="o">
+		<description>Over Sea Aircraft Mission (France)</description>
+		<cloneof></cloneof>
+		<crc>B100B8F3</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Pengo (France)" index="true" image="p">
+		<description>Pengo (France)</description>
+		<cloneof></cloneof>
+		<crc>70DEA70E</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Pesée (France)" index="" image="">
+		<description>Pesée (France)</description>
+		<cloneof></cloneof>
+		<crc>DDE09D7A</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Piranhas (France)" index="" image="">
+		<description>Piranhas (France)</description>
+		<cloneof></cloneof>
+		<crc>65F92C7A</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Poker Elan (France)" index="" image="">
+		<description>Poker Elan (France)</description>
+		<cloneof></cloneof>
+		<crc>1813206E</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Poursuite (France)" index="" image="">
+		<description>Poursuite (France)</description>
+		<cloneof></cloneof>
+		<crc>8D0C55EC</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="R-Bert (France)" index="true" image="r">
+		<description>R-Bert (France)</description>
+		<cloneof></cloneof>
+		<crc>3955B30</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Reversi-Othello (France)" index="" image="">
+		<description>Reversi-Othello (France)</description>
+		<cloneof></cloneof>
+		<crc>AA972B7E</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Sous-marin (France)" index="true" image="s">
+		<description>Sous-marin (France)</description>
+		<cloneof></cloneof>
+		<crc>3F5EFEEC</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Space Opera (France)" index="" image="">
+		<description>Space Opera (France)</description>
+		<cloneof></cloneof>
+		<crc>2B9BCEC7</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Stramble (France)" index="" image="">
+		<description>Stramble (France)</description>
+		<cloneof></cloneof>
+		<crc>DDCD413F</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Videograph (France)" index="true" image="v">
+		<description>Videograph (France)</description>
+		<cloneof></cloneof>
+		<crc>B6D2F9E2</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Volleyball (France)" index="" image="">
+		<description>Volleyball (France)</description>
+		<cloneof></cloneof>
+		<crc>9DD2CE82</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+</menu>

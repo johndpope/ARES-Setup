@@ -47,11 +47,13 @@ function configure_lr-mess() {
     [[ -z "$module" ]] && module="mess_libretro.so"
 
     local system
-    for system in arcadia cdimono1 crvision coleco scv pegasus atom bbcmicro electron apfimag lynx128k pv1000 adam cgenie gamepock gamate sorcerer fmtowns supracan mc10 vc4000 lviv alice aquarius vg5k radio86 mz2500 pockstat m5 gamecom tutor vector06 socrates  sv8000 apogee gmaster  ; do
+    for system in adam advision alice apfimag apogee aquarius arcadia astrocade atom bbcmicro cdimono1 cgenie coleco crvision electron exl100 fmtowns gamecom gmaster gamate gamepock gp32 hec2hrx lviv lynx128k m5  mc10 megaduck microvsn mz2500 pegasus pockstat pv1000 pv2000 radio86 scv socrates studio2 supervision sv8000 tutor vc4000 vector06 vg5k; do 
         mkRomDir "$system"
         ensureSystemretroconfig "$system"
         addEmulator 0 "$md_id" "$system" "$md_inst/$module"
         addSystem "$system"
+		cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+        cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
     done
 
     setRetroArchCoreOption "mame_softlists_enable" "enabled"

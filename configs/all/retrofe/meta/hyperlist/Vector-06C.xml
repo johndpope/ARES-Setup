@@ -1,0 +1,759 @@
+<?xml version="1.0"?>
+<menu>
+	<header>
+		<listname>Vector-06C</listname>
+		<lastlistupdate>03/07/2016</lastlistupdate>
+		<listversion>1.0</listversion>
+		<exporterversion>HyperList XML Exporter Version 1.3 Copywrite (c) 2009-2011 William Strong</exporterversion>
+	</header>
+	<game name="Adskok" index="true" image="a">
+		<description>Adskok</description>
+		<cloneof></cloneof>
+		<crc>8F44AFB</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Alibaba and 40 Theives" index="" image="">
+		<description>Alibaba and 40 Theives</description>
+		<cloneof></cloneof>
+		<crc>795C41D9</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Ambalm" index="" image="">
+		<description>Ambalm</description>
+		<cloneof></cloneof>
+		<crc>8D270491</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Arkanoid" index="" image="">
+		<description>Arkanoid</description>
+		<cloneof></cloneof>
+		<crc>5AD15564</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Battle Tank" index="true" image="b">
+		<description>Battle Tank</description>
+		<cloneof></cloneof>
+		<crc>E7CE3F60</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Best" index="" image="">
+		<description>Best</description>
+		<cloneof></cloneof>
+		<crc>A8681BA2</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Binary Land" index="" image="">
+		<description>Binary Land</description>
+		<cloneof></cloneof>
+		<crc>1A6B96A0</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Blaster" index="" image="">
+		<description>Blaster</description>
+		<cloneof></cloneof>
+		<crc>FBF51232</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Bomber Man" index="" image="">
+		<description>Bomber Man</description>
+		<cloneof></cloneof>
+		<crc>73346B35</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Boogie Woogi Jungle" index="" image="">
+		<description>Boogie Woogi Jungle</description>
+		<cloneof></cloneof>
+		<crc>56E0215</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Boulder 2" index="" image="">
+		<description>Boulder 2</description>
+		<cloneof></cloneof>
+		<crc>B1FB8BB7</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Boulder Dush" index="" image="">
+		<description>Boulder Dush</description>
+		<cloneof></cloneof>
+		<crc>1EF226AD</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Break House" index="" image="">
+		<description>Break House</description>
+		<cloneof></cloneof>
+		<crc>1AC66A10</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Cannon Ball" index="true" image="c">
+		<description>Cannon Ball</description>
+		<cloneof></cloneof>
+		<crc>BC463EAF</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Color Ball" index="" image="">
+		<description>Color Ball</description>
+		<cloneof></cloneof>
+		<crc>3E1B7725</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Cookie" index="" image="">
+		<description>Cookie</description>
+		<cloneof></cloneof>
+		<crc>3ABE581</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Crazy Train" index="" image="">
+		<description>Crazy Train</description>
+		<cloneof></cloneof>
+		<crc>58FED660</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Cronex" index="" image="">
+		<description>Cronex</description>
+		<cloneof></cloneof>
+		<crc>D3B49ABD</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Death in the Pyramid" index="true" image="d">
+		<description>Death in the Pyramid</description>
+		<cloneof></cloneof>
+		<crc>4F13C0CA</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Death Star" index="" image="">
+		<description>Death Star</description>
+		<cloneof></cloneof>
+		<crc>672A8291</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Diamond Country" index="" image="">
+		<description>Diamond Country</description>
+		<cloneof></cloneof>
+		<crc>A630D021</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Diamond Country 2" index="" image="">
+		<description>Diamond Country 2</description>
+		<cloneof></cloneof>
+		<crc>B7438D8</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Digger" index="" image="">
+		<description>Digger</description>
+		<cloneof></cloneof>
+		<crc>34B03511</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Dizzy" index="" image="">
+		<description>Dizzy</description>
+		<cloneof></cloneof>
+		<crc>ED2264F9</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Down to Earth (BST)" index="" image="">
+		<description>Down to Earth (BST)</description>
+		<cloneof></cloneof>
+		<crc>F8D93814</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Down to Earth (COL)" index="" image="">
+		<description>Down to Earth (COL)</description>
+		<cloneof></cloneof>
+		<crc>9A4662E2</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Down to Earth (PL)" index="" image="">
+		<description>Down to Earth (PL)</description>
+		<cloneof></cloneof>
+		<crc>D4FDCF26</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Down to Earth (RSY)" index="" image="">
+		<description>Down to Earth (RSY)</description>
+		<cloneof></cloneof>
+		<crc>F484B883</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Driller Tanks" index="" image="">
+		<description>Driller Tanks</description>
+		<cloneof></cloneof>
+		<crc>4820DC51</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Earth Shacker Three" index="true" image="e">
+		<description>Earth Shacker Three</description>
+		<cloneof></cloneof>
+		<crc>76F9808B</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Eraser" index="" image="">
+		<description>Eraser</description>
+		<cloneof></cloneof>
+		<crc>72279364</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Eric and the Floaters" index="" image="">
+		<description>Eric and the Floaters</description>
+		<cloneof></cloneof>
+		<crc>7C88CF46</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Fantom" index="true" image="f">
+		<description>Fantom</description>
+		<cloneof></cloneof>
+		<crc>210A13C5</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Fatax" index="" image="">
+		<description>Fatax</description>
+		<cloneof></cloneof>
+		<crc>56DC9BEC</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Fire Rescue" index="" image="">
+		<description>Fire Rescue</description>
+		<cloneof></cloneof>
+		<crc>C734693A</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Flying Spirit" index="" image="">
+		<description>Flying Spirit</description>
+		<cloneof></cloneof>
+		<crc>6E255A60</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Gapper" index="true" image="g">
+		<description>Gapper</description>
+		<cloneof></cloneof>
+		<crc>E322A3D4</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Golkiper" index="" image="">
+		<description>Golkiper</description>
+		<cloneof></cloneof>
+		<crc>AB2983EC</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Himiya" index="true" image="h">
+		<description>Himiya</description>
+		<cloneof></cloneof>
+		<crc>BEE06009</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Indian No Bouken" index="true" image="i">
+		<description>Indian No Bouken</description>
+		<cloneof></cloneof>
+		<crc>941FDC80</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Istribit" index="" image="">
+		<description>Istribit</description>
+		<cloneof></cloneof>
+		<crc>72CF9B51</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="ITA Express" index="" image="">
+		<description>ITA Express</description>
+		<cloneof></cloneof>
+		<crc>72DE8BBF</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Jetset" index="true" image="j">
+		<description>Jetset</description>
+		<cloneof></cloneof>
+		<crc>D3111E67</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Joe Blade" index="" image="">
+		<description>Joe Blade</description>
+		<cloneof></cloneof>
+		<crc>7738A923</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Kvadrati" index="true" image="k">
+		<description>Kvadrati</description>
+		<cloneof></cloneof>
+		<crc>2EC95D95</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Lode Runner" index="true" image="l">
+		<description>Lode Runner</description>
+		<cloneof></cloneof>
+		<crc>B6066D16</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Macsit" index="true" image="m">
+		<description>Macsit</description>
+		<cloneof></cloneof>
+		<crc>BA184B71</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Mines" index="" image="">
+		<description>Mines</description>
+		<cloneof></cloneof>
+		<crc>E837FFCC</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Mower" index="" image="">
+		<description>Mower</description>
+		<cloneof></cloneof>
+		<crc>2A81C759</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Ninja Kage" index="true" image="n">
+		<description>Ninja Kage</description>
+		<cloneof></cloneof>
+		<crc>12B81E90</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Oh Mummy" index="true" image="o">
+		<description>Oh Mummy</description>
+		<cloneof></cloneof>
+		<crc>FB2B8FD3</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Pac-Man" index="true" image="p">
+		<description>Pac-Man</description>
+		<cloneof></cloneof>
+		<crc>35A4F5B6</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Pairs" index="" image="">
+		<description>Pairs</description>
+		<cloneof></cloneof>
+		<crc>DBDCD976</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Panic Dizzy" index="" image="">
+		<description>Panic Dizzy</description>
+		<cloneof></cloneof>
+		<crc>46D1A932</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Pipe Dream" index="" image="">
+		<description>Pipe Dream</description>
+		<cloneof></cloneof>
+		<crc>3AE249E8</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Polet" index="" image="">
+		<description>Polet</description>
+		<cloneof></cloneof>
+		<crc>65684628</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Polygame" index="" image="">
+		<description>Polygame</description>
+		<cloneof></cloneof>
+		<crc>6DEBED58</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Pusherm" index="" image="">
+		<description>Pusherm</description>
+		<cloneof></cloneof>
+		<crc>43E3DC0D</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="PutUp" index="" image="">
+		<description>PutUp</description>
+		<cloneof></cloneof>
+		<crc>393A19CB</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Rise Out" index="true" image="r">
+		<description>Rise Out</description>
+		<cloneof></cloneof>
+		<crc>F33A2E15</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Rock Man" index="" image="">
+		<description>Rock Man</description>
+		<cloneof></cloneof>
+		<crc>A06BD36C</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Rockford" index="" image="">
+		<description>Rockford</description>
+		<cloneof></cloneof>
+		<crc>CB955EA9</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Rotors" index="" image="">
+		<description>Rotors</description>
+		<cloneof></cloneof>
+		<crc>1499CB3A</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Scramble Eggs" index="true" image="s">
+		<description>Scramble Eggs</description>
+		<cloneof></cloneof>
+		<crc>998513CD</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Sexor" index="" image="">
+		<description>Sexor</description>
+		<cloneof></cloneof>
+		<crc>A9D63529</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Step and Jump" index="" image="">
+		<description>Step and Jump</description>
+		<cloneof></cloneof>
+		<crc>F5D2C5AA</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Tank Battalion" index="true" image="t">
+		<description>Tank Battalion</description>
+		<cloneof></cloneof>
+		<crc>A1ED34AB</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Tetphc-0" index="" image="">
+		<description>Tetphc-0</description>
+		<cloneof></cloneof>
+		<crc>54BE3B51</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Uzas" index="true" image="u">
+		<description>Uzas</description>
+		<cloneof></cloneof>
+		<crc>DFD99C1</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Warp &amp; Warp" index="true" image="w">
+		<description>Warp &amp; Warp</description>
+		<cloneof></cloneof>
+		<crc>32483873</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="West Bank" index="" image="">
+		<description>West Bank</description>
+		<cloneof></cloneof>
+		<crc>12E9E828</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Wtypm" index="" image="">
+		<description>Wtypm</description>
+		<cloneof></cloneof>
+		<crc>F16230FE</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Xorz" index="true" image="x">
+		<description>Xorz</description>
+		<cloneof></cloneof>
+		<crc>BF432AE1</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Xyxolog" index="" image="">
+		<description>Xyxolog</description>
+		<cloneof></cloneof>
+		<crc>283924DE</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="Zodiac" index="true" image="z">
+		<description>Zodiac</description>
+		<cloneof></cloneof>
+		<crc>C475526C</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+</menu>

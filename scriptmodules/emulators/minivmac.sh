@@ -44,4 +44,6 @@ function configure_minivmac() {
 
     addEmulator 1 "$md_id" "macintosh" "pushd $md_inst; $md_inst/minivmac $romdir/macplus/System\ Tools.dsk %ROM%; popd"
     addSystem "macplus"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }

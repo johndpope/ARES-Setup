@@ -58,4 +58,6 @@ function configure_gpsp() {
 
     addEmulator 0 "$md_id" "gba" "$md_inst/gpsp %ROM%"
     addSystem "gba"
+	cp -r "$scriptdir/configs/all/retrofe/medium_artwork" "$romdir/$system/"
+    cp -r "$scriptdir/configs/all/retrofe/system_artwork" "$romdir/$system/"
 }
